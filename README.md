@@ -32,6 +32,9 @@ Part IDs use **100-spacing** (`100`, `200`, `300`, …) so new pillars can be in
 - **Do not** paste sealed research metrics, seed tables, or campaign YAML from research repos.
 - Classical Lab 3 targets teaching **inertia/damping** \((H, D)\); do not conflate with research GFM \((M_v, D_v, m_p)\) estimands.
 - Pin **one** ANDES version per lab (`envs/course_andes.yml`); never mix 1.10 and 2.0 silently.
+- **Scope lock:** three pillars (dynamics / stability / identification) are enough for the core book — see [`docs/guides/scope_lock_three_pillars.md`](docs/guides/scope_lock_three_pillars.md).
+- **Future site features** (PDF export, separate course portal, feedback form, hosting — EECS 245–style): [`docs/guides/future_plans_online_resource.md`](docs/guides/future_plans_online_resource.md).
+- **Reference pattern:** few living notes books + many term portals — [`docs/references/rampure_notes_vs_course_sites.md`](docs/references/rampure_notes_vs_course_sites.md) (includes Math 124 notes).
 
 ## Planning document
 
@@ -51,7 +54,7 @@ conda activate sciml_ps
 .\scripts\preview.ps1            # jupyter book start
 ```
 
-Then open `http://localhost:3000` (or the URL printed by the CLI).
+Then open `http://127.0.0.1:3000/` (or `http://localhost:3000/`). Leave the preview terminal running.
 
 **macOS / Linux:**
 

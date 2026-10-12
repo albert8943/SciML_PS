@@ -198,6 +198,8 @@ Add helpers under `src/sciml_ps/` and import them from lab notebooks. Keep cours
 
 ## 5. How to develop this continuously over decades
 
+**Scope lock:** The three pillars (dynamics / stability / identification) are enough for the core book. Do not widen to “all AI for power” without meeting the promotion criteria in [`scope_lock_three_pillars.md`](scope_lock_three_pillars.md).
+
 ### 5.1 Durable architecture (do not casually undo)
 
 ```text
@@ -245,6 +247,8 @@ Reserved-style examples (optional future IDs):
 5. Hosting (GitHub Actions → Pages) and first slides/videos  
 6. `700_advanced` only after the core labs run cleanly  
 
+**Site product features** (feedback form, PDF export, separate course portal like EECS 245): see [`future_plans_online_resource.md`](future_plans_online_resource.md). Do not block chapter writing on those.
+
 ### 5.5 Git and release hygiene
 
 - Commit in small topical chunks (one chapter, one lab, or config-only).
@@ -272,6 +276,8 @@ When ready to publish:
 
 Until then, local `jupyter book start` is the preview path.
 
+Full checklist (PDF, portal, feedback navbar actions, BASE_URL): [`future_plans_online_resource.md`](future_plans_online_resource.md) §3–§4.
+
 ---
 
 ## 6. Quick reference
@@ -288,6 +294,9 @@ Until then, local `jupyter book start` is the preview path.
 | Env pins | `environment.yml`, `envs/` |
 | Curriculum intent | `docs/planning/…Report.md` |
 | Student “how to read” | `book/100_front/how_to_use.md` |
+| Scope lock (three pillars) | `docs/guides/scope_lock_three_pillars.md` |
+| Future site features | `docs/guides/future_plans_online_resource.md` |
+| Course portal placeholder | `portal/` |
 
 ---
 
