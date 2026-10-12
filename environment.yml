@@ -1,0 +1,13 @@
+name: sciml_ps
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - numpy
+  - scipy
+  - matplotlib
+  - jupyter
+  - pip:
+      - jupyter-book>=2.0.0a0
+      - mystmd

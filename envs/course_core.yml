@@ -1,0 +1,15 @@
+# Course core environment (no ANDES).
+# Pin versions deliberately before first student release.
+name: sciml_ps_core
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - numpy
+  - scipy
+  - matplotlib
+  - jupyter
+  - pytorch
+  - pip:
+      - jupyter-book>=2.0.0a0

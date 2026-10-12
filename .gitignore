@@ -1,0 +1,32 @@
+# Jupyter Book / MyST builds
+_build/
+_site/
+.myst/
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Large / local media (keep small figures tracked intentionally)
+media/videos/*.mp4
+media/videos/*.mov
+media/videos/*.webm
+*.zip
+
+# Environment leftovers
+.env
+.conda/

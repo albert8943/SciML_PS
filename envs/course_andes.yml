@@ -1,0 +1,18 @@
+# Stub: pin ONE ANDES major version per lab/chapter.
+# Research repos in this workspace use ANDES 2.0 (Estimation) and
+# historically 1.10 (some TSA archives). Never mix silently.
+#
+# Before first ANDES lab: replace the placeholder pin and pilot-test.
+name: sciml_ps_andes
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - numpy
+  - scipy
+  - matplotlib
+  - jupyter
+  - pip:
+      # TODO: pin after pilot, e.g. andes==2.0.0
+      - andes

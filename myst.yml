@@ -1,0 +1,68 @@
+# Jupyter Book 2 / MyST project configuration
+# Docs: https://jupyterbook.org/stable/get-started/init
+version: 1
+project:
+  title: Scientific Machine Learning for Power Systems
+  description: >
+    Portable SciML methods for power-system dynamics, stability assessment,
+    and parameter estimation. Teaching resource — not a research results dump.
+  keywords:
+    - scientific machine learning
+    - power systems
+    - PINN
+    - transient stability
+    - system identification
+  toc:
+    - file: book/index.md
+    - title: Front matter
+      children:
+        - file: book/100_front/how_to_use.md
+        - file: book/100_front/book_map.md
+        - file: book/100_front/learning_paths.md
+    - title: Preparation
+      children:
+        - file: book/200_prep/overview.md
+    - title: Foundations
+      children:
+        - file: book/300_foundations/overview.md
+        - file: book/300_foundations/01_problem_framing.md
+        - file: book/300_foundations/02_smib_dynamics.md
+        - file: book/300_foundations/03_reference_simulation.md
+        - file: book/300_foundations/04_data_and_surrogates.md
+        - file: book/300_foundations/05_differentiation.md
+        - file: book/300_foundations/06_forward_pinn.md
+        - file: book/300_foundations/07_classical_estimation.md
+        - file: book/300_foundations/08_identifiability.md
+        - file: book/300_foundations/09_inverse_pinn.md
+        - file: book/300_foundations/10_neural_ode_hybrid.md
+    - title: Dynamics
+      children:
+        - file: book/400_dynamics/overview.md
+    - title: Stability
+      children:
+        - file: book/500_stability/overview.md
+        - file: book/500_stability/01_stability_and_cct.md
+        - file: book/500_stability/02_surrogate_stability.md
+    - title: Identification
+      children:
+        - file: book/600_identification/overview.md
+        - file: book/600_identification/01_measurements_and_excitation.md
+    - title: Advanced topics
+      children:
+        - file: book/700_advanced/overview.md
+    - title: Laboratories
+      children:
+        - file: book/900_labs/README.md
+        - file: book/900_labs/lab_01_reference_sim/index.md
+        - file: book/900_labs/lab_02_surrogate_vs_pinn/index.md
+        - file: book/900_labs/lab_03_inertia_damping_id/index.md
+        - file: book/900_labs/lab_04_learned_dynamics/index.md
+        - file: book/900_labs/lab_05_stability_cct/index.md
+    - title: Reference
+      children:
+        - file: book/990_reference/reading_list.md
+        - file: book/990_reference/notation.md
+site:
+  template: book-theme
+  options:
+    hide_toc: false

@@ -1,0 +1,9 @@
+Copyright (c) 2026 SciML_PS course authors.
+
+This repository is a course and textbook scaffold.
+Content under book/, slides/, and media/ is intended for teaching use.
+Third-party software (e.g. ANDES) retains its own licenses — see vendor notices.
+
+Until a public license is chosen for the book prose, all rights are reserved.
+Choose and replace this file before publishing the site (e.g. CC-BY-4.0 for text,
+MIT for original teaching code under src/sciml_ps/).
