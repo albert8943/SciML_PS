@@ -8,6 +8,8 @@
 set -euo pipefail
 export PYTHONIOENCODING=utf-8
 export PYTHONUTF8=1
+# Prefer IPv4 loopback so http://127.0.0.1 and http://localhost both work.
+export HOST="${HOST:-127.0.0.1}"
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "$ROOT"
 
@@ -62,7 +64,7 @@ echo "When ready, open: http://localhost:$PORT"
 echo "Stop with Ctrl+C"
 echo
 
-ARGS=(book start --port "$PORT")
+ARGS=(book start --port "$PORT" --keep-host)
 if [[ "$EXECUTE" -eq 1 ]]; then
   ARGS+=(--execute)
 fi

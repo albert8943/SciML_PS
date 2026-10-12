@@ -30,7 +30,7 @@ conda activate sciml_ps
 .\scripts\preview.ps1
 ```
 
-Then open `http://localhost:3000`.
+Then open `http://127.0.0.1:3000/` and leave that terminal running.
 
 ## What not to expect yet
 

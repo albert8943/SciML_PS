@@ -14,6 +14,11 @@ $ErrorActionPreference = "Stop"
 # Avoid Windows console Unicode crashes in jupyter-book's Node installer prompts.
 $env:PYTHONIOENCODING = "utf-8"
 $env:PYTHONUTF8 = "1"
+# Bind the site server to IPv4 loopback. Default JB2/MyST often listens on ::1 only,
+# which breaks browsers that resolve localhost → 127.0.0.1.
+if (-not $env:HOST) {
+    $env:HOST = "127.0.0.1"
+}
 
 $Root = Resolve-Path (Join-Path $PSScriptRoot "..")
 Set-Location $Root
@@ -63,7 +68,7 @@ Write-Host "When ready, open: http://localhost:$Port"
 Write-Host "Stop with Ctrl+C"
 Write-Host ""
 
-$jbArgs = @("book", "start", "--port", "$Port")
+$jbArgs = @("book", "start", "--port", "$Port", "--keep-host")
 if ($Execute) {
     $jbArgs += "--execute"
 }

@@ -63,17 +63,30 @@ chmod +x scripts/preview.sh scripts/build.sh   # once
 
 ### Option C — raw Jupyter Book commands
 
-```bash
+On Windows, bind to IPv4 loopback (recommended). Without this, the server may listen only on `::1`, and some browsers fail on `http://localhost:3000`.
+
+```powershell
 conda activate sciml_ps
-jupyter book start
+$env:PYTHONUTF8 = "1"
+$env:HOST = "127.0.0.1"
+jupyter book start --port 3000 --keep-host
 ```
 
 ```bash
-jupyter book start --port 3001
-jupyter book start --execute
+conda activate sciml_ps
+export HOST=127.0.0.1
+jupyter book start --port 3000 --keep-host
+```
+
+```bash
+jupyter book start --port 3001 --keep-host
+jupyter book start --execute --keep-host
 ```
 
 Edit any page under `book/`, save, and refresh the browser.
+
+**Open in the browser:** `http://127.0.0.1:3000/` or `http://localhost:3000/`  
+The preview process must stay running in that terminal (do not close it).
 
 ## 3. Static HTML build (no live server)
 
@@ -109,6 +122,8 @@ Open the `index.html` path printed by the CLI (often under `_build/`).
 
 | Symptom | Fix |
 |---------|-----|
+| Page will not load / connection refused | Start the server first (`.\scripts\preview.ps1`) and leave that terminal open |
+| `localhost:3000` fails but server “started” | Use `http://127.0.0.1:3000/` or restart with `$env:HOST="127.0.0.1"; jupyter book start --keep-host` (scripts do this) |
 | `jupyter` / `jupyter book` not found | `conda activate sciml_ps` (or re-run `.\scripts\setup_env.ps1`) |
 | `node` not found / JB asks to install Node | `conda activate sciml_ps` then `conda env update -f environment.yml --prune` |
 | Unicode / emoji crash in Windows console | Scripts set `PYTHONUTF8=1`; or run `$env:PYTHONUTF8=1` before `jupyter book start` |
