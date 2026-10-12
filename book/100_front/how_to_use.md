@@ -16,6 +16,26 @@ A Jupyter Book 2 / MyST computational textbook scaffold for SciML in power syste
 - Core Python stack: `envs/course_core.yml`
 - ANDES labs: `envs/course_andes.yml` (pin one version; pilot before class)
 
+## Preview the book on your machine
+
+Step-by-step commands and helper scripts:
+
+→ [Preview this book locally](preview_locally.md)
+
+Short path (Windows):
+
+```powershell
+.\scripts\setup_env.ps1
+conda activate sciml_ps
+.\scripts\preview.ps1
+```
+
+Then open `http://localhost:3000`.
+
 ## What not to expect yet
 
 Stub pages are intentional. Executed labs, full slide decks, and videos arrive in later passes.
+
+## For instructors and maintainers
+
+Previewing, editing chapters, wiring the TOC, and growing parts over many years is documented in the git repo under the `docs/guides/` folder (maintainer handbook; not a book page).

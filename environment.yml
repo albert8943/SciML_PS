@@ -8,6 +8,8 @@ dependencies:
   - scipy
   - matplotlib
   - jupyter
+  # Jupyter Book 2 / MyST site preview requires a Node.js runtime on PATH.
+  - nodejs>=20
   - pip:
-      - jupyter-book>=2.0.0a0
-      - mystmd
+      # Jupyter Book 2 (MyST engine). Prefer pip until conda-forge is stable for v2.
+      - "jupyter-book>=2.0.0a0"

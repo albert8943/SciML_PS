@@ -16,7 +16,7 @@
 
 ## Slides
 
-- [Slides folder](../slides/) — add a deck path when available.
+- Slides: link a file from the repo `slides/` folder when available.
 
 ## Worked example
 

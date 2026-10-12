@@ -4,6 +4,12 @@ Portable teaching book (Jupyter Book 2 / MyST) on SciML for power-system **dynam
 
 This repository is a **scaffold**: stub chapters and labs, not finished prose.
 
+## How to preview, edit, and develop
+
+Maintainer handbook (preview, use, edit, decades-long growth):
+
+[`docs/guides/using_preview_edit_and_long_term_development.md`](docs/guides/using_preview_edit_and_long_term_development.md)
+
 ## Layout
 
 | Path | Purpose |
@@ -14,6 +20,8 @@ This repository is a **scaffold**: stub chapters and labs, not finished prose.
 | `src/sciml_ps/` | Shared teaching Python package |
 | `envs/` | Course environment pins (`course_core`, `course_andes`) |
 | `docs/planning/` | Curriculum development report (instructor planning) |
+| `docs/guides/` | Maintainer how-tos (preview, edit, long-term development) |
+| `scripts/` | `setup_env`, `preview`, `build` helpers |
 | `portal/` | Optional future landing-page notes |
 
 Part IDs use **100-spacing** (`100`, `200`, `300`, …) so new pillars can be inserted later without renumbering neighbors.
@@ -33,24 +41,36 @@ Curriculum source of truth for learning outcomes and labs:
 
 ## Build / preview (Jupyter Book 2)
 
-Create an environment (example):
+Full copy-paste commands also live **inside the book**: [`book/100_front/preview_locally.md`](book/100_front/preview_locally.md).
+
+**Windows (PowerShell), from repo root:**
+
+```powershell
+.\scripts\setup_env.ps1          # creates/updates env (Python + Node.js + JB2)
+conda activate sciml_ps
+.\scripts\preview.ps1            # jupyter book start
+```
+
+Then open `http://localhost:3000` (or the URL printed by the CLI).
+
+**macOS / Linux:**
 
 ```bash
 conda env create -f environment.yml
 conda activate sciml_ps
+chmod +x scripts/*.sh
+./scripts/preview.sh
 ```
 
-From the repository root:
+**Raw CLI (any OS):**
 
 ```bash
-# Local preview server (JB2 / MyST)
-jupyter book start
-
-# Or build static HTML
-jupyter book build
+conda activate sciml_ps
+jupyter book start          # live preview
+jupyter book build          # static HTML
 ```
 
-If your installed CLI differs slightly, check `jupyter book --help` for the current JB2 commands. Configuration lives in [`myst.yml`](myst.yml).
+Helper scripts: [`scripts/`](scripts/). Config: [`myst.yml`](myst.yml). If a flag differs on your install, check `jupyter book --help`.
 
 ## Single book
 

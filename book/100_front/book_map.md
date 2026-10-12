@@ -4,7 +4,7 @@ Part IDs use 100-spacing so new pillars can be inserted later (for example `350_
 
 | Part | Folder | Role |
 |------|--------|------|
-| 100 | `100_front` | How to use, map, learning paths |
+| 100 | `100_front` | How to use, local preview commands, map, learning paths |
 | 200 | `200_prep` | Prerequisites and diagnostic |
 | 300 | `300_foundations` | SMIB + core SciML methods |
 | 400 | `400_dynamics` | Deeper dynamic modeling / surrogates |
