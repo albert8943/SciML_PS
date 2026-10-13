@@ -81,7 +81,13 @@ jupyter book start          # live preview
 jupyter book build          # static HTML
 ```
 
-Helper scripts: [`scripts/`](scripts/). Config: [`myst.yml`](myst.yml). If a flag differs on your install, check `jupyter book --help`.
+**PDF** (needs LaTeX / latexmk; experimental):
+
+```powershell
+.\scripts\build_pdf.ps1
+```
+
+Helper scripts: [`scripts/`](scripts/). Config: [`myst.yml`](myst.yml). PDF details: [`docs/guides/site_hosting.md`](docs/guides/site_hosting.md). If a flag differs on your install, check `jupyter book --help`.
 
 ## Single book
 

@@ -247,7 +247,7 @@ Reserved-style examples (optional future IDs):
 5. Hosting (GitHub Actions → Pages) and first slides/videos  
 6. `700_advanced` only after the core labs run cleanly  
 
-**Site product features** (feedback form, PDF export, separate course portal like EECS 245): see [`future_plans_online_resource.md`](future_plans_online_resource.md). Do not block chapter writing on those.
+**Site product features** (feedback form, PDF export, separate course portal like EECS 245): see [`future_plans_online_resource.md`](future_plans_online_resource.md) and [`site_hosting.md`](site_hosting.md). Full-book PDF: `.\scripts\build_pdf.ps1` (needs LaTeX). Do not block chapter writing on polish.
 
 ### 5.5 Git and release hygiene
 

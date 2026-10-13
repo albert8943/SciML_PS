@@ -35,6 +35,6 @@ On SMIB Lab 1 scenarios, compare CCT from dense reference simulation vs CCT from
 
 ## Common misconceptions
 
-- “Fast surrogate ⇒ trustworthy CCT”  
+- "Fast surrogate implies trustworthy CCT"  
 - Retraining on the CCT test bracket without disclosure  
 - Skipping classical energy-function or TDS baselines when available

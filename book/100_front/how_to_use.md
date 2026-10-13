@@ -36,6 +36,14 @@ Then open `http://127.0.0.1:3000/` and leave that terminal running.
 
 Stub pages are intentional. Executed labs, full slide decks, and videos arrive in later passes.
 
+:::{tip} PDF download
+A full-book PDF is available from the **PDF** control in the site navbar (when built/hosted) as `exports/sciml_ps_notes.pdf`. Treat it as experimental: layout bugs can appear, and interactive figures do not survive export. Rebuild locally with `scripts/build_pdf.ps1` or `scripts/build_pdf.sh` (needs a LaTeX install).
+:::
+
+:::{warning} Prefer the live site for labs
+For executable laboratories and notebooks, use the HTML book (or Binder/Colab later), not the PDF snapshot.
+:::
+
 ## Feedback
 
 See [Feedback](feedback.md) (GitHub issues for now; Google Form planned).

@@ -3,6 +3,10 @@ _build/
 _site/
 .myst/
 
+# Generated full-book PDF (rebuild with scripts/build_pdf.*; CI uploads artifact)
+exports/*.pdf
+!exports/.gitkeep
+
 # Python
 .venv/
 venv/

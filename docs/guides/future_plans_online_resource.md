@@ -41,7 +41,7 @@ Feedback       (Google Form linked from book navbar)
 PDF            (MyST export → /exports/….pdf or Downloads action)
 ```
 
-SciML_PS today: foundations + Labs 1/3 prose exist; interim Feedback (GitHub issues) + Typst PDF stub + CI build + `portal/20XX-term/` template are in place. Live public host, Google Form URL, and polished full-book PDF remain open (§3 checkboxes).
+SciML_PS today: foundations + Labs 1/3 prose exist; interim Feedback (GitHub issues) + LaTeX/jtex full-book PDF export (`templates/sciml_ps_book`, `scripts/build_pdf.*`) + CI HTML/PDF jobs + `portal/20XX-term/` template are in place. Live public host, Google Form URL, and further PDF polish remain open (§3 checkboxes).
 
 ---
 
@@ -81,11 +81,12 @@ Official docs when implementing exports/site: [Jupyter Book websites](https://ju
 
 ### 3.3 PDF export of the notes
 
-- [x] Configure `project.exports` in `myst.yml` (Typst stub on `book/index.md`).
-- [ ] Build with `jupyter book build --pdf`; expand article list for full notes.
-- [ ] Add a site action or Downloads entry: **PDF**.
-- [ ] Document limitations (stubs, interactive plots → static), similar to EECS 245’s experimental PDF note.
-- [ ] Polish full-book PDF after more foundations/lab prose lands.
+- [x] Configure `project.exports` in `myst.yml` (LaTeX / jtex full-TOC → `exports/sciml_ps_notes.pdf`).
+- [x] Custom skin [`templates/sciml_ps_book/`](../../templates/sciml_ps_book) (navy/teal, title panel, `tcolorbox` callouts).
+- [x] Build helpers: `scripts/build_pdf.ps1` / `.sh` / `build_pdf.py`.
+- [x] Site action **PDF** → `/exports/sciml_ps_notes.pdf`.
+- [x] Document limitations in [`site_hosting.md`](site_hosting.md) (experimental; interactive → static).
+- [ ] Polish full-book PDF after more foundations/lab prose lands (Playwright figure snapshots only if labs need them).
 
 ### 3.4 Separate course portal (`portal/`)
 

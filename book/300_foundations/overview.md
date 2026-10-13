@@ -2,6 +2,10 @@
 
 Shared method core before the three application pillars. Use a classical **SMIB** (single-machine infinite-bus) system repeatedly so the same equations appear as forward simulation, surrogate learning, stability labels, and parameter estimation.
 
+:::{important} Shared SMIB spine
+Foundations reuse one classical **SMIB** model so forward simulation, surrogates, stability labels, and parameter estimation share the same equations and notation.
+:::
+
 ## Learning outcomes
 
 After this part you should be able to:
@@ -17,13 +21,13 @@ After this part you should be able to:
 
 1. [Problem framing](01_problem_framing.md) — tasks, state vs parameter, forward vs inverse  
 2. [SMIB dynamics](02_smib_dynamics.md)  
-3. [Reference simulation](03_reference_simulation.md) → [Lab 1](../900_labs/lab_01_reference_sim/index.md)  
+3. [Reference simulation](03_reference_simulation.md) then [Lab 1](../900_labs/lab_01_reference_sim/index.md)
 4. [Data and surrogates](04_data_and_surrogates.md)  
 5. [Automatic differentiation](05_differentiation.md)  
 6. [Forward PINNs](06_forward_pinn.md)  
 7. [Classical estimation](07_classical_estimation.md)  
 8. [Identifiability](08_identifiability.md)  
-9. [Inverse PINNs](09_inverse_pinn.md) → [Lab 3](../900_labs/lab_03_inertia_damping_id/index.md)  
+9. [Inverse PINNs](09_inverse_pinn.md) then [Lab 3](../900_labs/lab_03_inertia_damping_id/index.md)
 10. [Neural ODEs and hybrids](10_neural_ode_hybrid.md)
 
 Optional landscape: [SciML method families](00_sciml_landscape.md).

@@ -10,6 +10,10 @@ Welcome. This book teaches scientific machine learning (SciML) methods organized
 
 This site is a **scaffold**. Chapters and labs are stubs aligned to the course planning report under `docs/planning/`. Full prose and executed notebooks come later.
 
+:::{note} Scaffold vs finished notes
+Stub pages are intentional. Prefer the **online** book while the PDF export is still experimental (interactive plots become static or may be omitted).
+:::
+
 ## How to navigate
 
 - Start with [How to use this book](100_front/how_to_use.md) and the [book map](100_front/book_map.md).

@@ -1,4 +1,4 @@
-# Build the Jupyter Book 2 site on push to master.
+# Build the Jupyter Book 2 site (and PDF) on push to master.
 # Pages deploy is manual/opt-in until a public URL is chosen — see docs/guides/site_hosting.md
 name: build-book
 
@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
+  build-html:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -38,4 +38,46 @@ jobs:
           path: |
             _build
             !_build/templates
+          if-no-files-found: warn
+
+  build-pdf:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install system TeX dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends \
+            latexmk \
+            texlive-xetex \
+            texlive-latex-extra \
+            texlive-fonts-recommended \
+            texlive-fonts-extra \
+            texlive-plain-generic \
+            lmodern
+
+      - name: Install Jupyter Book 2
+        run: |
+          python -m pip install --upgrade pip
+          pip install "jupyter-book>=2.0.0a0"
+
+      - name: Build PDF
+        run: python scripts/build_pdf.py
+
+      - name: Upload PDF artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: sciml-ps-notes-pdf
+          path: exports/sciml_ps_notes.pdf
           if-no-files-found: warn

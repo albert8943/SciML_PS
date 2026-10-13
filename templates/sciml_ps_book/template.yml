@@ -1,0 +1,54 @@
+jtex: v1
+title: SciML_PS Book PDF
+description: Navy/teal book-style PDF template for Scientific Machine Learning for Power Systems notes
+version: 1.0.0
+license: CC-BY-4.0
+authors:
+  - name: SciML for Power Systems project
+tags:
+  - book
+  - course-notes
+  - sciml
+parts:
+  - id: abstract
+    description: >
+      Optional short abstract or overview placed after the title page.
+doc:
+  - id: title
+    required: true
+  - id: subtitle
+  - id: authors
+    required: true
+  - id: date
+  - id: bibliography
+options:
+  - id: link
+    type: string
+    title: Footnote Link
+    description: >
+      Optional footnote with a link back to the online notes.
+files:
+  - template.tex
+  - gitinfo.tex
+packages:
+  - datetime
+  - graphicx
+  - hyperref
+  - natbib
+  - xcolor
+  - amsmath
+  - amssymb
+  - mathtools
+  - booktabs
+  - array
+  - longtable
+  - microtype
+  - titlesec
+  - fancyhdr
+  - enumitem
+  - tcolorbox
+  - framed
+  - geometry
+  - fontenc
+  - lmodern
+  - url
