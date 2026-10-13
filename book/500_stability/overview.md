@@ -8,10 +8,11 @@ Transient rotor-angle stability and **critical clearing time (CCT)** under state
 
 ## Learning path
 
-1. [Stability labels and CCT](01_stability_and_cct.md)  
-2. [Surrogate models for stability tasks](02_surrogate_stability.md)  
-3. [Lab 5 — Stability and CCT](../900_labs/lab_05_stability_cct/index.md) (SMIB first)  
-4. [ANDES as network reference](03_andes_network_reference.md) — after SMIB CCT works; Kundur gallery as linked depth  
+1. [Stability labels and CCT](01_stability_and_cct.md) — IEEE/CIGRE placement, three cases, CCT metrics  
+2. [Surrogate models for stability tasks](02_surrogate_stability.md) — classifier vs trajectory vs margin  
+3. [Direct methods](04_direct_methods.md) — equal-area / energy as classical check  
+4. [Lab 5 — Stability and CCT](../900_labs/lab_05_stability_cct/index.md) (SMIB first)  
+5. [ANDES as network reference](03_andes_network_reference.md) — after SMIB CCT works; Kundur gallery as linked depth  
 
 ## Relation to foundations
 
@@ -19,4 +20,4 @@ Use the same SMIB reference from Lab 1. Trajectory accuracy alone does not imply
 
 ## Status
 
-Teaching narrative filled; executable SMIB CCT notebooks come after Lab 1–2 tooling is stable. Network path: summarize-then-link to ANDES; pin `envs/course_andes.yml` after pilot.
+Stability narrative deepened (classification, surrogates, direct methods). Executable SMIB CCT notebooks come after Lab 1–2 tooling is stable. Network path: summarize-then-link to ANDES; pin `envs/course_andes.yml`.

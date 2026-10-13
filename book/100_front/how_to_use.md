@@ -2,7 +2,7 @@
 
 ## What this is
 
-A Jupyter Book 2 / MyST computational textbook for **Scientific Machine Learning (SciML) for Power Systems (PS)** — short form **SciML for PS**. Focus: dynamic modeling, stability assessment, and system identification. Pages follow a common pattern (goals → reading → media → example → lab → misconceptions).
+A Jupyter Book 2 / MyST computational textbook for **Scientific Machine Learning (SciML) for Power Systems (PS)** — short form **SciML for PS**. Focus: dynamic modeling, stability assessment, and system identification. Maintained by **Albert Poulose** for teaching and research training. Pages follow a common pattern (goals → reading → media → example → lab → misconceptions).
 
 ## Suggested order
 

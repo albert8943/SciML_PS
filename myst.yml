@@ -15,7 +15,8 @@ project:
     - transient stability
     - system identification
   authors:
-    - name: SciML for PS project
+    - name: Albert Poulose
+      corresponding: true
   # Full-book PDF via LaTeX (jtex). Build: .\scripts\build_pdf.ps1 or ./scripts/build_pdf.sh
   # Custom skin: templates/sciml_ps_book (tcolorbox callouts, navy/teal branding).
   # static_files keeps a stable /exports/… URL for the navbar (not a hashed public/ copy).
@@ -64,6 +65,7 @@ project:
         - file: book/500_stability/01_stability_and_cct.md
         - file: book/500_stability/02_surrogate_stability.md
         - file: book/500_stability/03_andes_network_reference.md
+        - file: book/500_stability/04_direct_methods.md
     - title: Identification
       children:
         - file: book/600_identification/overview.md
@@ -72,6 +74,7 @@ project:
     - title: Advanced topics
       children:
         - file: book/700_advanced/overview.md
+        - file: book/700_advanced/01_assessment_to_decision.md
     - title: Laboratories
       children:
         - file: book/900_labs/README.md

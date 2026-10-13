@@ -8,7 +8,7 @@ Create reference labels and CCT brackets on classical SMIB (Lab 1 tooling), then
 
 - [Lab 1](../lab_01_reference_sim/index.md)  
 - Prefer also [Lab 2](../lab_02_surrogate_vs_pinn/index.md)  
-- Chapters: [CCT](../../500_stability/01_stability_and_cct.md), [surrogate stability](../../500_stability/02_surrogate_stability.md)
+- Chapters: [CCT](../../500_stability/01_stability_and_cct.md), [surrogate stability](../../500_stability/02_surrogate_stability.md), optional [direct methods](../../500_stability/04_direct_methods.md)
 
 ## Reference CCT (no ML yet)
 
@@ -17,6 +17,8 @@ Using `simulate_smib` / `angle_stable`:
 1. Fix prefault state and fault inception  
 2. Sweep or bisect clearing time until the operational label flips  
 3. Record bracket width and tolerance  
+4. Optional: if the case matches equal-area assumptions, compare search CCT to the classical estimate ([direct methods](../../500_stability/04_direct_methods.md))  
+
 
 ## Learned CCT (after Lab 2)
 

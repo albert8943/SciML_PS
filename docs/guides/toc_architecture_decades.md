@@ -92,6 +92,7 @@ Stronger for longevity than a TOC that lists every paper topic or every method a
 ## Related
 
 - [`scope_lock_three_pillars.md`](scope_lock_three_pillars.md)  
+- [`website_career_to_book.md`](website_career_to_book.md)  
 - [`lab_spine_policy.md`](lab_spine_policy.md)  
 - [`naming_and_titles.md`](naming_and_titles.md)  
 - [`future_plans_online_resource.md`](future_plans_online_resource.md)  

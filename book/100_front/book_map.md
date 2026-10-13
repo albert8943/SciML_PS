@@ -10,7 +10,7 @@ How the notes are organized. Use the left sidebar for day-to-day navigation; thi
 | **Dynamics** | Deeper dynamic modeling and simulation (SciML for trajectories / vector fields) |
 | **Stability** | Stability assessment (labels, CCT, surrogate stability; ANDES network bridge after SMIB) |
 | **Identification** | Parameter estimation and system identification |
-| **Advanced topics** | Optional extensions (operators, UQ, multimachine) when promoted from labs |
+| **Advanced topics** | Synthesis (assessment → decision) plus optional extensions (operators, UQ, converters) |
 | **Laboratories** | Assessed Labs 1–5 |
 | **Reference** | Reading list and notation |
 

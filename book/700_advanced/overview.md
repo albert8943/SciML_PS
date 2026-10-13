@@ -1,11 +1,15 @@
 # Advanced topics overview
 
+## Start here
+
+1. [From assessment to decision](01_assessment_to_decision.md) — how Identification, Dynamics, and Stability connect toward operating-point decisions  
+
 ## Planned directions (stubs later)
 
 - Operator learning (DeepONet / FNO) as a **forward** function→function branch — not a PINN variant
 - Uncertainty quantification for estimated parameters
 - Multimachine / network scaling after SMIB mastery (ANDES / Kundur path under Stability)
-- Selected converter synchronization case studies
+- Selected converter synchronization case studies (after Labs 1–5; VSM–swing bridge first)
 
 ## Linked further practice (ANDES gallery)
 
@@ -19,4 +23,4 @@ Course strategy: maintainer guide `docs/guides/andes_content_strategy.md`.
 
 ## Status
 
-Overview stub. Capstone topics follow course report stages B–E when filled.
+Synthesis page filled; other Advanced topics remain stubs until Labs 1–5 deepen.

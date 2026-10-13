@@ -2,20 +2,57 @@
 
 ## Learning goals
 
+- Place transient rotor-angle security in the IEEE/CIGRE stability picture
 - Define stable/unstable labels under an explicit horizon and criterion
-- Define **critical clearing time (CCT)** as a scenario property
+- Define **critical clearing time (CCT)** as a scenario property (a security margin)
 - Report signed CCT error and false-safe rate — not accuracy alone
 
 ## Reading
 
 - Course report Lab 5; Weeks on CCT  
-- Teaching adapt of vault CCT concept (no research campaign numbers)
+- R-K04, R-H21 (IEEE/CIGRE classification); B1 transient stability chapters  
+
+## Dynamic security (short)
+
+**Dynamic security** is the ability of the grid, in its **present operating condition**, to remain stable after credible disturbances such as short circuits. Assessment checks whether machines (and, later, converters) keep synchronism and whether a **margin** such as CCT remains adequate.
+
+That framing comes from IEEE/CIGRE stability and security language ([R-K04](../990_reference/reading_list.md); [R-H21](../990_reference/reading_list.md)).
+
+## Where this sits in power system stability
+
+In the IEEE/CIGRE framework, post-fault **transient rotor-angle** behaviour belongs under **rotor-angle stability**. The 2020/2021 revision adds **converter-driven** and **resonance** stability. These categories place TSA and CCT in a wider picture; SciML for PS Lab 5 starts with classical rotor-angle / SMIB CCT before converter electives.
+
+```{figure} ../../media/figures/stability-classification.png
+:alt: IEEE/CIGRE classification of power system stability with rotor-angle and transient branch highlighted
+:width: 90%
+
+Power system stability classification (IEEE/CIGRE Task Force). Teaching focus here: **rotor-angle** stability and its **transient** branch; converter-driven stability appears in later electives. Source: Hatziargyriou et al., IEEE Trans. Power Syst., 2021 (R-H21), revising Kundur et al., 2004 (R-K04).
+```
+
+## Transient stability — three qualitative cases
+
+**Transient stability** is the ability to maintain **synchronism** after a **severe transient disturbance**. Rotor angles undergo large excursions; the outcome depends on the initial operating state and the severity of the disturbance.
+
+```{figure} ../../media/figures/transient-stability-cases.png
+:alt: Rotor angle versus time for stable, first-swing unstable, and oscillatory unstable responses
+:width: 70%
+
+Rotor-angle response to a transient disturbance (schematic teaching figure).
+```
+
+1. **Stable.** The angle rises to a maximum, then falls and oscillates with decreasing amplitude toward a new steady state.  
+2. **First-swing instability.** The angle keeps increasing until synchronism is lost (often insufficient synchronizing torque).  
+3. **Oscillatory instability.** The first swing looks acceptable, but growing oscillations later drive loss of synchronism.
+
+Classical multimachine TSA study windows are often about **3–5 seconds** (longer, ~10 s, when slow interarea modes dominate). With converters, the critical post-fault interval can be shorter, and assessment may need converter-driven phenomena as well as rotor-angle behaviour (R-H21). Finite-horizon simulation labels used in labs are **operational**, not asymptotic Lyapunov certificates.
 
 ## Critical clearing time
 
 **CCT** is the longest fault-on duration for which the system remains transiently stable after clearing, under a **stated** stability rule (angle threshold, simulator flag, horizon, …).
 
 Clearing later than CCT leads to instability (e.g. loss of synchronism) after clearance. CCT is a property of the **operating point + contingency + model + criterion**, not of a neural network.
+
+TSA asks whether synchronism is kept after a disturbance. Operations also need a **margin**: how long can a fault remain before stability is lost? CCT is one such measure.
 
 ### Operational search
 
@@ -34,13 +71,16 @@ Accuracy alone can hide an unacceptable false-safe imbalance. Test **boundary-ad
 ## Lab
 
 - [Lab 5 — Stability and CCT](../900_labs/lab_05_stability_cct/index.md)
+- Classical check when assumptions allow: [Direct methods](04_direct_methods.md)
 
 ## Further reading
 
-- Course report §15-style stability metrics discussion; B1 transient stability chapters
+- R-K04, R-H21; B1 transient stability chapters  
+- Course report §15-style stability metrics discussion  
 
 ## Common misconceptions
 
 - Calling a finite-horizon label a Lyapunov proof  
 - Using trajectory NRMSE as a proxy for CCT quality  
-- Ignoring bracket saturation in bisection
+- Ignoring bracket saturation in bisection  
+- Treating CCT as a property of a trained network rather than of the scenario + criterion  
