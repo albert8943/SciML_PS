@@ -40,6 +40,16 @@ Critical clearing time (CCT) later asks: *how long can fault-on last before post
 
 For fixed $H$, plot qualitative $\delta(t)$ after a short fault vs a long fault. Which parameter mainly scales the “inertia” of the swing?
 
+```{exercise} Inertia vs clearing time
+:class: dropdown
+Keep $D$, network strengths, and $P_m$ fixed. Compare a short fault-on interval with a long one. Which parameter mainly scales how slowly $\delta(t)$ builds during the fault, and what happens to that story if you only change $D$?
+```
+
+```{solution} Inertia vs clearing time
+:class: dropdown
+Inertia $H$ scales how quickly rotor speed (and then angle) accelerate for a given power imbalance — larger $H$ means slower angle growth during the fault. Damping $D$ mainly shapes postfault settling and oscillation decay; it is a poor substitute for changing clearing time when you are studying first-swing margin.
+```
+
 ## Lab
 
 - [Lab 1 — Reference simulation](../900_labs/lab_01_reference_sim/index.md)

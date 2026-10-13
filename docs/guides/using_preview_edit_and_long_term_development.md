@@ -252,6 +252,8 @@ Reserved-style examples (optional future IDs):
 5. Hosting (GitHub Actions → Pages) and first slides/videos  
 6. `700_advanced` only after the core labs run cleanly  
 
+**Under-development banners:** On stub overviews and unfinished labs, put a MyST `{note} Under development` near the top (see `book/chapter_template.md`). Readers should see that the goals are stable while examples thicken. Do not leave a silent empty page that looks finished.
+
 **Site product features** (feedback form, PDF export, separate course portal like EECS 245): see [`future_plans_online_resource.md`](future_plans_online_resource.md) and [`site_hosting.md`](site_hosting.md). Full-book PDF: `.\scripts\build_pdf.ps1` (needs LaTeX). Do not block chapter writing on polish.
 
 ### 5.5 Git and release hygiene

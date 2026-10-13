@@ -1,5 +1,9 @@
 # Advanced topics overview
 
+```{note} Under development
+This section is under development. Start with [assessment to decision](01_assessment_to_decision.md); other Advanced topics thicken after Labs 1–5.
+```
+
 ## Start here
 
 1. [From assessment to decision](01_assessment_to_decision.md) — how Identification, Dynamics, and Stability connect toward operating-point decisions  

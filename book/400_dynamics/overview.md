@@ -1,5 +1,9 @@
 # Dynamics pillar overview
 
+```{note} Under development
+This section is under development. The engineering question and lab links are stable; chapter depth grows after Foundations and Labs 1–2.
+```
+
 **Engineering question:** How will the system evolve under specified inputs, parameters, and disturbances?
 
 ## Planned depth (stubs later)

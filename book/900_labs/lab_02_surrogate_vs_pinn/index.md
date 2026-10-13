@@ -1,5 +1,9 @@
 # Lab 2 — Supervised surrogate versus PINN
 
+```{note} Under development
+This laboratory page is under development. Goals below are the contract; the executable notebook arrives in a later pass.
+```
+
 ## Goals
 
 Matched input/output definitions and a documented training budget. Vary labeled-data amount. Report trajectory errors, residuals, and error near event interfaces. Include a controlled ablation removing the physics term.

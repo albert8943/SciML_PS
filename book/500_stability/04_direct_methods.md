@@ -48,6 +48,16 @@ For this course:
 
 Same rule across all three. Trajectory RMSE alone does not validate CCT.
 
+```{exercise} When equal-area is a fair check
+:class: dropdown
+You have a classical SMIB Lab 5 bisection CCT under a first-swing $|\delta|$ rule. Name two modelling assumptions that must hold before you treat an equal-area CCT as a meaningful cross-check — and one situation where you should refuse the comparison.
+```
+
+```{solution} When equal-area is a fair check
+:class: dropdown
+Fair when (for example) mechanical power is treated as constant and damping is negligible, and the network is reduced to classical before/during/after strengths matching the equal-area sketch. Refuse the comparison for strongly damped swings, multi-swing criteria, or converter-rich plants where classical equal-area assumptions do not hold — then use energy ideas only as elective background, not as a Lab 5 certificate.
+```
+
 ## Lab
 
 - [Lab 5 — Stability and CCT](../900_labs/lab_05_stability_cct/index.md): after SMIB bisection works, optionally compare to equal-area under documented assumptions  
