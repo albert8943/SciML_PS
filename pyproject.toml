@@ -7,6 +7,8 @@ name = "sciml-ps"
 version = "0.0.1"
 description = "Teaching utilities for Scientific Machine Learning (SciML) for Power Systems (PS)"
 readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Albert Poulose" }]
 requires-python = ">=3.11"
 dependencies = [
   "numpy",

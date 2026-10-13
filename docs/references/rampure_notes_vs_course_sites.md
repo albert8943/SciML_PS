@@ -15,7 +15,7 @@ As of this note, **two** public notes books in the EECS 245 / Math 124 style (no
 | EECS 245 — Mathematics for Machine Learning | https://notes.eecs245.org/ | Mature (10 chapters + appendix); [github.com/eecs245/notes](https://github.com/eecs245/notes) |
 | Math 124 — Vectors, Matrices, and Applications | https://notes.math124.org/ | In progress (Fall 2026; planned 9 chapters; co-authors Kartik Prasanna & Suraj Rampure) |
 
-Related: workshop template [github.com/math-124/notes-example](https://github.com/math-124/notes-example); EEI Days 2026 slides in [`eecs245_eei_days_2026/`](eecs245_eei_days_2026/).
+Related: workshop template [github.com/math-124/notes-example](https://github.com/math-124/notes-example); EEI Days 2026 talk notes in [`eecs245_eei_days_2026/`](eecs245_eei_days_2026/).
 
 ---
 

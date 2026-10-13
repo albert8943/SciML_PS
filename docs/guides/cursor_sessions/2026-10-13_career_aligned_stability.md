@@ -12,7 +12,7 @@
 | Classifier / trajectory honesty | `book/500_stability/02_surrogate_stability.md` |
 | Direct methods | `book/500_stability/04_direct_methods.md` |
 | Assessment → decision | `book/700_advanced/01_assessment_to_decision.md` |
-| Figures | `media/figures/stability-classification.png`, `transient-stability-cases.png` |
+| Figures | IEEE/CIGRE classification (Mermaid, in page); `media/figures/smib-transient-cases.png` (generated from `sciml_ps.smib` by `scripts/make_figures.py`, 2026-10-13) |
 | Reading list R-K04, R-H21, S-PINN-TSA | `book/990_reference/reading_list.md` |
 | Maintainer map | `docs/guides/website_career_to_book.md` |
 | Author | `myst.yml` → Albert Poulose |

@@ -21,7 +21,7 @@ This note records **product / site features** to add over time, inspired by publ
 | Author hub | https://rampure.org/ | Many course *material* sites ≠ many notes books |
 | PBDL (method book) | https://physicsbaseddeeplearning.org/ | Computational textbook *product type*; **not** our TOC logic (see §2) |
 | PBDL source | https://github.com/tum-pbs/pbdl-book | Jupyter Book **1** + Sphinx (`_config.yml`); Colab notebooks; **Apache-2.0**; reuse rules in [`pbdl_reuse_map.md`](pbdl_reuse_map.md) |
-| EEI Days 2026 talk (Rampure) | [Google Slides](https://docs.google.com/presentation/d/1pmyaWjjlKwRmPZqDNxcwOOw01ZCcfCLdo-wCgPnMzBc/edit) | Interactive JB notes + AI authoring; **saved locally** in [`docs/references/eecs245_eei_days_2026/`](../references/eecs245_eei_days_2026/) |
+| EEI Days 2026 talk (Rampure) | [Google Slides](https://docs.google.com/presentation/d/1pmyaWjjlKwRmPZqDNxcwOOw01ZCcfCLdo-wCgPnMzBc/edit) | Interactive JB notes + AI authoring; notes in [`docs/references/eecs245_eei_days_2026/`](../references/eecs245_eei_days_2026/) (offline copy git-ignored) |
 | EECS 245 notes source | https://github.com/eecs245/notes | Live MyST/JB notes repo cited in that talk |
 | Workshop template | https://github.com/math-124/notes-example | Hands-on `jupyter book start` demo from the talk |
 | Wealthfolio **docs** (product help UX) | https://wealthfolio.app/docs/introduction/ | Landing discipline only — not our stack or TOC (see §1b) |

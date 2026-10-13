@@ -17,6 +17,10 @@ project:
   authors:
     - name: Albert Poulose
       corresponding: true
+  license:
+    content: CC-BY-NC-SA-4.0
+    code: MIT
+  github: https://github.com/albert8943/SciML_PS
   # Full-book PDF via LaTeX (jtex). Build: .\scripts\build_pdf.ps1 or ./scripts/build_pdf.sh
   # Custom skin: templates/sciml_ps_book (tcolorbox callouts, navy/teal branding).
   # static_files keeps a stable /exports/… URL for the navbar (not a hashed public/ copy).

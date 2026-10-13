@@ -3,7 +3,7 @@
 **Audience:** Maintainers.  
 **Recorded:** 2026-10-13.  
 **Policy:** Adapt into MyST teaching prose. Do not paste vault frontmatter, Paper 1 metrics, or research `runs/`.  
-**Vault root:** `maintainer's local Obsidian vault (path not recorded in this public repo)`
+**Vault root:** maintainer's local Obsidian vault (path not recorded in this public repo).
 
 Science scope stays locked in [`scope_lock_three_pillars.md`](scope_lock_three_pillars.md). Curriculum outcomes stay in [`../planning/SciML_for_Power_Systems_Course_Development_Report.md`](../planning/SciML_for_Power_Systems_Course_Development_Report.md).
 

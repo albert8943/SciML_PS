@@ -91,6 +91,10 @@ jupyter book build          # static HTML
 
 Helper scripts: [`scripts/`](scripts/). Config: [`myst.yml`](myst.yml). PDF details: [`docs/guides/site_hosting.md`](docs/guides/site_hosting.md). If a flag differs on your install, check `jupyter book --help`.
 
+## License
+
+© 2026 Albert Poulose. Book content (`book/`, `slides/`, `media/`, site, PDF) is [CC BY-NC-SA 4.0](LICENSES/CC-BY-NC-SA-4.0.txt); code (`src/sciml_ps/`, `scripts/`, `tests/`, notebook code cells) is [MIT](LICENSES/MIT.txt). Commercial use of the content needs written permission. Details: [`LICENSE`](LICENSE).
+
 ## Single book
 
 One site, one TOC. Optional semester packaging lives in `book/100_front/learning_paths.md` (stub). Course I/II split folders are deferred.

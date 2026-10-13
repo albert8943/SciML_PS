@@ -31,6 +31,9 @@ media/videos/*.mov
 media/videos/*.webm
 *.zip
 
+# Third-party reference copies (instructor-only, never published)
+docs/references/_private/
+
 # Environment leftovers
 .env
 .conda/

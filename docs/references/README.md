@@ -4,6 +4,6 @@ Third-party materials saved for planning SciML_PS. Not student-facing book conte
 
 | Folder / file | What |
 |---------------|------|
-| [eecs245_eei_days_2026/](eecs245_eei_days_2026/) | Suraj Rampure — *Creating Interactive Course Notes with Jupyter Book and AI* (EEI Days 2026): PDF, PPTX, text extract |
+| [eecs245_eei_days_2026/](eecs245_eei_days_2026/) | Suraj Rampure — *Creating Interactive Course Notes with Jupyter Book and AI* (EEI Days 2026): links and relevance notes (offline copies kept in git-ignored `_private/`) |
 | [attribution_register.md](attribution_register.md) | One row per external asset (source, commit, license evidence, mode, target page); required before merging adapted content |
 | [rampure_notes_vs_course_sites.md](rampure_notes_vs_course_sites.md) | How many notes books vs course portals; one living book per subject; term portals — SciML_PS implications |

@@ -1,17 +1,8 @@
 # Reference: Creating Interactive Course Notes with Jupyter Book and AI (EEI Days 2026)
 
-**Speaker:** Suraj Rampure (Lecturer III, CSE, University of Michigan) — rampure@umich.edu  
+**Speaker:** Suraj Rampure (Lecturer III, CSE, University of Michigan)  
 **Event:** EEI Days 2026  
-**Source slides (Google):** https://docs.google.com/presentation/d/1pmyaWjjlKwRmPZqDNxcwOOw01ZCcfCLdo-wCgPnMzBc/edit  
-**Saved:** 2026-10-12 (export from Google Slides for offline / future reference)
-
-## Files in this folder
-
-| File | Description |
-|------|-------------|
-| `Creating_Interactive_Course_Notes_Jupyter_Book_and_AI_EEI_Days_2026.pdf` | PDF export (~1.5 MB) |
-| `Creating_Interactive_Course_Notes_Jupyter_Book_and_AI_EEI_Days_2026.pptx` | PowerPoint export (~3.5 MB) |
-| `slide_notes_extract.md` | Searchable text extract of slide content (18 slides) |
+**Source slides (Google):** https://docs.google.com/presentation/d/1pmyaWjjlKwRmPZqDNxcwOOw01ZCcfCLdo-wCgPnMzBc/edit
 
 ## Related live resources cited in the talk
 
@@ -31,4 +22,4 @@ Product-pattern reference for interactive JB2/MyST course notes, GitHub Pages ho
 
 ## Rights note
 
-Third-party teaching materials. Kept for **personal/instructor reference** in this private teaching repo. Do not republish the deck as your own; re-check Google sharing / university terms if you make SciML_PS public.
+Third-party teaching material. This public repo links to the original only. Offline copies (PDF, PPTX, text extract) live in the git-ignored `docs/references/_private/eecs245_eei_days_2026/` on the maintainer machine and must not be committed.

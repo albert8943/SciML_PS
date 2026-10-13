@@ -1,13 +1,28 @@
-Copyright (c) 2026 SciML_PS course authors.
+Scientific Machine Learning (SciML) for Power Systems (PS)
+Copyright (c) 2026 Albert Poulose
 
-This repository is a course and textbook scaffold.
-Content under book/, slides/, and media/ is intended for teaching use.
+This repository uses two licenses.
 
-Third-party material retains its own license. License copies for any adapted
-third-party text or code live in LICENSES/ (for example LICENSES/PBDL-Apache-2.0.txt).
-Every external asset is recorded in docs/references/attribution_register.md.
-Installed software (e.g. ANDES, GPL-3.0) keeps its vendor license.
+1. Book content: CC BY-NC-SA 4.0
+   Applies to book/ (text, notebooks' prose, and figures), slides/, media/,
+   and the generated site and PDF.
+   You may share and adapt this material for non-commercial purposes, with
+   attribution, under the same license. Commercial use (including paid
+   courses, training, or printed editions) requires written permission from
+   the copyright holder.
+   Full text: LICENSES/CC-BY-NC-SA-4.0.txt
+   Summary:   https://creativecommons.org/licenses/by-nc-sa/4.0/
 
-Until a public license is chosen for the book prose, all rights are reserved.
-Choose and replace this file before publishing the site (e.g. CC-BY-4.0 for text,
-MIT for original teaching code under src/sciml_ps/).
+2. Code: MIT
+   Applies to src/sciml_ps/, scripts/, tests/, templates/, and code cells in
+   notebooks. Full text: LICENSES/MIT.txt
+
+Third-party material keeps its own license. License copies for adapted
+third-party text or code live in LICENSES/ (for example
+LICENSES/PBDL-Apache-2.0.txt). Every external asset is recorded in
+docs/references/attribution_register.md. Installed software (e.g. ANDES,
+GPL-3.0) keeps its vendor license and is not redistributed here.
+
+Suggested attribution:
+  Albert Poulose, "Scientific Machine Learning (SciML) for Power Systems (PS)",
+  https://sciml4ps.albertpoulose.com, licensed under CC BY-NC-SA 4.0.

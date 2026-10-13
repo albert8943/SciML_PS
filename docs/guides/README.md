@@ -27,4 +27,4 @@ Course portal placeholder: [`portal/`](../../portal/).
 
 Planning report: [`docs/planning/`](../planning/).
 
-External teaching references: [`docs/references/`](../references/) — [EEI Days 2026 slides](../references/eecs245_eei_days_2026/), [Rampure notes vs course sites](../references/rampure_notes_vs_course_sites.md).
+External teaching references: [`docs/references/`](../references/) — [EEI Days 2026 talk](../references/eecs245_eei_days_2026/), [Rampure notes vs course sites](../references/rampure_notes_vs_course_sites.md).
