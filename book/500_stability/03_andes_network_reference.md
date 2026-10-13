@@ -17,7 +17,9 @@ conda env create -f envs/course_andes.yml
 conda activate sciml_ps_andes
 ```
 
-Pin one ANDES version after your instructor pilots the term (see `envs/course_andes.yml`). Do not mix ANDES 1.x and 2.x in the same lab narrative.
+Course pin: **andes==2.0.0** in `envs/course_andes.yml`. After create/activate, run `andes prep` once if prompted. Do not mix ANDES 1.x and 2.x in the same lab narrative.
+
+Optional notebook (Lab 5 extension): [`lab05_network_cct_andes.ipynb`](../900_labs/lab_05_stability_cct/lab05_network_cct_andes.ipynb).
 
 Details: [ANDES installation](https://docs.andes.app/en/stable/tutorials/01-installation.html).
 

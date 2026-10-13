@@ -31,14 +31,13 @@ Replace the inner trajectory call with a surrogate; keep the **same** stability 
 
 ## Optional network extension (after this lab)
 
-Assessed Lab 5 stays on **classical SMIB**. When SMIB CCT works, the preferred network follow-on is Kundur via ANDES:
+Assessed Lab 5 stays on **classical SMIB**. When SMIB CCT works, the preferred network follow-on is Kundur via ANDES (**not** a sixth assessed lab):
 
+- Notebook: [`lab05_network_cct_andes.ipynb`](lab05_network_cct_andes.ipynb) — one-bus CCT sweep + signed error / false-safe metrics  
+- Helper: `sciml_ps.andes_cct` (requires `envs/course_andes.yml`, **andes==2.0.0**)  
 - Bridge page: [ANDES as network reference](../../500_stability/03_andes_network_reference.md)  
-- Env: `envs/course_andes.yml`  
-- Official walkthrough (do not paste into the book): [Critical Clearing Time Mapping](https://docs.andes.app/en/stable/gallery/critical-clearing-time.html)  
-
-A future thin course notebook should reuse **this lab’s SciML metrics** (signed CCT error, false-safe, surrogate comparison) with ANDES as the trajectory engine — not a sixth assessed lab.
+- Official full map (link only): [Critical Clearing Time Mapping](https://docs.andes.app/en/stable/gallery/critical-clearing-time.html)  
 
 ## Status
 
-Narrative and protocol ready; full surrogate CCT notebook follows Lab 2 implementation. Network notebook after SMIB CCT + ANDES pin.
+Narrative and protocol ready; full SMIB surrogate CCT notebook follows Lab 2. Network extension notebook + ANDES pin (`2.0.0`) are in place.

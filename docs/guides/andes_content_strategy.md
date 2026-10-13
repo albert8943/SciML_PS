@@ -47,7 +47,9 @@ SMIB is the **teaching plant** for SciML methods. Networks come **after** SMIB C
 |-------|--------|
 | Case | `andes.get_case("kundur/kundur_full.xlsx")` |
 | Gallery | [Critical Clearing Time Mapping](https://docs.andes.app/en/stable/gallery/critical-clearing-time.html) |
-| Env | [`envs/course_andes.yml`](../../envs/course_andes.yml) — **pin** `andes==…` after pilot |
+| Env | [`envs/course_andes.yml`](../../envs/course_andes.yml) — pinned **`andes==2.0.0`** (run `andes prep` once after install) |
+| Notebook | [`lab05_network_cct_andes.ipynb`](../../book/900_labs/lab_05_stability_cct/lab05_network_cct_andes.ipynb) |
+| Helper | [`src/sciml_ps/andes_cct.py`](../../src/sciml_ps/andes_cct.py) |
 | Assessed spine | Still Labs 1–5 only; Kundur is an **optional Lab 5 network extension**, not Lab 6 |
 
 ---

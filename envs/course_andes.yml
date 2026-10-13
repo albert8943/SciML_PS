@@ -7,9 +7,11 @@
 #
 # Strategy: docs/guides/andes_content_strategy.md
 # Student bridge: book/500_stability/03_andes_network_reference.md
+# Helper: src/sciml_ps/andes_cct.py
+# Notebook: book/900_labs/lab_05_stability_cct/lab05_network_cct_andes.ipynb
 #
-# PIN one version after pilot (example: andes==2.0.0). Never mix 1.x and 2.x
-# silently across labs. Research repos in this workspace may use different pins.
+# After install, run once if prompted: andes prep
+# Never mix 1.x and 2.x silently across labs.
 name: sciml_ps_andes
 channels:
   - conda-forge
@@ -22,5 +24,4 @@ dependencies:
   - pandas
   - jupyter
   - pip:
-      # TODO after pilot: replace with a frozen pin, e.g. andes==2.0.0
-      - andes
+      - andes==2.0.0
