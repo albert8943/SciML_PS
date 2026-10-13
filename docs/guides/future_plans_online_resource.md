@@ -24,6 +24,7 @@ This note records **product / site features** to add over time, inspired by publ
 | EEI Days 2026 talk (Rampure) | [Google Slides](https://docs.google.com/presentation/d/1pmyaWjjlKwRmPZqDNxcwOOw01ZCcfCLdo-wCgPnMzBc/edit) | Interactive JB notes + AI authoring; **saved locally** in [`docs/references/eecs245_eei_days_2026/`](../references/eecs245_eei_days_2026/) |
 | EECS 245 notes source | https://github.com/eecs245/notes | Live MyST/JB notes repo cited in that talk |
 | Workshop template | https://github.com/math-124/notes-example | Hands-on `jupyter book start` demo from the talk |
+| Wealthfolio **docs** (product help UX) | https://wealthfolio.app/docs/introduction/ | Landing discipline only — not our stack or TOC (see §1b) |
 
 **Rampure pattern (important):**
 
@@ -41,7 +42,22 @@ Feedback       (Google Form linked from book navbar)
 PDF            (MyST export → /exports/….pdf or Downloads action)
 ```
 
-SciML_PS today: foundations + Labs 1/3 prose exist; interim Feedback (GitHub issues) + LaTeX/jtex full-book PDF export (`templates/sciml_ps_book`, `scripts/build_pdf.*`, cover **Last updated** from git commit, section headers) + CI HTML/PDF jobs + local preview documented as **one URL** `http://localhost:3000/` (JB content port ~3100) + `portal/20XX-term/` template are in place. Live public host, Google Form URL, and further PDF polish remain open (§3 checkboxes). Detail: [`site_hosting.md`](site_hosting.md).
+SciML_PS today: foundations + Labs 1/3 prose exist; interim Feedback (GitHub issues) + LaTeX/jtex full-book PDF export (`templates/sciml_ps_book`, `scripts/build_pdf.*`, cover **Last updated** from git commit, section headers) + CI HTML/PDF jobs + local preview documented as **one URL** `http://localhost:3000/` (JB content port ~3100) + `portal/20XX-term/` template are in place. Home page uses Wealthfolio-style landing polish (§1b). Live public host, Google Form URL, and further PDF polish remain open (§3 checkboxes). Detail: [`site_hosting.md`](site_hosting.md).
+
+### 1b. Landing UX to borrow (not the docs stack)
+
+Wealthfolio’s help site is an **app manual** (MDX/Nextra/Starlight-*class* tooling). SciML_PS stays **Jupyter Book 2 / MyST** (course notes). Borrow **writing and IA polish** only:
+
+| Borrow | SciML_PS placement |
+|--------|-------------------|
+| One newcomer CTA | Home: “New here? → How to use → Preparation → Foundations” |
+| Slim pillar skim + depth elsewhere | Home: three bullets; full “what you produce” table on [book map](../../book/100_front/book_map.md) |
+| Explore entry tiles | Home: MyST `{grid}` + `{card}` (Getting started / Foundations / Laboratories / Reference) |
+| Quiet version cue | PDF cover **Last updated** (git commit); home note points there — do not add a second maintainer clock on every page |
+| Short caveats | One compact “prefer live notes” note; no long status essay on home |
+| Site search | Use theme search when hosting; locally sidebar + browser find. Do **not** switch the book engine for search alone |
+
+**Do not** replace JB2 with a product-docs framework, or reshape the TOC into “User Guide / Self-Hosting” buckets.
 
 ---
 
@@ -76,7 +92,7 @@ Official docs when implementing exports/site: [Jupyter Book websites](https://ju
 - [x] CI: `jupyter book build` on default branch (`.github/workflows/build-book.yml` artifact).
 - [ ] Deploy HTML to GitHub Pages (or equivalent); set `BASE_URL` correctly if using a subpath.
 - [ ] Put the public notes URL in root `README.md` and `book/100_front/how_to_use.md`.
-- [x] Prefer IPv4 loopback locally (`scripts/preview.ps1` already sets `HOST=127.0.0.1`).
+- [x] Local preview: one URL `http://localhost:3000/` (`HOST=localhost`; JB content port ~3100).
 - Detail: [`site_hosting.md`](site_hosting.md).
 
 ### 3.3 PDF export of the notes
@@ -111,6 +127,8 @@ Target actions once URLs exist (via `site.actions` and/or `site.parts.navbar_end
 ### 3.6 Optional later (not required for v1 offering)
 
 - [x] Replace default “Made with MyST” (navbar `logo_text` + `site.parts.primary_sidebar_footer` in `book/_site/`).
+- [x] Home landing polish (§1b): CTA, slim pillars, Explore cards, short PDF caveat.
+- [x] Theme builds `myst.search.json` (local search available in book theme); re-check UX label after public host is live.
 - [ ] Colab/Binder launch buttons for selected lab notebooks (PBDL-style).
 - [x] Site-wide footer (`site.parts.footer`); announcement banner still optional.
 - [ ] Accessibility pass (alt text, contrast) before a large enrollment.

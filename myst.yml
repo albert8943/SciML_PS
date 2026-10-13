@@ -96,9 +96,12 @@ site:
     primary_sidebar_footer: book/_site/primary_sidebar_footer.md
     footer: book/_site/site_footer.md
   # Navbar actions (EECS 245–style). Replace Feedback URL with a Google Form when ready.
+  # Absolute http(s) URLs open in a new tab; relative /paths replace the current tab (mystmd#2788).
+  # Local preview PDF is on the content server (port 3100). Before public deploy, switch PDF url
+  # to your hosted absolute PDF URL (still http(s) so it stays a new tab).
   actions:
     - title: PDF
-      url: /exports/sciml_ps_notes.pdf
+      url: http://localhost:3100/exports/sciml_ps_notes.pdf
     - title: Feedback
       url: https://github.com/albert8943/SciML_PS/issues/new
     - title: GitHub

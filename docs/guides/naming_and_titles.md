@@ -79,5 +79,6 @@ When inserting a new major part: create the folder, wire `myst.yml`, and add a *
 
 - Scope of the three applications: [`scope_lock_three_pillars.md`](scope_lock_three_pillars.md)
 - PDF build / cover provenance: [`site_hosting.md`](site_hosting.md)
+- Landing UX (CTA, cards, slim pillars): [`future_plans_online_resource.md`](future_plans_online_resource.md) §1b
 - Long-term part inserts (100-spacing): [`using_preview_edit_and_long_term_development.md`](using_preview_edit_and_long_term_development.md) §5
 - Vault → foundations provenance: [`vault_import_map.md`](vault_import_map.md)

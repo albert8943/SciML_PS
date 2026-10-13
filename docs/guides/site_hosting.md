@@ -24,6 +24,17 @@ Optional later: add `logo` / `logo_dark` image files under `book/_site/` and poi
 - Navbar action in [`myst.yml`](../../myst.yml) → GitHub issues (interim) or Google Form when ready
 - **Next:** create a Google Form; set `site.actions` Feedback `url:` to the form link (see EECS 245 pattern in [`future_plans_online_resource.md`](future_plans_online_resource.md))
 
+### PDF button opens in a new tab
+
+`site.actions` URLs that are **relative** (`/exports/…`) navigate in the **same tab**. Absolute `http(s)://…` actions open with `target="_blank"` (theme behavior). Per-action `target` is not configurable yet ([mystmd#2788](https://github.com/jupyter-book/mystmd/issues/2788)); footer `<script>` tags are stripped from MyST parts.
+
+| Context | `site.actions` PDF `url` in [`myst.yml`](../../myst.yml) |
+|---------|---------------------------|
+| Local `jupyter book start` | `http://localhost:3100/exports/sciml_ps_notes.pdf` (content server; keeps notes on port 3000) |
+| Public host | Absolute URL to the published PDF (same new-tab behavior) |
+
+Restart preview after changing the URL.
+
 ---
 
 ## Hosting

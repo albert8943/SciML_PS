@@ -15,3 +15,13 @@ How the notes are organized. Use the left sidebar for day-to-day navigation; thi
 | **Reference** | Reading list and notation |
 
 Read **Preparation → Foundations**, then deepen along **Dynamics**, **Stability**, or **Identification**. Labs sit beside the notes and cross-link from chapters.
+
+## What each application produces
+
+| Application | Engineering question | What you produce |
+|-------------|----------------------|------------------|
+| **Dynamic modeling and simulation** | How will the system evolve under specified inputs, parameters, and disturbances? | State trajectories, learned vector fields, hybrid dynamic models, parameterized response maps |
+| **Stability assessment** | Will the system remain stable, and how close is it to a stability boundary? | Stable/unstable decisions, critical clearing time (CCT), empirical stability boundaries |
+| **Parameter estimation and system identification** | Which parameters and dynamic relationships explain the measurements? | Inertia/damping estimates, controller parameters, learned missing terms, uncertainty estimates |
+
+In the sidebar these appear as **Dynamics**, **Stability**, and **Identification**.

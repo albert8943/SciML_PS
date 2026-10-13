@@ -6,10 +6,14 @@ A Jupyter Book 2 / MyST computational textbook for **Scientific Machine Learning
 
 ## Suggested order
 
+**New here?** After this page, go to [Preparation](../200_prep/overview.md), then [Foundations](../300_foundations/overview.md). The [home page](../index.md) also has Explore cards into Getting started, Foundations, Laboratories, and Reference.
+
 1. Complete [Preparation](../200_prep/overview.md).
 2. Work through [Foundations](../300_foundations/overview.md) before specializing.
 3. Deepen along [Dynamics](../400_dynamics/overview.md), [Stability](../500_stability/overview.md), or [Identification](../600_identification/overview.md) in any order after foundations.
 4. Use [Laboratories](../900_labs/README.md) as assessed practicals.
+
+Use the left sidebar to move around. On a hosted site, use the theme search box when available; locally, sidebar titles plus browser find (`Ctrl+F` / `Cmd+F`) are enough.
 
 ## Software
 
@@ -37,7 +41,7 @@ Then open [http://localhost:3000/](http://localhost:3000/) and leave that termin
 Stub pages are intentional. Executed labs, full slide decks, and videos arrive in later passes.
 
 :::{tip} PDF download
-The navbar **PDF** link serves the last built file at `/exports/sciml_ps_notes.pdf`. It does **not** regenerate on click. After content changes, run `scripts/build_pdf.ps1` or `scripts/build_pdf.sh` (needs LaTeX), then hard-refresh in **Chrome/Edge** (Cursor’s browser often shows a blank PDF). The cover shows **Last updated** from the latest git commit (not build clock). Treat the export as experimental: layout bugs can appear, and interactive figures do not survive.
+The navbar **PDF** control opens the last built file in a **new browser tab** (`http://localhost:3100/exports/sciml_ps_notes.pdf` during local preview) so the notes stay on `http://localhost:3000/`. It does **not** regenerate on click. After content changes, run `scripts/build_pdf.ps1` or `scripts/build_pdf.sh` (needs LaTeX), then hard-refresh the PDF tab in **Chrome/Edge**. Treat the export as experimental.
 :::
 
 :::{warning} Prefer the live site for labs
