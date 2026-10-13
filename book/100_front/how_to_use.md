@@ -17,8 +17,8 @@ Use the left sidebar to move around. On a hosted site, use the theme search box 
 
 ## Software
 
-- Core Python stack: `envs/course_core.yml`
-- ANDES labs: `envs/course_andes.yml` (pin one version; pilot before class)
+- Core Python stack: `envs/course_core.yml` (Labs 1–5 default)
+- Network / ANDES path (after SMIB CCT): `envs/course_andes.yml` — see [ANDES as network reference](../500_stability/03_andes_network_reference.md)
 
 ## Preview the book on your machine
 

@@ -25,6 +25,7 @@ This note records **product / site features** to add over time, inspired by publ
 | EECS 245 notes source | https://github.com/eecs245/notes | Live MyST/JB notes repo cited in that talk |
 | Workshop template | https://github.com/math-124/notes-example | Hands-on `jupyter book start` demo from the talk |
 | Wealthfolio **docs** (product help UX) | https://wealthfolio.app/docs/introduction/ | Landing discipline only — not our stack or TOC (see §1b) |
+| ANDES **docs / gallery** | https://docs.andes.app/en/stable/ | Network reference — summarize-then-link; see [`andes_content_strategy.md`](andes_content_strategy.md) |
 
 **Rampure pattern (important):**
 

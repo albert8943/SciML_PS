@@ -63,6 +63,7 @@ project:
         - file: book/500_stability/overview.md
         - file: book/500_stability/01_stability_and_cct.md
         - file: book/500_stability/02_surrogate_stability.md
+        - file: book/500_stability/03_andes_network_reference.md
     - title: Identification
       children:
         - file: book/600_identification/overview.md

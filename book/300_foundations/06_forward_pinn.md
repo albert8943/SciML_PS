@@ -48,7 +48,8 @@ For the classical swing equations with known $(H,D)$, place collocation points i
 
 ## Lab
 
-- [Lab 2 — Surrogate versus PINN](../900_labs/lab_02_surrogate_vs_pinn/index.md)
+- [Lab 2 — Surrogate versus PINN](../900_labs/lab_02_surrogate_vs_pinn/index.md)  
+- Optional further practice (does not replace Lab 2): [ANDES PINN surrogate gallery](https://docs.andes.app/en/stable/gallery/pinn-surrogate.html)
 
 ## Further reading
 

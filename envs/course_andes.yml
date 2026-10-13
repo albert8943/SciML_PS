@@ -1,8 +1,15 @@
-# Stub: pin ONE ANDES major version per lab/chapter.
-# Research repos in this workspace use ANDES 2.0 (Estimation) and
-# historically 1.10 (some TSA archives). Never mix silently.
+# Course ANDES environment (network / TSA reference after SMIB labs).
 #
-# Before first ANDES lab: replace the placeholder pin and pilot-test.
+# Preferred class network case (after Lab 5 SMIB CCT works):
+#   andes.get_case("kundur/kundur_full.xlsx")
+# Official CCT walkthrough (summarize in course; do not paste into book/):
+#   https://docs.andes.app/en/stable/gallery/critical-clearing-time.html
+#
+# Strategy: docs/guides/andes_content_strategy.md
+# Student bridge: book/500_stability/03_andes_network_reference.md
+#
+# PIN one version after pilot (example: andes==2.0.0). Never mix 1.x and 2.x
+# silently across labs. Research repos in this workspace may use different pins.
 name: sciml_ps_andes
 channels:
   - conda-forge
@@ -12,7 +19,8 @@ dependencies:
   - numpy
   - scipy
   - matplotlib
+  - pandas
   - jupyter
   - pip:
-      # TODO: pin after pilot, e.g. andes==2.0.0
+      # TODO after pilot: replace with a frozen pin, e.g. andes==2.0.0
       - andes

@@ -97,16 +97,14 @@ HTML output lands under a build directory (often `_build/` or as reported by the
 
 ### 2.4 Labs that need ANDES
 
-ANDES is **not** part of required Preparation (`200_prep`). Introduce it just-in-time for Lab 5 / network chapters. Policy: [`toc_architecture_decades.md`](toc_architecture_decades.md) § ANDES is not required Preparation.
-
-Use the dedicated env stub when you reach network labs:
+ANDES is **not** part of required Preparation (`200_prep`). Introduce it just-in-time after SMIB Lab 5 / network chapters. Policy: [`toc_architecture_decades.md`](toc_architecture_decades.md) § ANDES is not required Preparation. Content rules: [`andes_content_strategy.md`](andes_content_strategy.md). Student bridge: [`book/500_stability/03_andes_network_reference.md`](../../book/500_stability/03_andes_network_reference.md).
 
 ```bash
 conda env create -f envs/course_andes.yml
 conda activate sciml_ps_andes
 ```
 
-**Pin one ANDES version** in that file after a pilot. Never mix ANDES 1.10 and 2.0 in the same lab narrative or undocumented env.
+**Pin one ANDES version** after a pilot. Preferred case: `kundur/kundur_full.xlsx` + [CCT gallery](https://docs.andes.app/en/stable/gallery/critical-clearing-time.html). Never mix ANDES 1.10 and 2.0 in the same lab narrative. Summarize in `book/`; link official docs — do not paste ANDES tutorials.
 
 ### 2.5 Preview checklist
 

@@ -16,7 +16,7 @@ Keep **exactly five assessed laboratories** (Labs 1–5). Do **not** grow the la
 | 2 | Supervised surrogate versus PINN | After Lab 1 runs cleanly |
 | 3 | Inertia and damping (\(H\), \(D\)) estimation | Second (classical LS + loss surface; PINN next) |
 | 4 | Generalization of a learned dynamic model | After Labs 1–3 |
-| 5 | Stability and CCT | Third among “must run” (protocol + Lab 1 tooling; ANDES just-in-time — **not** in Prep) |
+| 5 | Stability and CCT | Third among “must run” (protocol + Lab 1 tooling; ANDES just-in-time — **not** in Prep). Optional **network extension** (Kundur / ANDES) after SMIB CCT — not a sixth assessed lab; see [`andes_content_strategy.md`](andes_content_strategy.md) |
 
 Suggested finish order for runnable offerings: **1 → 3 → 5**, then 2 and 4.
 

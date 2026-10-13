@@ -8,7 +8,7 @@ How the notes are organized. Use the left sidebar for day-to-day navigation; thi
 | **Preparation** | Short diagnostic notebooks (NumPy, ODEs, networks, gradients) |
 | **Foundations** | Shared SMIB model and core SciML ideas (losses, forward/inverse PINN, baselines) |
 | **Dynamics** | Deeper dynamic modeling and simulation (SciML for trajectories / vector fields) |
-| **Stability** | Stability assessment (labels, CCT, surrogate stability) |
+| **Stability** | Stability assessment (labels, CCT, surrogate stability; ANDES network bridge after SMIB) |
 | **Identification** | Parameter estimation and system identification |
 | **Advanced topics** | Optional extensions (operators, UQ, multimachine) when promoted from labs |
 | **Laboratories** | Assessed Labs 1–5 |

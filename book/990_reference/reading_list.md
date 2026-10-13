@@ -9,7 +9,8 @@ Seed from the course planning report bibliography. Replace stubs with edition-ch
 | B1 | Kundur and Malik, *Power System Stability and Control* | Dynamics / stability foundations |
 | B3 | Brunton and Kutz, *Data-Driven Science and Engineering* | Data-driven dynamics bridge |
 | B5 | Thuerey et al., [Physics-based Deep Learning](https://physicsbaseddeeplearning.org/intro.html) | Physical losses / differentiable physics |
-| S1 | [ANDES documentation](https://docs.andes.app/en/stable/) | Network simulation reference |
+| S1 | [ANDES documentation](https://docs.andes.app/en/stable/) | Network simulation reference (GPL v3); course bridge: [ANDES as network reference](../500_stability/03_andes_network_reference.md) |
+| S1a | [ANDES Gallery](https://docs.andes.app/en/stable/gallery/index.html) | Optional cases; preferred class network CCT: [Kundur CCT mapping](https://docs.andes.app/en/stable/gallery/critical-clearing-time.html) |
 
 ## Domain teaching pointers
 

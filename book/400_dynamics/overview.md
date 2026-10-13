@@ -12,6 +12,12 @@
 
 - Lab 1 (reference data), Lab 2 (surrogate vs PINN), Lab 4 (learned dynamics)
 
+## Further practice (optional)
+
+- After Labs 1–2: [ANDES PINN surrogate gallery](https://docs.andes.app/en/stable/gallery/pinn-surrogate.html) (SMIB + symbolic DAE path) — does not replace course labs  
+- Renewables / frequency projects: [low-inertia IEEE 14 gallery](https://docs.andes.app/en/stable/gallery/low-inertia-freq.html)  
+- Network reference overview: [ANDES as network reference](../500_stability/03_andes_network_reference.md)
+
 ## Status
 
 Overview stub only — grow independently after foundations.
