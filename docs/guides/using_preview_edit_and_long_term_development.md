@@ -215,7 +215,7 @@ After foundations exist, grow **400 / 500 / 600 in parallel**. That is the long-
 
 ### 5.2 Inserting a new major part (100-spacing)
 
-Need a new pillar between foundations and dynamics? Create `book/350_network_daes/` (example), add an overview page, wire it in `myst.yml`, and update the book map. Neighbors `300` and `400` stay put.
+Need a new pillar between foundations and dynamics? Create `book/350_network_daes/` (example), add an overview page, wire it in `myst.yml`, and update the **student** book map (`book/100_front/book_map.md`) with a named section row (not the raw folder ID as the main label). Neighbors `300` and `400` stay put.
 
 Reserved-style examples (optional future IDs):
 
