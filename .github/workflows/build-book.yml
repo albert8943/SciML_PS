@@ -1,5 +1,5 @@
-# Build the Jupyter Book 2 site (and PDF) on push to master.
-# Pages deploy is manual/opt-in until a public URL is chosen — see docs/guides/site_hosting.md
+# Build the Jupyter Book 2 site (and PDF) on push to master, then deploy to
+# GitHub Pages at https://sciml4ps.albertpoulose.com — see docs/guides/site_hosting.md
 name: build-book
 
 on:
@@ -9,38 +9,21 @@ on:
     branches: [master]
   workflow_dispatch:
 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+env:
+  PUBLIC_URL: https://sciml4ps.albertpoulose.com
+  LOCAL_PDF_URL: http://localhost:3100/exports/sciml_ps_notes.pdf
+
 jobs:
-  build-html:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-
-      - uses: actions/setup-node@v4
-        with:
-          node-version: "20"
-
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
-
-      - name: Install Jupyter Book 2
-        run: |
-          python -m pip install --upgrade pip
-          pip install "jupyter-book>=2.0.0a0"
-
-      - name: Build HTML site
-        run: jupyter book build
-
-      - name: Upload site artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: sciml-ps-book-html
-          path: |
-            _build
-            !_build/templates
-          if-no-files-found: warn
-
-  build-pdf:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -72,8 +55,20 @@ jobs:
           python -m pip install --upgrade pip
           pip install "jupyter-book>=2.0.0a0"
 
+      - name: Point navbar PDF button at the public site
+        run: sed -i "s#${LOCAL_PDF_URL}#${PUBLIC_URL}/exports/sciml_ps_notes.pdf#" myst.yml
+
       - name: Build PDF
+        continue-on-error: true
         run: python scripts/build_pdf.py
+
+      - name: Build static HTML site
+        run: jupyter book build --html --ci
+
+      - name: Add PDF and custom domain to site
+        run: |
+          python scripts/build_pdf.py --sync-only || echo "No PDF to sync"
+          echo "sciml4ps.albertpoulose.com" > _build/html/CNAME
 
       - name: Upload PDF artifact
         uses: actions/upload-artifact@v4
@@ -81,3 +76,21 @@ jobs:
           name: sciml-ps-notes-pdf
           path: exports/sciml_ps_notes.pdf
           if-no-files-found: warn
+
+      - name: Upload Pages artifact
+        if: github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _build/html
+
+  deploy:
+    if: github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

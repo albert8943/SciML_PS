@@ -39,9 +39,21 @@ Restart preview after changing the URL.
 
 ## Hosting
 
-- CI workflow: [`.github/workflows/build-book.yml`](../../.github/workflows/build-book.yml) builds HTML on `master` and uploads `_build` as an artifact; PDF job builds `exports/sciml_ps_notes.pdf` when TeX is available
-- **Next:** enable GitHub Pages (or other host) from the HTML artifact; set `BASE_URL` if using a project subpath; put the public URL in root `README.md` and `book/100_front/how_to_use.md`
-- After Pages is live, ensure `exports/sciml_ps_notes.pdf` is published under the site (`static_files: [exports]` + CI/build sync)
+**Public URL:** <https://sciml4ps.albertpoulose.com> (GitHub Pages, subdomain of the personal site `albertpoulose.com`).
+
+The book lives only in this repo. The personal website repo (`dr-albert-poulose`, Hugo) just links to it; do not copy book sources or `src/sciml_ps/` there.
+
+- CI workflow: [`.github/workflows/build-book.yml`](../../.github/workflows/build-book.yml) builds the PDF, then static HTML (`jupyter book build --html` → `_build/html`), syncs the PDF into `_build/html/exports/`, and deploys to Pages on every push to `master`. Pull requests build only.
+- CI rewrites the navbar PDF action from the local `localhost:3100` URL to `https://sciml4ps.albertpoulose.com/exports/sciml_ps_notes.pdf`; `myst.yml` keeps the local URL for preview.
+- A failed PDF build does not block the HTML deploy.
+
+### One-time setup (maintainer)
+
+1. **Repo visibility:** GitHub Pages on a free plan needs a **public** repo. Audit for sealed research content, then Settings → General → Change visibility. (Alternatives: GitHub Pro, or Cloudflare Pages / Netlify from a private repo.)
+2. **Pages source:** Settings → Pages → Build and deployment → Source: **GitHub Actions**.
+3. **DNS** at the `albertpoulose.com` registrar: add `CNAME` record, host `sciml4ps`, value `albert8943.github.io`.
+4. **Custom domain:** Settings → Pages → Custom domain: `sciml4ps.albertpoulose.com`, then tick **Enforce HTTPS** once the certificate is issued.
+5. **Personal site:** add a nav link (e.g. Teaching / Books) to `https://sciml4ps.albertpoulose.com` in the Hugo repo.
 
 ### Local preview (one book URL)
 

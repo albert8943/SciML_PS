@@ -2,6 +2,8 @@
 
 Portable teaching book (Jupyter Book 2 / MyST) on SciML for power-system **dynamics**, **stability**, and **parameter estimation**. Short form: **SciML for PS** (repo folder `SciML_PS`).
 
+**Online book:** <https://sciml4ps.albertpoulose.com> (deployed from `master` by GitHub Actions; one-time setup in [`docs/guides/site_hosting.md`](docs/guides/site_hosting.md#hosting)).
+
 Title usage (full vs short vs focus subtitle): [`docs/guides/naming_and_titles.md`](docs/guides/naming_and_titles.md).
 
 ## How to preview, edit, and develop
