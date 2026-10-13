@@ -21,7 +21,11 @@
 - Lab 2 / full inverse-PINN Lab 3 / executable Lab 5 ANDES CCT
 - Lessons 07–12 Mode A/B/C bakeoff; research experiment IDs
 
+## Later same day — student chrome vs folder IDs
+
+Removed student-facing **Folder** columns and bare part IDs from book overviews / how-to-use / labs index; provenance stays in maintainer guides. Canonical rule: [`../naming_and_titles.md`](../naming_and_titles.md) § Student chrome vs repo paths.
+
 ## Verify
 
 - `python -c "from sciml_ps import simulate_smib"` smoke OK
-- Preview: `scripts/preview.ps1` (Node.js + `HOST=127.0.0.1`)
+- Preview: `scripts/preview.ps1` (Node.js + `HOST=localhost`; one URL `http://localhost:3000/`)

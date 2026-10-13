@@ -17,4 +17,4 @@ Seed from the course planning report bibliography. Replace stubs with edition-ch
 |----|--------|------|
 | C13 | [PSCC 2024 tutorial](https://www.chatziva.com/pscc2024.html) | Power-system PINN / trustworthy AI tutorial landing |
 
-Full annotated lists live in `docs/planning/SciML_for_Power_Systems_Course_Development_Report.md`. Do not treat research-repo notebooks as redistributable course materials without a license check.
+A longer annotated bibliography lives in the course planning report (repository `docs/planning/`, maintainers). Do not treat research-repo notebooks as redistributable course materials without a license check.

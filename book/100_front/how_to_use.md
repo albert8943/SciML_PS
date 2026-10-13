@@ -2,14 +2,14 @@
 
 ## What this is
 
-A Jupyter Book 2 / MyST computational textbook for **Scientific Machine Learning (SciML) for Power Systems (PS)** — short form **SciML for PS**. Pages follow a common pattern (goals → reading → media → example → lab → misconceptions). See `book/chapter_template.md`.
+A Jupyter Book 2 / MyST computational textbook for **Scientific Machine Learning (SciML) for Power Systems (PS)** — short form **SciML for PS**. Focus: dynamic modeling, stability assessment, and system identification. Pages follow a common pattern (goals → reading → media → example → lab → misconceptions).
 
 ## Suggested order
 
-1. Complete the preparation overview (`200_prep`).
-2. Work through foundations (`300_foundations`) before specializing.
-3. Deepen along dynamics (`400`), stability (`500`), or identification (`600`) in any order after foundations.
-4. Use laboratories (`900_labs`) as assessed practicals.
+1. Complete [Preparation](../200_prep/overview.md).
+2. Work through [Foundations](../300_foundations/overview.md) before specializing.
+3. Deepen along [Dynamics](../400_dynamics/overview.md), [Stability](../500_stability/overview.md), or [Identification](../600_identification/overview.md) in any order after foundations.
+4. Use [Laboratories](../900_labs/README.md) as assessed practicals.
 
 ## Software
 
@@ -30,7 +30,7 @@ conda activate sciml_ps
 .\scripts\preview.ps1
 ```
 
-Then open `http://127.0.0.1:3000/` and leave that terminal running.
+Then open [http://localhost:3000/](http://localhost:3000/) and leave that terminal running.
 
 ## What not to expect yet
 

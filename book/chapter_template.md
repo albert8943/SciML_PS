@@ -24,7 +24,7 @@
 
 ## Lab
 
-- Link the relevant page under `900_labs/` when ready.
+- Link the relevant laboratory page (under Laboratories in the sidebar) when ready.
 
 ## Further reading
 

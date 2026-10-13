@@ -20,4 +20,4 @@
 - Distinguish **physical** vs **equivalent/effective** parameters in prose.
 - Converter GFM symbols $(M_v, D_v, m_p)$ appear only in electives with an explicit model map.
 
-Authors: see [`docs/guides/portable_latex_equations.md`](../../docs/guides/portable_latex_equations.md).
+Equation authoring across MyST and manuscripts is documented for maintainers in the repository guides (portable LaTeX equations).

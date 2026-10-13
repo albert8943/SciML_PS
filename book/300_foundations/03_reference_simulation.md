@@ -9,7 +9,7 @@
 ## Reading
 
 - Course report Lab 1; Weeks 2–4  
-- Numerical ODE notes in prep package (`200_prep`)
+- Numerical ODE notes in [Preparation](../200_prep/overview.md)
 
 ## Why a reference first
 

@@ -2,6 +2,8 @@
 
 Portable teaching book (Jupyter Book 2 / MyST) on SciML for power-system **dynamics**, **stability**, and **parameter estimation**. Short form: **SciML for PS** (repo folder `SciML_PS`).
 
+Title usage (full vs short vs focus subtitle): [`docs/guides/naming_and_titles.md`](docs/guides/naming_and_titles.md).
+
 ## How to preview, edit, and develop
 
 Maintainer handbook (preview, use, edit, decades-long growth):

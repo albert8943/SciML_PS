@@ -19,8 +19,9 @@ This guide is for **instructors and maintainers** of the SciML_PS book repositor
 **Design locks**
 
 - **One book, one TOC** — optional semester tracks go in `book/100_front/learning_paths.md`, not separate Course I/II trees.
-- **Part IDs use 100-spacing** (`100`, `200`, `300`, …) so new pillars can be inserted for decades without renumbering neighbors.
-- **Content policy** — portable SciML + power examples and public citations. Do **not** paste sealed research metrics, seed tables, or campaign YAML from research repos.
+- **Part IDs use 100-spacing** (`100`, `200`, `300`, …) so new pillars can be inserted for decades without renumbering neighbors. Those IDs are **not** student-facing labels — see [`naming_and_titles.md`](naming_and_titles.md) § Student chrome vs repo paths.
+- **Titles:** full / short brand / focus subtitle — see [`naming_and_titles.md`](naming_and_titles.md) (also PDF cover).
+- **Content policy** — portable SciML + power examples and public citations. Do **not** paste sealed research metrics, seed tables, or campaign YAML from research repos. Author provenance (vault lessons, planning report) stays in `docs/guides/`, not on student overviews.
 
 ---
 
@@ -215,7 +216,7 @@ After foundations exist, grow **400 / 500 / 600 in parallel**. That is the long-
 
 ### 5.2 Inserting a new major part (100-spacing)
 
-Need a new pillar between foundations and dynamics? Create `book/350_network_daes/` (example), add an overview page, wire it in `myst.yml`, and update the **student** book map (`book/100_front/book_map.md`) with a named section row (not the raw folder ID as the main label). Neighbors `300` and `400` stay put.
+Need a new pillar between foundations and dynamics? Create `book/350_network_daes/` (example), add an overview page, wire it in `myst.yml`, and update the **student** book map (`book/100_front/book_map.md`) with a named section row (not the raw folder ID as the main label). Do **not** add a Folder column or backtick path on the student map. Neighbors `300` and `400` stay put.
 
 Reserved-style examples (optional future IDs):
 

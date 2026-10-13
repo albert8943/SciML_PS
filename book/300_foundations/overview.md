@@ -34,12 +34,8 @@ Optional landscape: [SciML method families](00_sciml_landscape.md).
 
 ## Pillars after this part
 
-| Pillar | Folder | Engineering question |
-|--------|--------|----------------------|
-| Dynamics | `400_dynamics` | How will the system evolve? |
-| Stability | `500_stability` | Stable or not, and how close to the boundary? |
-| Identification | `600_identification` | Which parameters explain the measurements? |
-
-## Content sources (authors)
-
-Adapted from the course planning report and Obsidian beginner PINN lessons (01–06). Student pages do not carry research campaign metrics.
+| Pillar | Engineering question |
+|--------|----------------------|
+| [Dynamics](../400_dynamics/overview.md) | How will the system evolve? |
+| [Stability](../500_stability/overview.md) | Stable or not, and how close to the boundary? |
+| [Identification](../600_identification/overview.md) | Which parameters explain the measurements? |

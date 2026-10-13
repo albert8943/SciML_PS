@@ -13,9 +13,9 @@ Deliver an SMIB simulator, event schedule, dataset manifest, and convergence che
 
 ```bash
 conda activate sciml_ps
-cd /path/to/SciML_PS
+cd /path/to/SciML_PS   # repository root
 pip install -e .
-jupyter notebook book/900_labs/lab_01_reference_sim/lab01_reference_sim.ipynb
+jupyter notebook lab01_reference_sim.ipynb   # from this lab’s folder, or open the notebook link above
 ```
 
 No ANDES required.

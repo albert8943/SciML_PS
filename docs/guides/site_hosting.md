@@ -93,7 +93,17 @@ python scripts/build_pdf.py --sync-only
 
 ### Cover page (professional minimum)
 
-The PDF cover shows identity (brand, title, “Course notes”), author, one provenance line, and a short experimental caveat.
+Title forms follow [`naming_and_titles.md`](naming_and_titles.md). The PDF cover shows:
+
+| Cover line | Form |
+|------------|------|
+| Teal eyebrow | **SciML for PS** (short brand) |
+| Main title | From `myst.yml` `project.title` → full **Scientific Machine Learning (SciML) for Power Systems (PS)** |
+| Focus line | Focus — dynamic modeling, stability assessment, and system identification |
+| Provenance | **Last updated:** git commit local time + short hash |
+| Caveat | Experimental PDF note |
+
+Author line and experimental caveat remain below the navy block.
 
 `scripts/build_pdf.py` writes `templates/sciml_ps_book/gitinfo.tex` with:
 

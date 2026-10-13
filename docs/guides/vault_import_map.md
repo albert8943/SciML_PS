@@ -7,6 +7,8 @@
 
 Science scope stays locked in [`scope_lock_three_pillars.md`](scope_lock_three_pillars.md). Curriculum outcomes stay in [`../planning/SciML_for_Power_Systems_Course_Development_Report.md`](../planning/SciML_for_Power_Systems_Course_Development_Report.md).
 
+**Student chrome:** Do not put vault lesson IDs, “Content sources (authors)”, or repo folder columns on published `book/` pages. Provenance stays in this map; public labels follow [`naming_and_titles.md`](naming_and_titles.md) § Student chrome vs repo paths.
+
 ---
 
 ## COPY / promote first (rewrite into book or guides)

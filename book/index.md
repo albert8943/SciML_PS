@@ -27,9 +27,9 @@ Prefer the **online** book while you work. The PDF export is experimental: inter
 ## How to navigate
 
 - Start with [How to use this book](100_front/how_to_use.md) and the [book map](100_front/book_map.md).
-- To run the site on your machine, follow [Preview this book locally](100_front/preview_locally.md) (`scripts/preview.ps1` or `jupyter book start`).
+- To run the site on your machine, follow [Preview this book locally](100_front/preview_locally.md).
 - Work through **Preparation** → **Foundations**, then deepen along **Dynamics**, **Stability**, or **Identification**.
-- Assessed labs live under **Laboratories** (`900_labs`).
+- Assessed labs live under [Laboratories](900_labs/README.md).
 
 ## Content policy (short)
 
