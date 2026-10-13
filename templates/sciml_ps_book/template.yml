@@ -1,10 +1,10 @@
 jtex: v1
-title: SciML_PS Book PDF
-description: Navy/teal book-style PDF template for Scientific Machine Learning for Power Systems notes
+title: SciML for PS Book PDF
+description: Navy/teal book-style PDF template for Scientific Machine Learning (SciML) for Power Systems (PS) notes
 version: 1.0.0
 license: CC-BY-4.0
 authors:
-  - name: SciML for Power Systems project
+  - name: SciML for PS project
 tags:
   - book
   - course-notes

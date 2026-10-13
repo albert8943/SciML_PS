@@ -1,8 +1,12 @@
-# Scientific Machine Learning for Power Systems
+---
+subtitle: Focus — dynamic modeling, stability assessment, and system identification
+---
 
-Welcome. This book is about **using SciML for power-system applications**: you learn scientific machine learning methods in the service of concrete engineering tasks on the grid, not as abstract algorithms alone.
+# Scientific Machine Learning (SciML) for Power Systems (PS)
 
-We focus on **three applications**:
+Welcome. This book is about **using SciML for power-system applications**: scientific machine learning methods in the service of concrete engineering tasks on the grid, not as abstract algorithms alone. After this page we usually write the short form **SciML for PS**.
+
+The three applications:
 
 | Application | Engineering question | What you produce |
 |-------------|----------------------|------------------|

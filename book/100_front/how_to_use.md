@@ -2,7 +2,7 @@
 
 ## What this is
 
-A Jupyter Book 2 / MyST computational textbook scaffold for SciML in power systems. Pages follow a common pattern (goals → reading → media → example → lab → misconceptions). See `book/chapter_template.md`.
+A Jupyter Book 2 / MyST computational textbook for **Scientific Machine Learning (SciML) for Power Systems (PS)** — short form **SciML for PS**. Pages follow a common pattern (goals → reading → media → example → lab → misconceptions). See `book/chapter_template.md`.
 
 ## Suggested order
 
@@ -37,7 +37,7 @@ Then open `http://127.0.0.1:3000/` and leave that terminal running.
 Stub pages are intentional. Executed labs, full slide decks, and videos arrive in later passes.
 
 :::{tip} PDF download
-The navbar **PDF** link serves the last built file at `/exports/sciml_ps_notes.pdf`. It does **not** regenerate on click. After content changes, run `scripts/build_pdf.ps1` or `scripts/build_pdf.sh` (needs LaTeX), then hard-refresh in **Chrome/Edge** (Cursor’s browser often shows a blank PDF). Cover timestamps use the builder’s local timezone. Treat the export as experimental: layout bugs can appear, and interactive figures do not survive.
+The navbar **PDF** link serves the last built file at `/exports/sciml_ps_notes.pdf`. It does **not** regenerate on click. After content changes, run `scripts/build_pdf.ps1` or `scripts/build_pdf.sh` (needs LaTeX), then hard-refresh in **Chrome/Edge** (Cursor’s browser often shows a blank PDF). The cover shows **Last updated** from the latest git commit (not build clock). Treat the export as experimental: layout bugs can appear, and interactive figures do not survive.
 :::
 
 :::{warning} Prefer the live site for labs

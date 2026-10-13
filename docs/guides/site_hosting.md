@@ -6,6 +6,18 @@
 
 ---
 
+## Branding (navbar + sidebar + footer)
+
+MyST Book Theme puts “Made with MyST” in **two** places unless you override them:
+
+| Slot | Default | Our override |
+|------|---------|----------------|
+| **Top-left navbar** | `logo_text` missing → “Made with MyST” | `site.options.logo_text: SciML for PS` (full title on homepage / PDF) in [`myst.yml`](../../myst.yml) |
+| **Bottom of left TOC** | Made-with-MyST badge | [`book/_site/primary_sidebar_footer.md`](../../book/_site/primary_sidebar_footer.md) via `site.parts.primary_sidebar_footer` |
+| **Site-wide footer** | (none) | [`book/_site/site_footer.md`](../../book/_site/site_footer.md) via `site.parts.footer` (quiet MyST/JB credit) |
+
+Optional later: add `logo` / `logo_dark` image files under `book/_site/` and point `site.options.logo` at them. Empty the sidebar footer file to hide that slot only.
+
 ## Feedback
 
 - Student page: [`book/100_front/feedback.md`](../../book/100_front/feedback.md)
@@ -79,14 +91,15 @@ If preview is already up and the PDF on disk is already rebuilt:
 python scripts/build_pdf.py --sync-only
 ```
 
-### Cover page timestamps (builder local timezone)
+### Cover page (professional minimum)
+
+The PDF cover shows identity (brand, title, “Course notes”), author, one provenance line, and a short experimental caveat.
 
 `scripts/build_pdf.py` writes `templates/sciml_ps_book/gitinfo.tex` with:
 
-- `\compiledon` — wall clock when the PDF was built
-- `\lastcommitdate` — last git commit time
+- `\lastcommitdate` — shown as **Last updated:** local date/time + short hash
 
-Both use the **local timezone of the machine that runs the build**, labeled in a language-neutral form such as `(UTC+09:00)` (Korea) or `(UTC+05:30)` (India). They are **not** fixed to UTC.
+That stamp is the **latest git commit** (not PDF build wall-clock). Time is converted to the **builder machine’s local timezone**, labeled e.g. `(UTC+09:00)` or `(UTC+05:30)`. Rebuild clock / compile-time lines are intentionally omitted from the cover.
 
 ### Page headers (not stuck on “Contents”)
 

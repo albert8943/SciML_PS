@@ -2,7 +2,7 @@
 
 **Date:** 2026-10-13  
 **Repo:** SciML_PS  
-**Scope:** Full-book LaTeX/jtex PDF pipeline; navbar PDF serving; preview URL/ports; cover timezone; header marks
+**Scope:** Full-book LaTeX/jtex PDF pipeline; navbar PDF serving; preview URL/ports; cover provenance; header marks
 
 Canonical maintainer doc (keep this session short): [`../site_hosting.md`](../site_hosting.md).
 
@@ -15,7 +15,7 @@ Canonical maintainer doc (keep this session short): [`../site_hosting.md`](../si
 - Build helpers: `scripts/build_pdf.py`, `.ps1`, `.sh` (git stamp + TeX polish/recompile + site sync)
 - Navbar **PDF** action; CI `build-pdf` job in `.github/workflows/build-book.yml`
 - Sample MyST admonitions on index / how_to_use / foundations overview
-- Cover stamps use **builder local timezone** (`UTC+09:00` in Korea, etc.), not fixed UTC
+- Cover shows **Last updated** from latest git commit (local TZ + short hash); build wall-clock removed for a cleaner professional cover
 - Running headers show **section/page titles** (not stuck “Contents”)
 
 ### Preview / PDF button lessons
@@ -40,7 +40,7 @@ conda activate sciml_ps
 
 ## Docs updated this day
 
-- [`../site_hosting.md`](../site_hosting.md) — ports, PDF button, timezone, headers
+- [`../site_hosting.md`](../site_hosting.md) — ports, PDF button, cover Last updated, headers
 - [`../../book/100_front/preview_locally.md`](../../book/100_front/preview_locally.md) — one URL + troubleshooting
 - [`../../book/100_front/how_to_use.md`](../../book/100_front/how_to_use.md) — PDF tip
 - [`../using_preview_edit_and_long_term_development.md`](../using_preview_edit_and_long_term_development.md) — pointers

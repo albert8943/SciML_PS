@@ -1,6 +1,6 @@
-# Jupyter Book / MyST builds
+# Jupyter Book / MyST builds (root only — book/_site/ holds tracked theme parts)
 _build/
-_site/
+/_site/
 .myst/
 
 # Generated full-book PDF (rebuild with scripts/build_pdf.*; CI uploads artifact)

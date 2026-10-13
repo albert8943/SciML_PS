@@ -2,18 +2,20 @@
 # Docs: https://jupyterbook.org/stable/get-started/init
 version: 1
 project:
-  title: Scientific Machine Learning for Power Systems
+  title: Scientific Machine Learning (SciML) for Power Systems (PS)
   description: >
     Portable SciML methods for power-system dynamics, stability assessment,
-    and parameter estimation. Teaching resource — not a research results dump.
+    and parameter estimation (short form: SciML for PS). Teaching resource —
+    not a research results dump.
   keywords:
     - scientific machine learning
     - power systems
+    - SciML for PS
     - PINN
     - transient stability
     - system identification
   authors:
-    - name: SciML for Power Systems project
+    - name: SciML for PS project
   # Full-book PDF via LaTeX (jtex). Build: .\scripts\build_pdf.ps1 or ./scripts/build_pdf.sh
   # Custom skin: templates/sciml_ps_book (tcolorbox callouts, navy/teal branding).
   # static_files keeps a stable /exports/… URL for the navbar (not a hashed public/ copy).
@@ -85,6 +87,14 @@ site:
   template: book-theme
   options:
     hide_toc: false
+    # Top-left navbar: short form. Without logo_text, theme falls back to “Made with MyST”.
+    logo_text: SciML for PS
+    logo_url: /
+    logo_alt: Scientific Machine Learning (SciML) for Power Systems (PS)
+  # Sidebar footer replaces the bottom “Made with MyST” badge; site footer holds quiet credit.
+  parts:
+    primary_sidebar_footer: book/_site/primary_sidebar_footer.md
+    footer: book/_site/site_footer.md
   # Navbar actions (EECS 245–style). Replace Feedback URL with a Google Form when ready.
   actions:
     - title: PDF

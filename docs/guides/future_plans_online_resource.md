@@ -41,7 +41,7 @@ Feedback       (Google Form linked from book navbar)
 PDF            (MyST export → /exports/….pdf or Downloads action)
 ```
 
-SciML_PS today: foundations + Labs 1/3 prose exist; interim Feedback (GitHub issues) + LaTeX/jtex full-book PDF export (`templates/sciml_ps_book`, `scripts/build_pdf.*`, local-TZ cover stamps, section headers) + CI HTML/PDF jobs + local preview documented as **one URL** `http://localhost:3000/` (JB content port ~3100) + `portal/20XX-term/` template are in place. Live public host, Google Form URL, and further PDF polish remain open (§3 checkboxes). Detail: [`site_hosting.md`](site_hosting.md).
+SciML_PS today: foundations + Labs 1/3 prose exist; interim Feedback (GitHub issues) + LaTeX/jtex full-book PDF export (`templates/sciml_ps_book`, `scripts/build_pdf.*`, cover **Last updated** from git commit, section headers) + CI HTML/PDF jobs + local preview documented as **one URL** `http://localhost:3000/` (JB content port ~3100) + `portal/20XX-term/` template are in place. Live public host, Google Form URL, and further PDF polish remain open (§3 checkboxes). Detail: [`site_hosting.md`](site_hosting.md).
 
 ---
 
@@ -110,9 +110,9 @@ Target actions once URLs exist (via `site.actions` and/or `site.parts.navbar_end
 
 ### 3.6 Optional later (not required for v1 offering)
 
-- [ ] Replace or customize “Made with MyST” via `site.parts.primary_sidebar_footer`.
+- [x] Replace default “Made with MyST” (navbar `logo_text` + `site.parts.primary_sidebar_footer` in `book/_site/`).
 - [ ] Colab/Binder launch buttons for selected lab notebooks (PBDL-style).
-- [ ] Site-wide footer / announcement banner (`site.parts`).
+- [x] Site-wide footer (`site.parts.footer`); announcement banner still optional.
 - [ ] Accessibility pass (alt text, contrast) before a large enrollment.
 - [ ] License choice for book prose (update root `LICENSE`).
 

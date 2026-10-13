@@ -1,8 +1,6 @@
-# Scientific Machine Learning for Power Systems
+# Scientific Machine Learning (SciML) for Power Systems (PS)
 
-Portable teaching book (Jupyter Book 2 / MyST) on SciML for power-system **dynamics**, **stability**, and **parameter estimation**.
-
-This repository is a **scaffold**: stub chapters and labs, not finished prose.
+Portable teaching book (Jupyter Book 2 / MyST) on SciML for power-system **dynamics**, **stability**, and **parameter estimation**. Short form: **SciML for PS** (repo folder `SciML_PS`).
 
 ## How to preview, edit, and develop
 

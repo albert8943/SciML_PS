@@ -136,4 +136,4 @@ Open the `index.html` path printed by the CLI (often under `_build/`).
 | Theme download slow first time | Wait; JB2 caches templates under `_build/templates/` |
 | CLI flag unknown | Run `jupyter book --help` — JB2 names can change slightly |
 
-Maintainer detail (PDF engine, timezone stamps, hosting): `docs/guides/site_hosting.md`. Editing / long-term growth: `docs/guides/` (not book pages).
+Maintainer detail (PDF engine, cover provenance, hosting): `docs/guides/site_hosting.md`. Editing / long-term growth: `docs/guides/` (not book pages).
