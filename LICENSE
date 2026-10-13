@@ -2,7 +2,11 @@ Copyright (c) 2026 SciML_PS course authors.
 
 This repository is a course and textbook scaffold.
 Content under book/, slides/, and media/ is intended for teaching use.
-Third-party software (e.g. ANDES) retains its own licenses — see vendor notices.
+
+Third-party material retains its own license. License copies for any adapted
+third-party text or code live in LICENSES/ (for example LICENSES/PBDL-Apache-2.0.txt).
+Every external asset is recorded in docs/references/attribution_register.md.
+Installed software (e.g. ANDES, GPL-3.0) keeps its vendor license.
 
 Until a public license is chosen for the book prose, all rights are reserved.
 Choose and replace this file before publishing the site (e.g. CC-BY-4.0 for text,

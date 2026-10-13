@@ -13,6 +13,7 @@
 | [Portable LaTeX equations](portable_latex_equations.md) | Authoring: reuse equation bodies across MyST and manuscripts |
 | [Site hosting, PDF, feedback](site_hosting.md) | Phase E: CI, Pages, LaTeX PDF export, ports 3000/3100, cover Last updated, Form swap |
 | [Naming and titles](naming_and_titles.md) | Full title vs SciML for PS vs focus subtitle; student chrome vs folder IDs |
+| [PBDL reuse map](pbdl_reuse_map.md) | Apache-2.0 facts, cite-don't-copy default, PBDL section → book page tiers; pairs with the [attribution register](../references/attribution_register.md) |
 
 Cursor session notes: [`cursor_sessions/`](cursor_sessions/).
 
