@@ -49,7 +49,7 @@ The book lives only in this repo. The personal website repo (`dr-albert-poulose`
 
 ### One-time setup (maintainer)
 
-1. **Repo visibility:** GitHub Pages on a free plan needs a **public** repo. Audit for sealed research content, then Settings → General → Change visibility. (Alternatives: GitHub Pro, or Cloudflare Pages / Netlify from a private repo.)
+1. **Repo visibility:** GitHub Pages on a free plan needs a **public** repo. Audit for sealed research content (checklist: [legal and licensing](legal_and_licensing_considerations.md#7-checklist-tick-in-place)), then Settings → General → Change visibility. (Alternatives: GitHub Pro, or Cloudflare Pages / Netlify from a private repo.)
 2. **Pages source:** Settings → Pages → Build and deployment → Source: **GitHub Actions**.
 3. **DNS** at the `albertpoulose.com` registrar: add `CNAME` record, host `sciml4ps`, value `albert8943.github.io`.
 4. **Custom domain:** Settings → Pages → Custom domain: `sciml4ps.albertpoulose.com`, then tick **Enforce HTTPS** once the certificate is issued.

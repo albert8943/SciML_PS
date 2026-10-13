@@ -133,7 +133,7 @@ Target actions once URLs exist (via `site.actions` and/or `site.parts.navbar_end
 - [ ] Colab/Binder launch buttons for selected lab notebooks (PBDL-style).
 - [x] Site-wide footer (`site.parts.footer`); announcement banner still optional.
 - [ ] Accessibility pass (alt text, contrast) before a large enrollment.
-- [ ] License choice for book prose (update root `LICENSE`).
+- [x] License choice: content CC BY-NC-SA 4.0, code MIT (root `LICENSE`). Rationale and remaining pre-public checks: [`legal_and_licensing_considerations.md`](legal_and_licensing_considerations.md).
 
 ---
 
