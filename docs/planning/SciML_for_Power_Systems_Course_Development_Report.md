@@ -503,6 +503,8 @@ For students, assign one short segment or focused resource per week with a concr
 
 Public availability and attribution alone are not blanket permission to republish. License families differ: check attribution, commercial-use, adaptation, and share-alike requirements for the exact asset. Official Creative Commons guidance is linked as L1. This section is a practical asset-management workflow, not a legal determination for a particular distribution plan.
 
+**Outbound SciML_PS licences (chosen 2026-10-13):** book content (`book/`, `slides/`, `media/`, site, PDF) is **CC BY-NC-SA 4.0**; teaching code (`src/sciml_ps/`, `scripts/`, `tests/`, `templates/`, notebook code cells) is **MIT**. Full terms: repository root `LICENSE`. Maintainer checklist: `docs/guides/legal_and_licensing_considerations.md`. Student page: `book/100_front/license.md`.
+
 ### 13.2 What to reuse and what to author
 
 Reuse appropriately licensed generic diagrams, introductory AD examples, and basic neural-network exercises. Write original power-system derivations, benchmark specifications, fault-stage illustrations, CCT workflows, measurement models, and assessment questions. Reimplement methods from equations when that improves clarity and maintainability, while citing intellectual sources.

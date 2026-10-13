@@ -43,6 +43,7 @@ project:
         - file: book/100_front/book_map.md
         - file: book/100_front/learning_paths.md
         - file: book/100_front/feedback.md
+        - file: book/100_front/license.md
     - title: Preparation
       children:
         - file: book/200_prep/overview.md

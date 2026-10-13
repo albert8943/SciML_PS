@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Albert Poulose
 """Teaching utilities for Scientific Machine Learning for Power Systems."""
 
 from .andes_cct import false_safe_count, signed_cct_error

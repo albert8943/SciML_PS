@@ -23,7 +23,9 @@ LICENSES/PBDL-Apache-2.0.txt). Every external asset is recorded in
 docs/references/attribution_register.md. Installed software (e.g. ANDES,
 GPL-3.0) keeps its vendor license and is not redistributed here.
 
-Maintainer notes on licensing and pre-public checks:
+Student-facing summary: book/100_front/license.md
+Citation file: CITATION.cff
+Maintainer notes and pre-public checks:
 docs/guides/legal_and_licensing_considerations.md.
 
 Suggested attribution:

@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Albert Poulose
 """Parity and gradient checks for the differentiable SMIB rollout."""
 
 import pytest

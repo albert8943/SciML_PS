@@ -10,6 +10,14 @@ readme = "README.md"
 license = { text = "MIT" }
 authors = [{ name = "Albert Poulose" }]
 requires-python = ">=3.11"
+# Package code is MIT. Companion book content in this repo is CC BY-NC-SA 4.0
+# (see root LICENSE); that content is not installed by pip.
+classifiers = [
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Topic :: Scientific/Engineering",
+  "Intended Audience :: Education",
+]
 dependencies = [
   "numpy",
   "scipy",

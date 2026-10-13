@@ -11,3 +11,5 @@
 The navbar **PDF** button does not rebuild the PDF; run `build_pdf` after content changes. PDF notes: [`docs/guides/site_hosting.md`](../docs/guides/site_hosting.md).
 
 Book page with HTML preview commands: [`book/100_front/preview_locally.md`](../book/100_front/preview_locally.md).
+
+**License:** scripts are **MIT** (see root [`LICENSE`](../LICENSE)). Figure regeneration: `make_figures.py`.

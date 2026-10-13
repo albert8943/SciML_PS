@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Albert Poulose
 """Thin ANDES helpers for Lab 5 network CCT extension (optional dependency).
 
 Preferred case: ``andes.get_case("kundur/kundur_full.xlsx")``.

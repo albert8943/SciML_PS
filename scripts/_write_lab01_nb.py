@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Albert Poulose
 """One-shot helper to write Lab 1 notebook (run from repo root)."""
 import json
 from pathlib import Path

@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this book or the teaching code, please cite it as below."
+title: "Scientific Machine Learning (SciML) for Power Systems (PS)"
+authors:
+  - family-names: Poulose
+    given-names: Albert
+license:
+  - CC-BY-NC-SA-4.0
+  - MIT
+url: "https://sciml4ps.albertpoulose.com"
+repository-code: "https://github.com/albert8943/SciML_PS"
+type: software
+abstract: >
+  Portable teaching book and Python utilities for scientific machine learning
+  applied to power-system dynamics, stability assessment, and parameter
+  estimation (short form: SciML for PS). Book content is CC BY-NC-SA 4.0;
+  teaching code is MIT.
+keywords:
+  - scientific machine learning
+  - power systems
+  - PINN
+  - transient stability
+  - system identification
+version: 0.0.1
+date-released: "2026-10-13"

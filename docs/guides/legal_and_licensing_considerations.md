@@ -79,8 +79,9 @@ Official descriptions: [Creative Commons licences](https://creativecommons.org/l
 - [ ] Repo audited for confidential results, collaborator data, and paywalled figures before going public for Pages ([site hosting](site_hosting.md) setup step 1). Partly done 2026-10-13: third-party slides removed from history, copied stability figures replaced by original ones. Final look before switching visibility.
 - [ ] Each own-paper figure checked against its publisher reuse terms (recorded in the attribution register)
 - [ ] Figures on albertpoulose.com that the book once shared: check their origin separately
-- [x] Prose licence chosen: CC BY-NC-SA 4.0 (root `LICENSE`, `LICENSES/CC-BY-NC-SA-4.0.txt`, `myst.yml`, site footer)
-- [x] Code licence chosen: MIT for `src/sciml_ps/`, `scripts/`, `tests/`, `templates/` (`LICENSES/MIT.txt`)
+- [x] Prose licence chosen: CC BY-NC-SA 4.0 (root `LICENSE`, `LICENSES/CC-BY-NC-SA-4.0.txt`, `myst.yml`, site footer, PDF cover, `book/100_front/license.md`, planning report §13)
+- [x] Code licence chosen: MIT for `src/sciml_ps/`, `scripts/`, `tests/`, `templates/` (`LICENSES/MIT.txt`, SPDX headers on package modules, jtex `template.yml`)
+- [x] Citation file: `CITATION.cff` (dual SPDX)
 - [ ] Contribution policy written before the first outside pull request
 - [ ] Trademark search on "SciML for PS" before commercial use
 - [ ] Optional: Korea Copyright Commission registration after the first stable public version

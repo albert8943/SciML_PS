@@ -1,4 +1,6 @@
 #!/usr/bin/env python
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Albert Poulose
 """Build the SciML_PS full-book PDF (MyST → LaTeX → PDF).
 
 Writes git commit metadata into ``templates/sciml_ps_book/gitinfo.tex``, runs

@@ -26,6 +26,10 @@ One row per external asset that shaped, or was copied into, SciML_PS. This regis
 | ANDES | https://github.com/CURENT/andes | Cui et al. | Installed package (pinned 2.0.0 in `envs/course_andes.yml`) | 2.0.0 | GPL-3.0 (official repo) | software-dependency | Labs 1 and 5, Stability network reference | Not redistributed; called from notebooks | Cite ANDES paper | n/a |
 | DeepXDE | https://github.com/lululxvi/deepxde | Lu et al. | Not used in labs yet | n/a | LGPL-2.1 (official repo) | software-dependency | Reading list only | None | Cite DeepXDE paper | n/a |
 
+## Outbound SciML_PS licenses (not third-party)
+
+Our own materials: content **CC BY-NC-SA 4.0**, code **MIT** (root [`LICENSE`](../../LICENSE)). This register only tracks **inbound** third-party assets.
+
 ## Rules
 
 - Never copy PBDL figures. Some come from third-party papers, which the repository license may not cover. Redraw them.

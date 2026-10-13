@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Albert Poulose
 """Differentiable classical SMIB rollout in PyTorch (fixed-step RK4).
 
 Same model, parameters, and fault stages as :mod:`sciml_ps.smib`, written so that

@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Albert Poulose
 """Classical SMIB swing-equation helper for teaching labs (no ANDES)."""
 
 from __future__ import annotations

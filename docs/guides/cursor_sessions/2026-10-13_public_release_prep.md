@@ -8,7 +8,7 @@
 | Item | Path / note |
 |------|-------------|
 | Pages deploy to `sciml4ps.albertpoulose.com` | `.github/workflows/build-book.yml`; setup steps in [`../site_hosting.md`](../site_hosting.md#hosting) |
-| Dual license: content CC BY-NC-SA 4.0, code MIT | `LICENSE`, `LICENSES/CC-BY-NC-SA-4.0.txt`, `LICENSES/MIT.txt`, `myst.yml` `license`, `pyproject.toml`, site footer |
+| Dual license: content CC BY-NC-SA 4.0, code MIT | `LICENSE`, `LICENSES/*`, `myst.yml`, `pyproject.toml`, site footer, PDF cover, `book/100_front/license.md`, `CITATION.cff`, SPDX headers on `src/sciml_ps/` |
 | Original transient-cases figure | `media/figures/smib-transient-cases.png` from `scripts/make_figures.py` (`sciml_ps.smib`) |
 | IEEE/CIGRE classification | Mermaid diagram in `book/500_stability/01_stability_and_cct.md`; attribution row `IEEE-CIGRE-CLASS` |
 | Third-party EEI Days slides | Removed from repo; offline copies in git-ignored `docs/references/_private/` |

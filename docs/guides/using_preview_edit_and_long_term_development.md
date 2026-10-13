@@ -261,6 +261,12 @@ Reserved-style examples (optional future IDs):
 - Tag offerings so old classes can pin a commit even as the book evolves.
 - Prefer branches for experimental pedagogy; merge when the TOC and env still build.
 
+### 5.5b Licensing (fixed)
+
+- **Content** (`book/`, `slides/`, `media/`, site, PDF): **CC BY-NC-SA 4.0**.
+- **Code** (`src/sciml_ps/`, `scripts/`, `tests/`, `templates/`, notebook code cells): **MIT**.
+- Do not change these casually. Keep student page [`book/100_front/license.md`](../../book/100_front/license.md), root [`LICENSE`](../../LICENSE), `myst.yml` `project.license`, site footer, and PDF cover in sync. Full checklist: [`legal_and_licensing_considerations.md`](legal_and_licensing_considerations.md).
+
 ### 5.6 Relationship to research repositories
 
 Research code (parameter estimation, TSA campaigns, TEF baselines) is **instructor memory**, not the student book.

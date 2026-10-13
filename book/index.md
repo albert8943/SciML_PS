@@ -51,3 +51,5 @@ Work in the **online** book. The navbar **PDF** is a snapshot (experimental; int
 :::
 
 Portable methods and public citations only — no sealed research campaign results on student pages.
+
+**License:** content [CC BY-NC-SA 4.0](100_front/license.md); code MIT.

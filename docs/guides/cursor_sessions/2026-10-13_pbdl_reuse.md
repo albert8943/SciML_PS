@@ -42,4 +42,4 @@ The `sciml_ps` conda env currently has no `torch` although `envs/course_core.yml
 
 - Real adapted PBDL code: none yet; checklist in `pbdl_reuse_map.md` applies when it happens.
 - Probabilistic UQ and graph models: Advanced pointers only.
-- Book prose license choice: still open; the register keeps third-party terms decoupled.
+- Book prose license: **chosen** (CC BY-NC-SA 4.0 content + MIT code; see root `LICENSE`). The attribution register still keeps third-party terms decoupled.

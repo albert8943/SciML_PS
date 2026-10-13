@@ -2,9 +2,11 @@ jtex: v1
 title: SciML for PS Book PDF
 description: Navy/teal book-style PDF template for Scientific Machine Learning (SciML) for Power Systems (PS) notes
 version: 1.0.0
-license: CC-BY-4.0
+# jtex template package itself (code under MIT). PDF *content* is CC BY-NC-SA 4.0.
+license: MIT
 authors:
-  - name: SciML for PS project
+  - name: Albert Poulose
+
 tags:
   - book
   - course-notes

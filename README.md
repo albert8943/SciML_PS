@@ -93,7 +93,14 @@ Helper scripts: [`scripts/`](scripts/). Config: [`myst.yml`](myst.yml). PDF deta
 
 ## License
 
-© 2026 Albert Poulose. Book content (`book/`, `slides/`, `media/`, site, PDF) is [CC BY-NC-SA 4.0](LICENSES/CC-BY-NC-SA-4.0.txt); code (`src/sciml_ps/`, `scripts/`, `tests/`, notebook code cells) is [MIT](LICENSES/MIT.txt). Commercial use of the content needs written permission. Details: [`LICENSE`](LICENSE).
+© 2026 Albert Poulose.
+
+| Material | License | Scope |
+|----------|---------|-------|
+| Book content | [CC BY-NC-SA 4.0](LICENSES/CC-BY-NC-SA-4.0.txt) | `book/`, `slides/`, `media/`, generated site and PDF |
+| Teaching code | [MIT](LICENSES/MIT.txt) | `src/sciml_ps/`, `scripts/`, `tests/`, `templates/`, notebook code cells |
+
+Others may share and adapt the content for **non-commercial** teaching with attribution under the same license. **Commercial** use of the content needs written permission. Cite via [`CITATION.cff`](CITATION.cff). Student summary: [`book/100_front/license.md`](book/100_front/license.md). Full terms: [`LICENSE`](LICENSE).
 
 ## Single book
 

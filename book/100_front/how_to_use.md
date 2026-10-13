@@ -52,6 +52,10 @@ For executable laboratories and notebooks, use the HTML book (or Binder/Colab la
 
 See [Feedback](feedback.md) (GitHub issues for now; Google Form planned).
 
+## License
+
+Book content is **CC BY-NC-SA 4.0** (free to share and adapt for non-commercial teaching with credit). Teaching code is **MIT**. Full terms: [License](license.md).
+
 ## For instructors and maintainers
 
-Previewing, editing chapters, wiring the TOC, and growing parts over many years is documented in the git repo under the `docs/guides/` folder (maintainer handbook; not a book page). Hosting/PDF notes: `docs/guides/site_hosting.md`.
+Previewing, editing chapters, wiring the TOC, and growing parts over many years is documented in the git repo under the `docs/guides/` folder (maintainer handbook; not a book page). Hosting/PDF notes: `docs/guides/site_hosting.md`. Legal checklist: `docs/guides/legal_and_licensing_considerations.md`.

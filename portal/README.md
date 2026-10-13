@@ -39,6 +39,10 @@ Keep the portal **thin**: Quarto, MkDocs, or static HTML are all fine. Prefer wh
 - Full feature roadmap: [`docs/guides/future_plans_online_resource.md`](../docs/guides/future_plans_online_resource.md)
 - Scope lock (three pillars): [`docs/guides/scope_lock_three_pillars.md`](../docs/guides/scope_lock_three_pillars.md)
 
+## License note
+
+When this portal gains its own pages, keep **operations text** aligned with the book: content **CC BY-NC-SA 4.0**, any custom scripts **MIT**, unless a term-specific university policy requires otherwise. Do not copy third-party course portals wholesale.
+
 ## Current status
 
 Placeholder only. Book entry points today: repository `README.md` and `book/index.md` (local preview via `scripts/preview.ps1`).

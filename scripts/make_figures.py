@@ -1,4 +1,6 @@
 #!/usr/bin/env python
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Albert Poulose
 """Regenerate original teaching figures in media/figures/ from sciml_ps code.
 
 Usage (repo root, sciml_ps env): python scripts/make_figures.py

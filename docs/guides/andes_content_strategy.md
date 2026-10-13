@@ -24,7 +24,7 @@ ANDES ([docs.andes.app](https://docs.andes.app/en/stable/)) is the **optional ne
 - Cap ~half page or one tip/note box per topic; if it becomes a tutorial, cut and link.
 - Do not re-derive the ANDES symbolic-numeric framework in the book ([Modeling guide](https://docs.andes.app/en/stable/modeling/index.html)).
 
-**License:** ANDES is **GPL v3**. Install and call it from labs; cite and link docs; short paraphrases + links are fine. Do not republish large tutorial or derivation text. Keep book prose license separate from the software license (planning report §13).
+**License:** ANDES is **GPL v3**. Install and call it from labs; cite and link docs; short paraphrases + links are fine. Do not republish large tutorial or derivation text. Keep book prose (**CC BY-NC-SA 4.0**) and teaching code (**MIT**) separate from the ANDES software license (planning report §13; root `LICENSE`).
 
 ---
 

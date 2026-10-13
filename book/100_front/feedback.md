@@ -15,3 +15,5 @@ Open a GitHub issue on the SciML_PS repository with:
 A Google Form (EECS 245–style) will replace the interim GitHub channel once a form URL is ready.
 
 Do not paste confidential research data or student grades into public issues.
+
+License terms for reusing these notes: [License](license.md).

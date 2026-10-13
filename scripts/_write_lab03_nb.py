@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Albert Poulose
 """Write Lab 3 starter notebook."""
 import json
 from pathlib import Path
