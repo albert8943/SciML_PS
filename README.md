@@ -10,6 +10,14 @@ Maintainer handbook (preview, use, edit, decades-long growth):
 
 [`docs/guides/using_preview_edit_and_long_term_development.md`](docs/guides/using_preview_edit_and_long_term_development.md)
 
+Install teaching package (Lab 1+):
+
+```bash
+pip install -e .
+```
+
+Site product next steps (CI, Pages, PDF, Form): [`docs/guides/site_hosting.md`](docs/guides/site_hosting.md).
+
 ## Layout
 
 | Path | Purpose |

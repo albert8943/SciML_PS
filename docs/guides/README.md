@@ -5,6 +5,11 @@
 | [Using, previewing, editing, and long-term development](using_preview_edit_and_long_term_development.md) | How to preview the book, use the resource, edit content, and grow the site over decades |
 | [Scope lock: three pillars](scope_lock_three_pillars.md) | Dynamics / stability / identification are enough for now; when (not) to widen |
 | [Future plans for the online resource](future_plans_online_resource.md) | PDF, course portal, feedback form, hosting — EECS 245–style backlog + stack locks |
+| [Vault → SciML_PS import map](vault_import_map.md) | Which Obsidian teaching notes to COPY / ADAPT / KEEP, mapped to book paths |
+| [Portable LaTeX equations](portable_latex_equations.md) | Authoring: reuse equation bodies across MyST and manuscripts |
+| [Site hosting, PDF, feedback](site_hosting.md) | Phase E: CI build, Pages next steps, PDF export, Form swap |
+
+Cursor session notes: [`cursor_sessions/`](cursor_sessions/).
 
 Student-facing navigation: [`book/100_front/how_to_use.md`](../../book/100_front/how_to_use.md).
 

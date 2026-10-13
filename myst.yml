@@ -12,6 +12,13 @@ project:
     - PINN
     - transient stability
     - system identification
+  # PDF export (Typst). Build with: jupyter book build --pdf
+  # Output location is reported by the CLI (often under _build/exports/).
+  exports:
+    - format: typst
+      template: plain_typst
+      article: book/index.md
+      output: exports/sciml_ps_notes_stub.pdf
   toc:
     - file: book/index.md
     - title: Front matter
@@ -20,12 +27,14 @@ project:
         - file: book/100_front/preview_locally.md
         - file: book/100_front/book_map.md
         - file: book/100_front/learning_paths.md
+        - file: book/100_front/feedback.md
     - title: Preparation
       children:
         - file: book/200_prep/overview.md
     - title: Foundations
       children:
         - file: book/300_foundations/overview.md
+        - file: book/300_foundations/00_sciml_landscape.md
         - file: book/300_foundations/01_problem_framing.md
         - file: book/300_foundations/02_smib_dynamics.md
         - file: book/300_foundations/03_reference_simulation.md
@@ -48,6 +57,7 @@ project:
       children:
         - file: book/600_identification/overview.md
         - file: book/600_identification/01_measurements_and_excitation.md
+        - file: book/600_identification/02_physical_vs_equivalent.md
     - title: Advanced topics
       children:
         - file: book/700_advanced/overview.md
@@ -67,3 +77,12 @@ site:
   template: book-theme
   options:
     hide_toc: false
+  # Navbar actions (EECS 245–style). Replace Feedback URL with a Google Form when ready.
+  actions:
+    - title: Feedback
+      url: https://github.com/albert8943/SciML_PS/issues/new
+    - title: GitHub
+      url: https://github.com/albert8943/SciML_PS
+    # Uncomment when a public course portal exists:
+    # - title: Course website
+    #   url: https://example.org/sciml-ps-course/

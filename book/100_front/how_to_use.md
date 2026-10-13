@@ -36,6 +36,10 @@ Then open `http://127.0.0.1:3000/` and leave that terminal running.
 
 Stub pages are intentional. Executed labs, full slide decks, and videos arrive in later passes.
 
+## Feedback
+
+See [Feedback](feedback.md) (GitHub issues for now; Google Form planned).
+
 ## For instructors and maintainers
 
-Previewing, editing chapters, wiring the TOC, and growing parts over many years is documented in the git repo under the `docs/guides/` folder (maintainer handbook; not a book page).
+Previewing, editing chapters, wiring the TOC, and growing parts over many years is documented in the git repo under the `docs/guides/` folder (maintainer handbook; not a book page). Hosting/PDF notes: `docs/guides/site_hosting.md`.

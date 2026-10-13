@@ -1,11 +1,23 @@
 # Notation
 
-## Status
+## Conventions (teaching draft)
 
-Stub. Align teaching notation with a single table before first offering.
+| Symbol | Meaning |
+|--------|---------|
+| $\delta, \omega$ | Rotor angle, speed (classical SMIB) |
+| $H, D$ | Inertia, damping (Lab 3 estimands) |
+| $P_m, P_e$ | Mechanical / electrical power |
+| $\theta$ | Generic parameter vector |
+| $\hat{x}(t)$ | Network-predicted state |
+| $\mathcal{L}_{\mathrm{data}}, \mathcal{L}_{\mathrm{phys}}$ | Data and physics losses |
+| $\lambda_{\mathrm{phys}}$ | Physics loss weight |
+| CCT | Critical clearing time |
 
-## Planned conventions
+## Rules
 
-- SI units internally unless a page explicitly uses per-unit.
-- Time-series batches in code examples: `(batch, time, dim)` when tensors appear.
-- Distinguish physical parameters (for example \(H, D\)) from equivalent/effective parameters in prose.
+- Prefer **per-unit** classical SMIB in labs; document the base in the manifest.
+- Tensor batches in code examples: `(batch, time, dim)` when tensors appear.
+- Distinguish **physical** vs **equivalent/effective** parameters in prose.
+- Converter GFM symbols $(M_v, D_v, m_p)$ appear only in electives with an explicit model map.
+
+Authors: see [`docs/guides/portable_latex_equations.md`](../../docs/guides/portable_latex_equations.md).

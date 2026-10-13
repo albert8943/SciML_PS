@@ -4,12 +4,15 @@
 
 ## Focus
 
-Identifiability, measurement contracts, excitation, classical vs physics-informed estimators. Teaching Lab 3 uses classical inertia/damping. Converter-parameter electives (for example GFM/GFL reduced-order knobs) are extensions — keep estimands explicit.
+Identifiability, measurement contracts, excitation, and classical vs physics-informed estimators. Teaching Lab 3 uses classical inertia and damping $(H, D)$. Converter-parameter electives (GFM/GFL reduced-order knobs) stay optional and must name estimands explicitly.
 
-## Labs
+## Learning path
 
-- Lab 3 — `900_labs/lab_03_inertia_damping_id`
+1. Foundations: [classical estimation](../300_foundations/07_classical_estimation.md), [identifiability](../300_foundations/08_identifiability.md), [inverse PINN](../300_foundations/09_inverse_pinn.md)  
+2. [Measurements and excitation](01_measurements_and_excitation.md)  
+3. [Physical vs equivalent parameters](02_physical_vs_equivalent.md)  
+4. [Lab 3 — Inertia and damping](../900_labs/lab_03_inertia_damping_id/index.md)
 
-## Status
+## Honesty rule
 
-Overview plus one chapter stub.
+Low trajectory error does not certify physical parameter recovery. Report bounds, excitation, and a held-out disturbance test.

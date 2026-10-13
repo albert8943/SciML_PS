@@ -2,21 +2,23 @@
 
 ## Learning goals
 
-- Confirm Python/NumPy fluency for array workflows.
-- Integrate a simple ODE and plot trajectories.
-- Fit a small neural regression model and compute gradients.
+- Confirm Python/NumPy fluency for array workflows
+- Integrate a simple ODE and plot trajectories
+- Fit a small neural regression model and compute gradients
 
-## Planned prep package (from course report)
+## Prep package (four notebooks)
 
-Four notebooks (to be added):
+| Notebook | Focus |
+|----------|--------|
+| [`nb01_numpy_basics.ipynb`](nb01_numpy_basics.ipynb) | Arrays, broadcasting, plotting |
+| [`nb02_ode_integration.ipynb`](nb02_ode_integration.ipynb) | `solve_ivp` on a damped oscillator |
+| [`nb03_nn_regression.ipynb`](nb03_nn_regression.ipynb) | Tiny MLP curve fit (NumPy or PyTorch) |
+| [`nb04_gradients.ipynb`](nb04_gradients.ipynb) | Manual vs AD gradients |
 
-1. Python / NumPy
-2. Numerical integration
-3. Neural-network regression
-4. Gradient-based optimization
+## Diagnostic
 
-Plus a **diagnostic**: simulate a damped oscillator and fit a simple regression model.
+After the four notebooks, simulate a damped oscillator and fit a simple regression model to its samples. If that is painful, finish a programming bridge course before Lab 1.
 
-## Status
+## Next
 
-Stub only — notebooks not yet committed.
+- [Foundations overview](../300_foundations/overview.md)
