@@ -15,6 +15,10 @@ A Jupyter Book 2 / MyST computational textbook for **Scientific Machine Learning
 
 Use the left sidebar to move around. On a hosted site, use the theme search box when available; locally, sidebar titles plus browser find (`Ctrl+F` / `Cmd+F`) are enough.
 
+:::{tip} Browser
+Prefer **Google Chrome**, **Microsoft Edge**, or another Chromium-based browser for the live notes. Interactive figures and long pages scroll more reliably there than in Safari.
+:::
+
 ## Software
 
 - Core Python stack: `envs/course_core.yml` (Labs 1–5 default)

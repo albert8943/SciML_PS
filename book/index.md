@@ -16,6 +16,12 @@ Welcome. This book teaches **scientific machine learning for power-system applic
 
 Shared tools (SMIB models, data and physics losses, classical baselines) come first in **Foundations**, then you deepen along one or more pillars. What each application *produces*: [Book map](100_front/book_map.md).
 
+## Why this book?
+
+Power-system SciML is scattered across papers, gallery notebooks, and research codes. This book keeps **one living narrative**: three engineering questions on a shared SMIB plant, classical baselines beside neural methods, and runnable labs. Methods appear when an application needs them, not as a method ladder. Interactive notebooks sit beside the prose so you can check claims on the same model you just read about.
+
+New here? Also read [Advice to the student](100_front/advice.md).
+
 ## Explore the notes
 
 ::::{grid} 1 1 2 2
@@ -52,4 +58,10 @@ Work in the **online** book. The navbar **PDF** is a snapshot (experimental; int
 
 Portable methods and public citations only — no sealed research campaign results on student pages.
 
-**License:** content [CC BY-NC-SA 4.0](100_front/license.md); code MIT.
+## Acknowledgements, feedback, and licence
+
+Product and site patterns for living computational notes were informed by public teaching sites such as the [EECS 245 course notes](https://notes.eecs245.org/) (Suraj Rampure; CC BY-NC-ND 4.0 — we link and reimplement patterns; we do not adapt their text). Method background for physics-informed training draws on [Physics-based Deep Learning](https://physicsbaseddeeplearning.org/) (Thuerey et al.; Apache-2.0 ideas cited as B5). Network simulation references use [ANDES](https://docs.andes.app/en/stable/) as an installed tool (GPL-3.0).
+
+Typos and unclear pages: [Feedback](100_front/feedback.md).
+
+**License:** content [CC BY-NC-SA 4.0](100_front/license.md); code MIT. Full terms on that page.
