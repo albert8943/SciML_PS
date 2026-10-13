@@ -8,12 +8,16 @@
 
 ## Prep package (four notebooks)
 
-| Notebook | Focus |
-|----------|--------|
-| [`nb01_numpy_basics.ipynb`](nb01_numpy_basics.ipynb) | Arrays, broadcasting, plotting |
-| [`nb02_ode_integration.ipynb`](nb02_ode_integration.ipynb) | `solve_ivp` on a damped oscillator |
-| [`nb03_nn_regression.ipynb`](nb03_nn_regression.ipynb) | Tiny MLP curve fit (NumPy or PyTorch) |
-| [`nb04_gradients.ipynb`](nb04_gradients.ipynb) | Manual vs AD gradients |
+The four notebooks are also in the left sidebar under **Preparation**. Today they are **stubs** (scaffold cells only); expand them before relying on this section for a full course offering.
+
+| Notebook | Focus | Status |
+|----------|--------|--------|
+| [Prep 01 — NumPy basics](nb01_numpy_basics.ipynb) | Arrays, broadcasting, plotting | Stub |
+| [Prep 02 — ODE integration](nb02_ode_integration.ipynb) | `solve_ivp` on a damped oscillator | Stub |
+| [Prep 03 — Tiny neural regression](nb03_nn_regression.ipynb) | Tiny MLP curve fit (NumPy or PyTorch) | Stub |
+| [Prep 04 — Gradients](nb04_gradients.ipynb) | Manual vs AD gradients | Stub |
+
+**Download a local copy:** use the notebook page’s download control when the theme shows one, or open the files from the repository folder `book/200_prep/`. Cloud run (Colab / Binder) will be added after Labs 1–5 are ready — not for this public scaffold.
 
 ## Diagnostic
 

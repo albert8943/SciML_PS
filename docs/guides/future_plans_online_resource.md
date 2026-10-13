@@ -130,7 +130,7 @@ Target actions once URLs exist (via `site.actions` and/or `site.parts.navbar_end
 - [x] Replace default “Made with MyST” (navbar `logo_text` + `site.parts.primary_sidebar_footer` in `book/_site/`).
 - [x] Home landing polish (§1b): CTA, slim pillars, Explore cards, short PDF caveat.
 - [x] Theme builds `myst.search.json` (local search available in book theme); re-check UX label after public host is live.
-- [ ] Colab/Binder launch buttons for selected lab notebooks (PBDL-style).
+- [ ] Colab/Binder launch buttons for selected lab notebooks (PBDL-style). Prep `nb01`–`nb04` are in the Preparation TOC as stub pages with download via theme/repo; Colab/Binder still deferred until Labs 1–5 are ready.
 - [x] Site-wide footer (`site.parts.footer`); announcement banner still optional.
 - [ ] Accessibility pass (alt text, contrast) before a large enrollment.
 - [x] License choice: content CC BY-NC-SA 4.0, code MIT (root `LICENSE`). Rationale and remaining pre-public checks: [`legal_and_licensing_considerations.md`](legal_and_licensing_considerations.md).

@@ -6,6 +6,10 @@ subtitle: Focus — dynamic modeling, stability assessment, and system identific
 
 Welcome. This book teaches **scientific machine learning for power-system applications**: methods in the service of concrete engineering tasks on the grid, not abstract algorithms alone. After this page we usually write the short form **SciML for PS**.
 
+:::{note} Under active development
+These are **living teaching notes**. Stub chapters, thin prep notebooks, and experimental PDF export are intentional while the core narrative and Labs 1–5 grow. Prefer the HTML site over the PDF snapshot.
+:::
+
 **New here?** Start with [How to use this book](100_front/how_to_use.md), then [Preparation](200_prep/overview.md) → [Foundations](300_foundations/overview.md).
 
 ## Three applications

@@ -5,7 +5,7 @@ How the notes are organized. Use the left sidebar for day-to-day navigation; thi
 | Section | What you find here |
 |---------|-------------------|
 | **Front matter** | How to use the book, local preview, this map, learning paths, feedback, [license](license.md) |
-| **Preparation** | Short diagnostic notebooks (NumPy, ODEs, networks, gradients) |
+| **Preparation** | Overview plus four diagnostic notebooks in the sidebar (stubs today: NumPy, ODEs, tiny MLP, gradients) |
 | **Foundations** | Shared SMIB model and core SciML ideas (losses, forward/inverse PINN, baselines) |
 | **Dynamics** | Deeper dynamic modeling and simulation (SciML for trajectories / vector fields) |
 | **Stability** | Stability assessment (labels, CCT, surrogate stability; ANDES network bridge after SMIB) |

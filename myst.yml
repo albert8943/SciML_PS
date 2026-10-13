@@ -48,6 +48,10 @@ project:
     - title: Preparation
       children:
         - file: book/200_prep/overview.md
+        - file: book/200_prep/nb01_numpy_basics.ipynb
+        - file: book/200_prep/nb02_ode_integration.ipynb
+        - file: book/200_prep/nb03_nn_regression.ipynb
+        - file: book/200_prep/nb04_gradients.ipynb
     - title: Foundations
       children:
         - file: book/300_foundations/overview.md

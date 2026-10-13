@@ -6,7 +6,7 @@ Most chapter pages follow the same order: learning goals → reading → worked 
 
 ## Run the notebook while you read
 
-These notes are meant to be used with code open. When a page points to a laboratory or prep notebook, execute cells as you go. Reading alone is not enough for Labs 1–5.
+These notes are meant to be used with code open. Open prep notebooks from the **Preparation** sidebar (they may still be stubs) and laboratory notebooks from **Laboratories**. Execute cells as you go. Reading alone is not enough for Labs 1–5.
 
 ## State units, bounds, and test disturbances
 
