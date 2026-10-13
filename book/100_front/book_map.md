@@ -1,27 +1,21 @@
 # Book map
 
-Part IDs use 100-spacing so new pillars can be inserted later (for example `350_…` between foundations and dynamics).
+How the notes are organized. Use the left sidebar for day-to-day navigation; this page is the big picture.
 
-| Part | Folder | Role |
-|------|--------|------|
-| 100 | `100_front` | How to use, local preview commands, map, learning paths |
-| 200 | `200_prep` | Prerequisites and diagnostic |
-| 300 | `300_foundations` | SMIB + core SciML methods |
-| 400 | `400_dynamics` | Deeper dynamic modeling / surrogates |
-| 500 | `500_stability` | TSA labels, CCT, surrogate stability |
-| 600 | `600_identification` | Identifiability, measurements, PE depth |
-| 700 | `700_advanced` | Operator learning, UQ, multimachine |
-| 900 | `900_labs` | Assessed laboratories 1–5 |
-| 990 | `990_reference` | Reading list, notation |
+| Section | What you find here |
+|---------|-------------------|
+| **Front matter** | How to use the book, local preview, this map, learning paths, feedback |
+| **Preparation** | Short diagnostic notebooks (NumPy, ODEs, networks, gradients) |
+| **Foundations** | Shared SMIB model and core SciML ideas (losses, forward/inverse PINN, baselines) |
+| **Dynamics** | Deeper dynamic modeling and simulation (SciML for trajectories / vector fields) |
+| **Stability** | Stability assessment (labels, CCT, surrogate stability) |
+| **Identification** | Parameter estimation and system identification |
+| **Advanced topics** | Optional extensions (operators, UQ, multimachine) when promoted from labs |
+| **Laboratories** | Assessed Labs 1–5 |
+| **Reference** | Reading list and notation |
 
-## Parallel growth
+Read **Preparation → Foundations**, then deepen along **Dynamics**, **Stability**, or **Identification**. Labs sit beside the notes and cross-link from chapters.
 
-After foundations stubs exist, `400` / `500` / `600` can grow independently. Labs cross-link from chapters.
-
-## Scope lock (maintainers)
-
-The three application pillars are the intentional core. Wider topics belong in `700_advanced` or future 100-spaced inserts only after promotion criteria are met. Full decision note (git repo, not a student chapter): `docs/guides/scope_lock_three_pillars.md`.
-
-## Future product features (maintainers)
-
-PDF export is wired (navbar **PDF**, `scripts/build_pdf.*`, experimental LaTeX skin; cover **Last updated** from latest git commit). Local preview: bookmark **`http://localhost:3000/`** only (see `docs/guides/site_hosting.md`). Still planned: public hosting, Google Form feedback, and a separate course portal (notes vs course site, like EECS 245 / Math 124). One living book across terms; portals per offering — not a new book site each semester. Roadmap: `docs/guides/future_plans_online_resource.md`. Pattern note: `docs/references/rampure_notes_vs_course_sites.md`.
+:::{note} On numbering in the repository
+Folder names such as `300_foundations` or `900_labs` are **maintainer packaging** (spaced IDs so new parts can be inserted later without renumbering neighbors). Students do not need those codes; the sidebar titles above are the public map. Details: maintainer handbook in the git repo under `docs/guides/`.
+:::
