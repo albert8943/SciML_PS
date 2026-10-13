@@ -18,3 +18,5 @@ Seed from the course planning report bibliography. Replace stubs with edition-ch
 | C13 | [PSCC 2024 tutorial](https://www.chatziva.com/pscc2024.html) | Power-system PINN / trustworthy AI tutorial landing |
 
 A longer annotated bibliography lives in the course planning report (repository `docs/planning/`, maintainers). Do not treat research-repo notebooks as redistributable course materials without a license check.
+
+**Labs vs this page:** assessed work is only Labs 1–5 under Laboratories. Put third-party GitHub courses and packages here (or in maintainer docs), not on the Labs index. Maintainer policy: `docs/guides/lab_spine_policy.md`.

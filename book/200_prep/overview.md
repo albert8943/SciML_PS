@@ -19,6 +19,10 @@
 
 After the four notebooks, simulate a damped oscillator and fit a simple regression model to its samples. If that is painful, finish a programming bridge course before Lab 1.
 
+## What is not in Preparation
+
+**ANDES** (network power-system simulator) is **not** part of this section. Lab 1 uses a small SMIB helper without ANDES. You meet ANDES later if a stability / CCT lab or network chapter needs it (separate environment). Tool docs: [Reference — Reading list](../990_reference/reading_list.md).
+
 ## Next
 
 - [Foundations overview](../300_foundations/overview.md)

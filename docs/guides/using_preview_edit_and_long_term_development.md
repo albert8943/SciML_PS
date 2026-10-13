@@ -97,6 +97,8 @@ HTML output lands under a build directory (often `_build/` or as reported by the
 
 ### 2.4 Labs that need ANDES
 
+ANDES is **not** part of required Preparation (`200_prep`). Introduce it just-in-time for Lab 5 / network chapters. Policy: [`toc_architecture_decades.md`](toc_architecture_decades.md) § ANDES is not required Preparation.
+
 Use the dedicated env stub when you reach network labs:
 
 ```bash
@@ -200,6 +202,10 @@ Add helpers under `src/sciml_ps/` and import them from lab notebooks. Keep cours
 ## 5. How to develop this continuously over decades
 
 **Scope lock:** The three pillars (dynamics / stability / identification) are enough for the core book. Do not widen to “all AI for power” without meeting the promotion criteria in [`scope_lock_three_pillars.md`](scope_lock_three_pillars.md).
+
+**Lab spine:** Keep Labs 1–5; deepen notebooks rather than adding labs; external GitHubs go to Reference / planning docs — [`lab_spine_policy.md`](lab_spine_policy.md).
+
+**TOC / decades:** Keep the application-led sidebar (Front → Prep → Foundations → three pillars → Advanced → Labs → Reference). Rationale, alternatives, and protect rules — [`toc_architecture_decades.md`](toc_architecture_decades.md).
 
 ### 5.1 Durable architecture (do not casually undo)
 

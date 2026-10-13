@@ -16,6 +16,8 @@ How the notes are organized. Use the left sidebar for day-to-day navigation; thi
 
 Read **Preparation → Foundations**, then deepen along **Dynamics**, **Stability**, or **Identification**. Labs sit beside the notes and cross-link from chapters.
 
+This top-level layout is intentional and meant to stay stable as the notes grow: shared foundations, three applications, labs beside the prose, and a separate reference section. Semester week-by-week paths belong under [Learning paths](learning_paths.md), not as a rewrite of these sections.
+
 ## What each application produces
 
 | Application | Engineering question | What you produce |

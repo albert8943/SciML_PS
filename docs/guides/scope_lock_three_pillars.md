@@ -79,5 +79,7 @@ Until then: deepen `300` and labs 1–5; grow one pillar at a time; use `700_adv
 
 Related:
 
+- [TOC architecture for decades](toc_architecture_decades.md) — sidebar sections stay application-led  
+- [Lab spine and external repos](lab_spine_policy.md) — keep five labs; where external GitHubs belong  
 - [Using, previewing, editing, and long-term development](using_preview_edit_and_long_term_development.md) §5  
 - [Future plans for the online resource](future_plans_online_resource.md) (PDF, portal, feedback — not science-scope changes)

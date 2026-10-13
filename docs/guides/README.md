@@ -4,6 +4,8 @@
 |-------|---------|
 | [Using, previewing, editing, and long-term development](using_preview_edit_and_long_term_development.md) | How to preview the book, use the resource, edit content, and grow the site over decades |
 | [Scope lock: three pillars](scope_lock_three_pillars.md) | Dynamics / stability / identification are enough for now; when (not) to widen |
+| [TOC architecture for decades](toc_architecture_decades.md) | Why Front→…→Labs→Reference stays; alternatives; protect rules |
+| [Lab spine and external repos](lab_spine_policy.md) | Keep Labs 1–5; deepen depth not count; no GitHub catalogs on the Labs page |
 | [Future plans for the online resource](future_plans_online_resource.md) | PDF, portal, hosting backlog; §1b landing UX (Wealthfolio polish on JB2) |
 | [Vault → SciML_PS import map](vault_import_map.md) | Which Obsidian teaching notes to COPY / ADAPT / KEEP, mapped to book paths |
 | [Portable LaTeX equations](portable_latex_equations.md) | Authoring: reuse equation bodies across MyST and manuscripts |

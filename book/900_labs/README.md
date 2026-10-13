@@ -1,6 +1,6 @@
 # Laboratories
 
-Five assessed laboratories aligned to the course plan.
+Five assessed laboratories aligned to the course plan. This **is** the full lab set for SciML for PS — we deepen these rather than adding Lab 6+.
 
 | Lab | Topic | Status |
 |-----|-------|--------|
@@ -11,3 +11,7 @@ Five assessed laboratories aligned to the course plan.
 | 5 | [Stability and CCT](lab_05_stability_cct/index.md) | Protocol ready; SMIB CCT via Lab 1 tooling |
 
 Install helpers from the repository root: `pip install -e .`
+
+Suggested path when building the course: get **Lab 1** solid, then **Lab 3**, then **Lab 5**; fill **2** and **4** after those run.
+
+Books, simulators, and optional external packages live under [Reference — Reading list](../990_reference/reading_list.md), not as a second lab menu.
