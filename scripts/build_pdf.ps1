@@ -16,3 +16,4 @@ if ($LASTEXITCODE -ne 0) {
     exit $LASTEXITCODE
 }
 Write-Host "Done. PDF: exports\sciml_ps_notes.pdf"
+Write-Host "If preview is running, hard-refresh http://127.0.0.1:3000/exports/sciml_ps_notes.pdf"

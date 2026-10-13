@@ -1,33 +1,96 @@
 # Site hosting, PDF, and feedback (Phase E)
 
-**Status:** Scaffolded. Public URL and Google Form still require maintainer choices.
+**Status:** Scaffolded. Public URL and Google Form still require maintainer choices.  
+**Audience:** Maintainers.  
+**Related session:** [`cursor_sessions/2026-10-13_pdf_export.md`](cursor_sessions/2026-10-13_pdf_export.md).
+
+---
 
 ## Feedback
 
 - Student page: [`book/100_front/feedback.md`](../../book/100_front/feedback.md)
-- Navbar action in [`myst.yml`](../../myst.yml) → `/feedback/` (interim) or Google Form when ready
+- Navbar action in [`myst.yml`](../../myst.yml) → GitHub issues (interim) or Google Form when ready
 - **Next:** create a Google Form; set `site.actions` Feedback `url:` to the form link (see EECS 245 pattern in [`future_plans_online_resource.md`](future_plans_online_resource.md))
+
+---
 
 ## Hosting
 
 - CI workflow: [`.github/workflows/build-book.yml`](../../.github/workflows/build-book.yml) builds HTML on `master` and uploads `_build` as an artifact; PDF job builds `exports/sciml_ps_notes.pdf` when TeX is available
 - **Next:** enable GitHub Pages (or other host) from the HTML artifact; set `BASE_URL` if using a project subpath; put the public URL in root `README.md` and `book/100_front/how_to_use.md`
-- After Pages is live, ensure `exports/sciml_ps_notes.pdf` is published under the site (CI copies into `_build/html/exports/` when HTML exists)
+- After Pages is live, ensure `exports/sciml_ps_notes.pdf` is published under the site (`static_files: [exports]` + CI/build sync)
 
-Local preview remains:
+### Local preview (one book URL)
 
 ```powershell
 conda activate sciml_ps
 .\scripts\preview.ps1
 ```
 
+**Open only:** [http://localhost:3000/](http://localhost:3000/)
+
+Do not start a second `preview.ps1` while one is running (that creates an extra UI port and confuses everyone).
+
+---
+
+## Local preview: ports and PDF viewing (lessons learned)
+
+Jupyter Book 2 / MyST **always** runs two local servers during `jupyter book start`:
+
+| Port (typical) | Role |
+|----------------|------|
+| **3000** | Book theme UI (what you bookmark) |
+| **3100** | Content / static file server (PDF and hashed assets) |
+
+- **3000 and 3100 together are one preview**, not two books.
+- The navbar PDF path `/exports/sciml_ps_notes.pdf` is often **redirected** from the theme (3000) to the content server (`http://localhost:3100/exports/...`). That is normal.
+- Preview scripts set `HOST=localhost` (with `--keep-host`) so that redirect target matches. Forcing `HOST=127.0.0.1` made PDF redirects point at `localhost:3100` while servers listened only on `127.0.0.1`, which produced blank/failed PDF tabs on Windows.
+- **Cursor’s built-in browser** often shows the PDF filename chrome and a **blank dark page**. Open the book/PDF in **Chrome or Edge**, or open the file on disk: `exports/sciml_ps_notes.pdf`.
+- `127.0.0.1` and `localhost` both mean “this computer”; the **port** is what selects the app. Prefer the single documented book URL above.
+
+---
+
 ## PDF export
 
-**Engine:** MyST / Jupyter Book 2 → LaTeX (**jtex** template [`templates/sciml_ps_book/`](../../templates/sciml_ps_book)) → PDF.
+**Engine:** MyST / Jupyter Book 2 → LaTeX (**jtex** template [`templates/sciml_ps_book/`](../../templates/sciml_ps_book)) → XeLaTeX / `latexmk`.  
+Inspired by [EECS 245 notes PDF](https://notes.eecs245.org/exports/notes.pdf) (custom LaTeX skin + CI), not HTML print-to-PDF.
 
-**Output:** `exports/sciml_ps_notes.pdf` (gitignored; rebuild locally or download the CI artifact).
+**Output:** `exports/sciml_ps_notes.pdf` (gitignored; rebuild locally or download CI artifact `sciml-ps-notes-pdf`).
 
-**Navbar:** `site.actions` entry **PDF** → `/exports/sciml_ps_notes.pdf`.
+**Navbar:** `site.actions` **PDF** → `/exports/sciml_ps_notes.pdf`.
+
+That link is a **static download**, not a live rebuild. After content edits:
+
+```powershell
+.\scripts\build_pdf.ps1
+# then hard-refresh the PDF URL (Ctrl+F5) in Chrome/Edge
+```
+
+### MyST wiring
+
+- `project.exports` id `notes-pdf` → `./templates/sciml_ps_book` → `exports/sciml_ps_notes.pdf`
+- `project.downloads` → same id (download panel)
+- `project.static_files: [exports]` — stable `/exports/…` path for the navbar
+- After each build, `scripts/build_pdf.py` syncs into `_build/site/public/exports/` for a running preview
+
+If preview is already up and the PDF on disk is already rebuilt:
+
+```powershell
+python scripts/build_pdf.py --sync-only
+```
+
+### Cover page timestamps (builder local timezone)
+
+`scripts/build_pdf.py` writes `templates/sciml_ps_book/gitinfo.tex` with:
+
+- `\compiledon` — wall clock when the PDF was built
+- `\lastcommitdate` — last git commit time
+
+Both use the **local timezone of the machine that runs the build**, labeled in a language-neutral form such as `(UTC+09:00)` (Korea) or `(UTC+05:30)` (India). They are **not** fixed to UTC.
+
+### Page headers (not stuck on “Contents”)
+
+MyST exports parts as `\section` and pages as `\subsection` (not `\chapter`). The jtex template sets `\sectionmark` / `\subsectionmark` so fancyhdr shows the **current page/section title** instead of a stuck TOC “Contents” mark.
 
 ### Build locally
 
@@ -41,7 +104,7 @@ conda activate sciml_ps
 ./scripts/build_pdf.sh
 ```
 
-Or: `python scripts/build_pdf.py` (same as the helpers).
+Or: `python scripts/build_pdf.py`.
 
 ### TeX prerequisites
 
@@ -53,24 +116,26 @@ Install a full-ish TeX distribution that includes **latexmk** and **XeLaTeX**:
 | macOS | MacTeX or `brew install --cask mactex-no-gui` |
 | Linux / CI | `texlive-xetex`, `texlive-latex-extra`, `latexmk`, and related fonts |
 
-The custom template also uses `tcolorbox`, `titlesec`, `fancyhdr`, `datetime`, and related packages (usually covered by `texlive-latex-extra` / MiKTeX auto-install).
+The custom template also uses `tcolorbox`, `titlesec`, `fancyhdr`, and related packages (usually covered by `texlive-latex-extra` / MiKTeX auto-install).
 
 ### Experimental limits (same idea as EECS 245)
 
 - Treat the PDF as **experimental** while chapters are stubs.
 - Interactive plots / widgets become **static** or may be **omitted**.
 - Prefer the HTML book for labs and navigation.
-- Cover page stamps **Compiled on** and **Last repo commit** (via `scripts/build_pdf.py` → `gitinfo.tex`).
 
 ### Maintainer layout
 
 | Piece | Role |
 |-------|------|
-| [`myst.yml`](../../myst.yml) `project.exports` | Points at `./templates/sciml_ps_book` → `exports/sciml_ps_notes.pdf` |
-| [`templates/sciml_ps_book/`](../../templates/sciml_ps_book) | jtex skin (navy/teal, title panel, callout boxes) |
-| [`scripts/build_pdf.py`](../../scripts/build_pdf.py) | Git stamp + `jupyter book build --pdf` + copy into `exports/` |
+| [`myst.yml`](../../myst.yml) `project.exports` / `static_files` / `downloads` | Export + stable `/exports/` + download panel |
+| [`templates/sciml_ps_book/`](../../templates/sciml_ps_book) | jtex skin (navy/teal, title panel, callout boxes, header marks) |
+| [`scripts/build_pdf.py`](../../scripts/build_pdf.py) | Local TZ stamps, MyST PDF build, TeX polish, site sync |
+| [`scripts/preview.ps1`](../../scripts/preview.ps1) / `.sh` | One book URL; `HOST=localhost`; refuse second UI if port busy |
 
-Polish the template further after foundations / lab prose lands; do not block chapter writing on PDF cosmetics.
+Polish the template further after foundations / lab prose lands; do not block chapter writing on PDF cosmetics. Playwright figure snapshots only if interactive labs need them later.
+
+---
 
 ## Course portal
 

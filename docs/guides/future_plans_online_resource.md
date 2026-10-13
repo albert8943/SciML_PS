@@ -41,7 +41,7 @@ Feedback       (Google Form linked from book navbar)
 PDF            (MyST export → /exports/….pdf or Downloads action)
 ```
 
-SciML_PS today: foundations + Labs 1/3 prose exist; interim Feedback (GitHub issues) + LaTeX/jtex full-book PDF export (`templates/sciml_ps_book`, `scripts/build_pdf.*`) + CI HTML/PDF jobs + `portal/20XX-term/` template are in place. Live public host, Google Form URL, and further PDF polish remain open (§3 checkboxes).
+SciML_PS today: foundations + Labs 1/3 prose exist; interim Feedback (GitHub issues) + LaTeX/jtex full-book PDF export (`templates/sciml_ps_book`, `scripts/build_pdf.*`, local-TZ cover stamps, section headers) + CI HTML/PDF jobs + local preview documented as **one URL** `http://localhost:3000/` (JB content port ~3100) + `portal/20XX-term/` template are in place. Live public host, Google Form URL, and further PDF polish remain open (§3 checkboxes). Detail: [`site_hosting.md`](site_hosting.md).
 
 ---
 

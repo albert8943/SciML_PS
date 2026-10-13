@@ -24,4 +24,4 @@ The three application pillars are the intentional core. Wider topics belong in `
 
 ## Future product features (maintainers)
 
-PDF export is wired (navbar **PDF**, `scripts/build_pdf.*`, experimental LaTeX skin). Still planned: public hosting, Google Form feedback, and a separate course portal (notes vs course site, like EECS 245 / Math 124). One living book across terms; portals per offering — not a new book site each semester. Roadmap: `docs/guides/future_plans_online_resource.md`. Pattern note: `docs/references/rampure_notes_vs_course_sites.md`.
+PDF export is wired (navbar **PDF**, `scripts/build_pdf.*`, experimental LaTeX skin, builder-local timezone on the cover). Local preview: bookmark **`http://localhost:3000/`** only (see `docs/guides/site_hosting.md`). Still planned: public hosting, Google Form feedback, and a separate course portal (notes vs course site, like EECS 245 / Math 124). One living book across terms; portals per offering — not a new book site each semester. Roadmap: `docs/guides/future_plans_online_resource.md`. Pattern note: `docs/references/rampure_notes_vs_course_sites.md`.

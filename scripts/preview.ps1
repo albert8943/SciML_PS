@@ -14,10 +14,12 @@ $ErrorActionPreference = "Stop"
 # Avoid Windows console Unicode crashes in jupyter-book's Node installer prompts.
 $env:PYTHONIOENCODING = "utf-8"
 $env:PYTHONUTF8 = "1"
-# Bind the site server to IPv4 loopback. Default JB2/MyST often listens on ::1 only,
-# which breaks browsers that resolve localhost → 127.0.0.1.
+# Jupyter Book 2 runs TWO local ports: theme UI (--port, default 3000) and a
+# content/static server (usually 3100). PDF links redirect to the content port.
+# Keep HOST=localhost so that redirect target matches (127.0.0.1 breaks the PDF
+# redirect, which hard-codes http://localhost:<content-port>/...).
 if (-not $env:HOST) {
-    $env:HOST = "127.0.0.1"
+    $env:HOST = "localhost"
 }
 
 $Root = Resolve-Path (Join-Path $PSScriptRoot "..")
@@ -63,8 +65,38 @@ Or update the env:
 }
 
 Write-Host "Repository root: $Root"
-Write-Host "Starting Jupyter Book preview (port $Port)..."
-Write-Host "When ready, open: http://localhost:$Port"
+
+# Canonical book URL (theme UI). Content/PDF server is usually Port+100 (3100).
+$BookUrl = "http://localhost:$Port/"
+$PdfUrl = "http://localhost:$Port/exports/sciml_ps_notes.pdf"
+
+$existing = Get-NetTCPConnection -LocalPort $Port -State Listen -ErrorAction SilentlyContinue |
+    Select-Object -First 1
+if ($existing) {
+    Write-Host "Preview already running."
+    Write-Host "Open this URL only: $BookUrl"
+    Write-Host "PDF button:          $PdfUrl  (opens via JB content port; use Chrome/Edge)"
+    Write-Host "Do not start a second .\scripts\preview.ps1 (extra UI ports)."
+    exit 0
+}
+
+# Navbar PDF → /exports/sciml_ps_notes.pdf (static_files). Does not auto-rebuild.
+$pdfPath = Join-Path $Root "exports\sciml_ps_notes.pdf"
+$py = Get-Command "python" -ErrorAction SilentlyContinue
+if (Test-Path $pdfPath) {
+    if ($py) {
+        & python (Join-Path $PSScriptRoot "build_pdf.py") --sync-only 2>$null
+    }
+    Write-Host "PDF button serves the last built file: exports\sciml_ps_notes.pdf"
+    Write-Host "After editing content, run .\scripts\build_pdf.ps1 then hard-refresh the PDF URL."
+} else {
+    Write-Host "WARNING: exports\sciml_ps_notes.pdf missing — navbar PDF will 404."
+    Write-Host "Build it with: .\scripts\build_pdf.ps1"
+}
+
+Write-Host "Starting Jupyter Book preview..."
+Write-Host "Open this URL only: $BookUrl"
+Write-Host "PDF navbar uses the same site (JB also listens on ~$($Port+100) for files)."
 Write-Host "Stop with Ctrl+C"
 Write-Host ""
 

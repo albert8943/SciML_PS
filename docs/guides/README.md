@@ -7,7 +7,7 @@
 | [Future plans for the online resource](future_plans_online_resource.md) | PDF, course portal, feedback form, hosting — EECS 245–style backlog + stack locks |
 | [Vault → SciML_PS import map](vault_import_map.md) | Which Obsidian teaching notes to COPY / ADAPT / KEEP, mapped to book paths |
 | [Portable LaTeX equations](portable_latex_equations.md) | Authoring: reuse equation bodies across MyST and manuscripts |
-| [Site hosting, PDF, feedback](site_hosting.md) | Phase E: CI build, Pages next steps, PDF export, Form swap |
+| [Site hosting, PDF, feedback](site_hosting.md) | Phase E: CI, Pages, LaTeX PDF export, local ports 3000/3100, timezone stamps, Form swap |
 
 Cursor session notes: [`cursor_sessions/`](cursor_sessions/).
 

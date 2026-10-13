@@ -68,9 +68,15 @@
 
 \setcounter{secnumdepth}{0}
 
+% MyST book exports use \section (parts) and \subsection (pages), not \chapter.
+% Update running headers from those commands instead of a stuck "Contents" mark.
+\renewcommand{\sectionmark}[1]{\markboth{#1}{#1}}
+\renewcommand{\subsectionmark}[1]{\markright{#1}}
+
 \pagestyle{fancy}
 \fancyhf{}
-\fancyhead[L]{\nouppercase{\leftmark}}
+% Prefer page title (\rightmark); falls back to part name after \sectionmark.
+\fancyhead[L]{\nouppercase{\rightmark}}
 \fancyhead[R]{\thepage}
 \renewcommand{\headrulewidth}{0.3pt}
 
@@ -170,7 +176,7 @@
   \vspace{1.25em}
   {\color{white}\large Course notes\par}
   \vspace{2.25em}
-  {\color{white}\normalsize Compiled on \@date\par}
+  {\color{white}\normalsize Compiled on \compiledon\par}
   {\color{white}\normalsize Last repo commit: \lastcommitdate\par}
   \end{tcolorbox}
   \vspace{1.1em}
@@ -189,6 +195,9 @@
 
 \frontmatter
 \tableofcontents
+% Clear the TOC "Contents" mark before body pages.
+\clearpage
+\markboth{}{}
 
 \mainmatter
 

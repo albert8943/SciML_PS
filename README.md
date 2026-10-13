@@ -62,7 +62,7 @@ conda activate sciml_ps
 .\scripts\preview.ps1            # jupyter book start
 ```
 
-Then open `http://127.0.0.1:3000/` (or `http://localhost:3000/`). Leave the preview terminal running.
+Then open **`http://localhost:3000/`** (one book URL). Leave the preview terminal running.
 
 **macOS / Linux:**
 

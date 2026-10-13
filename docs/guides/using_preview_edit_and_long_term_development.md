@@ -78,7 +78,7 @@ From the repository root (where `myst.yml` lives):
 jupyter book start
 ```
 
-Open the URL the CLI prints (typically `http://localhost:3000`). Edit a Markdown file under `book/`, save, and refresh to see changes.
+Open **`http://localhost:3000/`** (one book URL). JB2 also uses ~3100 for content/PDF files — same preview. Prefer Chrome/Edge for the navbar PDF. Edit a Markdown file under `book/`, save, and refresh to see changes. PDF rebuild: `.\scripts\build_pdf.ps1` (see [`site_hosting.md`](site_hosting.md)).
 
 ### 2.3 Static HTML build
 

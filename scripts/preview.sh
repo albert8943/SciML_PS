@@ -8,8 +8,9 @@
 set -euo pipefail
 export PYTHONIOENCODING=utf-8
 export PYTHONUTF8=1
-# Prefer IPv4 loopback so http://127.0.0.1 and http://localhost both work.
-export HOST="${HOST:-127.0.0.1}"
+# JB2 theme UI + content server; PDF redirects use http://localhost:<content-port>.
+# Keep HOST=localhost so redirects match. See docs/guides/site_hosting.md.
+export HOST="${HOST:-localhost}"
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "$ROOT"
 
@@ -59,8 +60,41 @@ EOF
 fi
 
 echo "Repository root: $ROOT"
-echo "Starting Jupyter Book preview (port $PORT)..."
-echo "When ready, open: http://localhost:$PORT"
+
+# Canonical book URL (theme UI). Content/PDF server is usually PORT+100 (3100).
+BOOK_URL="http://localhost:${PORT}/"
+PDF_URL="http://localhost:${PORT}/exports/sciml_ps_notes.pdf"
+
+if command -v ss >/dev/null 2>&1 && ss -ltn "sport = :$PORT" 2>/dev/null | grep -q ":$PORT"; then
+  echo "Preview already running."
+  echo "Open this URL only: $BOOK_URL"
+  echo "PDF button:          $PDF_URL  (via JB content port; use Chrome/Edge)"
+  echo "Do not start a second ./scripts/preview.sh (extra UI ports)."
+  exit 0
+elif command -v lsof >/dev/null 2>&1 && lsof -iTCP:"$PORT" -sTCP:LISTEN >/dev/null 2>&1; then
+  echo "Preview already running."
+  echo "Open this URL only: $BOOK_URL"
+  echo "PDF button:          $PDF_URL  (via JB content port; use Chrome/Edge)"
+  echo "Do not start a second ./scripts/preview.sh (extra UI ports)."
+  exit 0
+fi
+
+# Navbar PDF → /exports/sciml_ps_notes.pdf (static_files). Does not auto-rebuild.
+PDF_PATH="$ROOT/exports/sciml_ps_notes.pdf"
+if [[ -f "$PDF_PATH" ]]; then
+  if command -v python >/dev/null 2>&1; then
+    python "$ROOT/scripts/build_pdf.py" --sync-only >/dev/null 2>&1 || true
+  fi
+  echo "PDF button serves the last built file: exports/sciml_ps_notes.pdf"
+  echo "After editing content, run ./scripts/build_pdf.sh then hard-refresh the PDF URL."
+else
+  echo "WARNING: exports/sciml_ps_notes.pdf missing — navbar PDF will 404."
+  echo "Build it with: ./scripts/build_pdf.sh"
+fi
+
+echo "Starting Jupyter Book preview..."
+echo "Open this URL only: $BOOK_URL"
+echo "PDF navbar uses the same site (JB also listens on ~$((PORT+100)) for files)."
 echo "Stop with Ctrl+C"
 echo
 

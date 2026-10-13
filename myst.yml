@@ -16,11 +16,17 @@ project:
     - name: SciML for Power Systems project
   # Full-book PDF via LaTeX (jtex). Build: .\scripts\build_pdf.ps1 or ./scripts/build_pdf.sh
   # Custom skin: templates/sciml_ps_book (tcolorbox callouts, navy/teal branding).
+  # static_files keeps a stable /exports/… URL for the navbar (not a hashed public/ copy).
   exports:
     - id: notes-pdf
       format: pdf
       template: ./templates/sciml_ps_book
       output: exports/sciml_ps_notes.pdf
+  downloads:
+    - id: notes-pdf
+      title: Full notes PDF
+  static_files:
+    - exports
   toc:
     - file: book/index.md
     - title: Front matter
