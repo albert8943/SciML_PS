@@ -41,7 +41,7 @@ Feedback       (Google Form linked from book navbar)
 PDF            (MyST export → /exports/….pdf or Downloads action)
 ```
 
-SciML_PS today: book scaffold lives; `portal/` is a placeholder; no public host, PDF export, or feedback form yet.
+SciML_PS today: foundations + Labs 1/3 prose exist; interim Feedback (GitHub issues) + Typst PDF stub + CI build + `portal/20XX-term/` template are in place. Live public host, Google Form URL, and polished full-book PDF remain open (§3 checkboxes).
 
 ---
 
@@ -66,33 +66,35 @@ Official docs when implementing exports/site: [Jupyter Book websites](https://ju
 
 ### 3.1 Feedback form — do first (low cost)
 
+- [x] Interim Feedback page + navbar action (`book/100_front/feedback.md`, GitHub issues)
 - [ ] Create a Google Form (typo, broken link, unclear page; optional email).
-- [ ] Add `site.actions` in `myst.yml`, e.g. title `Feedback`, `url:` form link.
-- [ ] Mention the form on `book/100_front/how_to_use.md` once live.
+- [ ] Point `site.actions` Feedback `url:` at the form link.
 - [ ] Keep form anonymous by default; do not put student PII into the repo.
 
 ### 3.2 Host the book site
 
-- [ ] CI: `jupyter book build` on default branch.
+- [x] CI: `jupyter book build` on default branch (`.github/workflows/build-book.yml` artifact).
 - [ ] Deploy HTML to GitHub Pages (or equivalent); set `BASE_URL` correctly if using a subpath.
 - [ ] Put the public notes URL in root `README.md` and `book/100_front/how_to_use.md`.
-- [ ] Prefer IPv4 loopback locally (`scripts/preview.ps1` already sets `HOST=127.0.0.1`).
+- [x] Prefer IPv4 loopback locally (`scripts/preview.ps1` already sets `HOST=127.0.0.1`).
+- Detail: [`site_hosting.md`](site_hosting.md).
 
 ### 3.3 PDF export of the notes
 
-- [ ] Configure `project.exports` in `myst.yml` (Typst or LaTeX template; article list or full TOC policy).
-- [ ] Build with `jupyter book build --pdf` (or documented JB2 equivalent); publish under `exports/` or CI artifact.
+- [x] Configure `project.exports` in `myst.yml` (Typst stub on `book/index.md`).
+- [ ] Build with `jupyter book build --pdf`; expand article list for full notes.
 - [ ] Add a site action or Downloads entry: **PDF**.
 - [ ] Document limitations (stubs, interactive plots → static), similar to EECS 245’s experimental PDF note.
-- [ ] Do **not** prioritize a polished full-book PDF until `300_foundations` has real prose.
+- [ ] Polish full-book PDF after more foundations/lab prose lands.
 
 ### 3.4 Separate course portal (`portal/`)
 
-- [ ] Build a thin portal (Quarto, MkDocs, or static HTML) — **not** a second copy of the book.
-- [ ] Portal pages: home, syllabus, calendar / week plan, environment setup link, staff, link to **notes** URL, link to Ed/Discord if any.
+- [x] Portal placeholder + `portal/20XX-term/` template (Rampure pattern).
+- [ ] Build a thin portal site (Quarto, MkDocs, or static HTML) — **not** a second copy of the book.
+- [ ] Portal pages: home, syllabus, calendar / week plan, environment setup link, staff, link to **notes** URL.
 - [ ] Fill `book/100_front/learning_paths.md` for the offering; portal points at path + notes.
-- [ ] Optional second domain later (notes.* vs course.*), same idea as notes.eecs245.org vs eecs245.org.
-- [ ] Per semester: add a term page or `portal/20XX-term/` (or git tag `offering-20XX`) — **do not** fork a new notes book site each term (Rampure pattern).
+- [ ] Optional second domain later (notes.* vs course.*).
+- [ ] Uncomment Course website navbar action in `myst.yml` when URL exists.
 
 ### 3.5 Navbar actions (book chrome)
 
