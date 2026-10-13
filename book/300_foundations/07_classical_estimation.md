@@ -41,6 +41,7 @@ Fix a load-step experiment. Plot a coarse grid of $\mathcal{L}(H,D)$ and mark th
 ## Further reading
 
 - Course report §6.2 Lab 3; identifiability chapter next
+- Gradient-based version of the same LS problem: [differentiable simulation](../600_identification/03_differentiable_simulation.md)
 
 ## Common misconceptions
 

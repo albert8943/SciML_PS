@@ -14,5 +14,9 @@ dependencies = [
   "matplotlib",
 ]
 
+[project.optional-dependencies]
+torch = ["torch"]
+dev = ["torch", "pytest"]
+
 [tool.setuptools.packages.find]
 where = ["src"]

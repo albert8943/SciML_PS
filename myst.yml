@@ -71,6 +71,7 @@ project:
         - file: book/600_identification/overview.md
         - file: book/600_identification/01_measurements_and_excitation.md
         - file: book/600_identification/02_physical_vs_equivalent.md
+        - file: book/600_identification/03_differentiable_simulation.md
     - title: Advanced topics
       children:
         - file: book/700_advanced/overview.md

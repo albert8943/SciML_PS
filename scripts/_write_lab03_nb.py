@@ -125,6 +125,68 @@ print("held-out omega RMSE", rmse)
 )
 
 md(
+    """## Optional: differentiable simulation (gradient through the solver)
+
+The grid search above calls the simulator 81 times and only sees grid points. Here the same SMIB is rolled out with fixed-step RK4 in PyTorch (`sciml_ps.smib_torch`), so the loss gradient with respect to $(H, D)$ comes from automatic differentiation through every solver step. Background: [Differentiable simulation](../../600_identification/03_differentiable_simulation.md).
+
+Choices to notice:
+
+- Fit $\\log H$ and $\\log D$ so both stay positive and have comparable step sizes
+- Compare speed **deviation** $\\omega - \\omega_0$, not raw $\\omega \\approx 377$ rad/s
+- Clamp to stated bounds after each step
+- Needs `torch` (course core environment)
+"""
+)
+
+code(
+    """import torch
+from sciml_ps.smib_torch import rollout_smib, time_grid
+
+dt = 2e-3  # fault and clearing times must be multiples of dt
+t_grid = time_grid(event_train, dt)
+w0 = params_true.omega0
+y = torch.tensor(np.interp(t_grid, t, omega_meas) - w0)
+
+lower = torch.log(torch.tensor([1.0, 0.01], dtype=torch.float64))
+upper = torch.log(torch.tensor([15.0, 1.0], dtype=torch.float64))
+theta = torch.log(torch.tensor([4.0, 0.05], dtype=torch.float64)).requires_grad_(True)
+opt = torch.optim.LBFGS([theta], lr=1.0, max_iter=20, line_search_fn="strong_wolfe")
+
+def closure():
+    opt.zero_grad()
+    H, D = torch.exp(theta)
+    _, x = rollout_smib(H[None], D[None], event=event_train, dt=dt)
+    loss = torch.mean((x[0, :, 1] - w0 - y) ** 2)
+    loss.backward()
+    return loss
+
+for it in range(3):
+    loss = opt.step(closure)
+    with torch.no_grad():
+        theta.clamp_(lower, upper)
+    H_dp, D_dp = torch.exp(theta).tolist()
+    print(f"outer step {it}: loss before step {loss.item():.3e}  ->  H {H_dp:.3f}  D {D_dp:.3f}")
+
+print("grid LS H,D", H_grid[j_best], D_grid[i_best])
+print("true H,D   ", H_true, D_true)
+"""
+)
+
+code(
+    """# Same held-out disturbance, re-simulated with the reference solver
+pred_dp = simulate_smib(SMIBParams(H=H_dp, D=D_dp), event_test, max_step=1e-3)
+omega_dp = np.interp(truth_test["t"], pred_dp["t"], pred_dp["omega"])
+rmse_dp = float(np.sqrt(np.mean((omega_dp - truth_test["omega"]) ** 2)))
+print("held-out omega RMSE: grid LS", rmse, " differentiable simulation", rmse_dp)
+"""
+)
+
+md(
+    """**Discuss:** both estimators use the same model, so they share its blind spots. Re-run with a model mismatch (e.g. true $X_{post}$ = 0.75 in the data, 0.7 in the fit) and check whether $(\\hat H, \\hat D)$ become *equivalent* rather than physical values.
+"""
+)
+
+md(
     """## Inverse PINN template (complete in class)
 
 1. Network: $t \\mapsto (\\hat{\\delta}, \\hat{\\omega})$  

@@ -16,13 +16,15 @@ Classical SMIB **inertia and damping** $(H, D)$. Do not silently substitute rese
 ## Materials
 
 - Starter notebook: [`lab03_inertia_damping_id.ipynb`](lab03_inertia_damping_id.ipynb)  
-- Simulator: `sciml_ps.simulate_smib` (same classical SMIB as Lab 1)
+- Simulator: `sciml_ps.simulate_smib` (same classical SMIB as Lab 1)  
+- Optional differentiable rollout: `sciml_ps.smib_torch.rollout_smib` (needs `torch`)
 
 ## Protocol
 
 1. Generate a “truth” trajectory with known $(H^\star, D^\star)$ and additive noise on $\omega$  
 2. Grid or optimize LS loss vs $(H,D)$ with documented bounds  
 3. Train inverse PINN / residual estimator with the same data contract  
+   - *Optional:* fit $(H,D)$ by [differentiable simulation](../../600_identification/03_differentiable_simulation.md) (gradient through an RK4 rollout) and add it to the table  
 4. Plot $\mathcal{L}(H,D)$ or slices; discuss physical vs equivalent  
 5. Freeze $\hat{\theta}$ and simulate a **held-out** clearing time; compare to truth  
 
@@ -34,4 +36,4 @@ Classical SMIB **inertia and damping** $(H, D)$. Do not silently substitute rese
 
 ## Status
 
-Executable notebook provided for the LS + loss-surface path; inverse PINN cell is a structured template to complete in class or homework.
+Executable notebook provided for the LS + loss-surface path and the optional differentiable-simulation fit; inverse PINN cell is a structured template to complete in class or homework.
