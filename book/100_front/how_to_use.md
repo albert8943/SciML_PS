@@ -45,7 +45,7 @@ Then open [http://localhost:3000/](http://localhost:3000/) and leave that termin
 This book is **under active development**. Stub pages and thin [Preparation](../200_prep/overview.md) notebooks in the sidebar are intentional. Filled labs, full slide decks, videos, and Colab/Binder launch buttons arrive in later passes. Prefer the live HTML site over the experimental PDF.
 
 :::{tip} PDF download
-The navbar **PDF** control opens the last built file in a **new browser tab** (`http://localhost:3100/exports/sciml_ps_notes.pdf` during local preview) so the notes stay on `http://localhost:3000/`. It does **not** regenerate on click. After content changes, run `scripts/build_pdf.ps1` or `scripts/build_pdf.sh` (needs LaTeX), then hard-refresh the PDF tab in **Chrome/Edge**. Treat the export as experimental.
+The navbar **PDF** control opens a snapshot of the notes in a **new browser tab**, built each time the site is published. It may lag slightly behind the HTML pages. Treat the export as experimental. If you preview the book locally, see [Preview this book locally](preview_locally.md) for rebuilding the PDF.
 :::
 
 :::{warning} Prefer the live site for labs

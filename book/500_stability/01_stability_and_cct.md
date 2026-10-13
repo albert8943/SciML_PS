@@ -9,7 +9,7 @@
 
 ## Reading
 
-- Course report Lab 5; Weeks on CCT  
+- [Lab 5 — stability and CCT](../900_labs/lab_05_stability_cct/index.md)  
 - R-K04, R-H21 (IEEE/CIGRE classification); B1 transient stability chapters  
 
 ## Dynamic security (short)
@@ -101,7 +101,6 @@ Accuracy alone can hide an unacceptable false-safe imbalance. Test **boundary-ad
 ## Further reading
 
 - R-K04, R-H21; B1 transient stability chapters  
-- Course report §15-style stability metrics discussion  
 
 ## Common misconceptions
 

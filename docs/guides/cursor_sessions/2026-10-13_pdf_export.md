@@ -41,8 +41,8 @@ conda activate sciml_ps
 ## Docs updated this day
 
 - [`../site_hosting.md`](../site_hosting.md) — ports, PDF button, cover Last updated, headers
-- [`../../book/100_front/preview_locally.md`](../../book/100_front/preview_locally.md) — one URL + troubleshooting
-- [`../../book/100_front/how_to_use.md`](../../book/100_front/how_to_use.md) — PDF tip
+- [`../../book/100_front/preview_locally.md`](../../../book/100_front/preview_locally.md) — one URL + troubleshooting
+- [`../../book/100_front/how_to_use.md`](../../../book/100_front/how_to_use.md) — PDF tip
 - [`../using_preview_edit_and_long_term_development.md`](../using_preview_edit_and_long_term_development.md) — pointers
 - [`../future_plans_online_resource.md`](../future_plans_online_resource.md) — §3.3 status
 

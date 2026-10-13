@@ -8,7 +8,7 @@
 
 ## Reading
 
-- Course report Lab 3; foundations identifiability chapter
+- [Lab 3](../900_labs/lab_03_inertia_damping_id/index.md); foundations [identifiability](../300_foundations/08_identifiability.md) chapter; B6 on excitation design
 
 ## Measurement contract
 

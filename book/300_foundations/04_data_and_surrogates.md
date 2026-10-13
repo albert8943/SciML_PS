@@ -8,7 +8,7 @@
 
 ## Reading
 
-- Course report Lab 2; method table §4.3 (supervised neural surrogate)
+- [Lab 2 — surrogate versus PINN](../900_labs/lab_02_surrogate_vs_pinn/index.md); B4 for neural-network training basics
 
 ## Supervised surrogate
 
@@ -38,7 +38,7 @@ Train a small MLP to predict $\delta(t)$ on a grid of clearing times. Report err
 
 ## Further reading
 
-- Course report §4.3; PBDL supervised chapters (B5) as method background
+- PBDL supervised chapters (B5) as method background; B3 for data-driven dynamics
 
 ## Common misconceptions
 

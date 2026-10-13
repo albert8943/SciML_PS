@@ -1,14 +1,31 @@
 # Reading list
 
-Seed from the course planning report bibliography. Replace stubs with edition-checked chapter numbers before student release.
+Books, papers, and tools cited on chapter pages by short ID (for example B1 or R-K04). Chapter numbers are given only where an edition has been checked.
 
-## Primary engineering / SciML bridges (report IDs)
+## Books and core bridges
 
 | ID | Source (short) | Role |
 |----|----------------|------|
-| B1 | Kundur and Malik, *Power System Stability and Control* | Dynamics / stability foundations |
-| B3 | Brunton and Kutz, *Data-Driven Science and Engineering* | Data-driven dynamics bridge |
+| B1 | Kundur and Malik, *Power System Stability and Control*, 2nd ed. | Dynamics / stability foundations |
+| B3 | Brunton and Kutz, [*Data-Driven Science and Engineering*](https://www.databookuw.com/) | Data-driven dynamics bridge |
+| B4 | Bishop and Bishop, [*Deep Learning: Foundations and Concepts*](https://www.bishopbook.com/) (2024) | Neural networks, training, automatic differentiation background |
 | B5 | Thuerey et al., [Physics-based Deep Learning](https://physicsbaseddeeplearning.org/intro.html) | Physical losses / differentiable physics |
+| B6 | Ljung, *System Identification: Theory for the User*, 2nd ed. | Classical estimation, excitation, identifiability |
+
+## Method papers
+
+| ID | Source (short) | Role |
+|----|----------------|------|
+| R1 | Karniadakis et al., [Physics-informed machine learning](https://www.nature.com/articles/s42254-021-00314-5), *Nature Reviews Physics*, 2021 | Field overview |
+| R2 | Baydin et al., [Automatic differentiation in machine learning: a survey](https://arxiv.org/abs/1502.05767) | Automatic differentiation |
+| R3 | Raissi, Perdikaris, and Karniadakis, [Physics-informed neural networks](https://doi.org/10.1016/j.jcp.2018.10.045), *J. Comput. Phys.*, 2019 | Original PINN formulation (forward and inverse) |
+| R6 | Chen et al., [Neural Ordinary Differential Equations](https://arxiv.org/abs/1806.07366), 2018 | Neural ODEs |
+| R7 | Rackauckas et al., [Universal Differential Equations for Scientific Machine Learning](https://arxiv.org/abs/2001.04385) | Hybrid physics + learned models |
+
+## Simulators
+
+| ID | Source (short) | Role |
+|----|----------------|------|
 | S1 | [ANDES documentation](https://docs.andes.app/en/stable/) | Network simulation reference (GPL v3); course bridge: [ANDES as network reference](../500_stability/03_andes_network_reference.md) |
 | S1a | [ANDES Gallery](https://docs.andes.app/en/stable/gallery/index.html) | Optional cases; preferred class network CCT: [Kundur CCT mapping](https://docs.andes.app/en/stable/gallery/critical-clearing-time.html) |
 
@@ -48,6 +65,6 @@ Fluids-only examples (Navier-Stokes, airfoils, Lagrangian and meshless methods, 
 | C13 | [PSCC 2024 tutorial](https://www.chatziva.com/pscc2024.html) | Power-system PINN / trustworthy AI tutorial landing |
 | S-PINN-TSA | [Unified PINN SMIB TSA/CCT benchmark (code)](https://github.com/albert8943/unified-physics-informed-neural-surrogate-smib-tsa-cct-benchmark) | Optional further reading for trajectory surrogates — **not** a course lab |
 
-A longer annotated bibliography lives in the course planning report (repository `docs/planning/`, maintainers). Do not treat research-repo notebooks as redistributable course materials without a license check.
+Research code repositories are further reading, not redistributable course material.
 
-**Labs vs this page:** assessed work is only Labs 1–5 under Laboratories. Put third-party GitHub courses and packages here (or in maintainer docs), not on the Labs index. Maintainer policy: `docs/guides/lab_spine_policy.md`.
+**Labs vs this page:** assessed work is only Labs 1–5 under [Laboratories](../900_labs/README.md). External courses and packages are listed here, not on the Labs index.

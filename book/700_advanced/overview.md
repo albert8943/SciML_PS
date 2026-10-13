@@ -29,9 +29,7 @@ Summarize-then-link only — not core TOC spines:
 
 - [Forced oscillation (WECC 179)](https://docs.andes.app/en/stable/gallery/forced-oscillation.html) — large-system elective  
 - [RL oscillation damping (SMIB)](https://docs.andes.app/en/stable/gallery/smib-oscillation.html) — outside the three pillars; curiosity  
-- Gallery index: https://docs.andes.app/en/stable/gallery/index.html  
-
-Course strategy: maintainer guide `docs/guides/andes_content_strategy.md`.
+- Gallery index: https://docs.andes.app/en/stable/gallery/index.html
 
 ## Status
 

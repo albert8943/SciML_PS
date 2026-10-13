@@ -75,7 +75,7 @@ Official descriptions: [Creative Commons licences](https://creativecommons.org/l
 
 ## 7. Checklist (tick in place)
 
-- [ ] Employer / university IP policy checked (also visa terms before any paid use)
+- [ ] Employer / university IP policy checked (again before any paid use)
 - [ ] Repo audited for confidential results, collaborator data, and paywalled figures before going public for Pages ([site hosting](site_hosting.md) setup step 1). Partly done 2026-10-13: third-party slides removed from history, copied stability figures replaced by original ones. Final look before switching visibility.
 - [ ] Each own-paper figure checked against its publisher reuse terms (recorded in the attribution register)
 - [ ] Figures on albertpoulose.com that the book once shared: check their origin separately

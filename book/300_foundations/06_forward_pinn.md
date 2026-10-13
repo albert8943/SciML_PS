@@ -8,8 +8,8 @@
 
 ## Reading
 
-- Adapted from vault Lessons 4–5 (teaching language)  
-- Course report PINN rows in §4.3; Raissi et al. (R#) as assigned
+- Raissi, Perdikaris, and Karniadakis (R3): original PINN formulation  
+- B5 physical-loss chapters (see Further reading)
 
 ## Three pieces
 
@@ -66,7 +66,7 @@ The points below follow the discussion of physical losses in B5, rewritten for t
 
 ## Further reading
 
-- B5 Thuerey et al., [physical losses](https://physicsbaseddeeplearning.org/physicalloss.html) and [discussion of physical losses](https://physicsbaseddeeplearning.org/physicalloss-discuss.html) (Burgers examples; same ideas); course report Lab 2
+- B5 Thuerey et al., [physical losses](https://physicsbaseddeeplearning.org/physicalloss.html) and [discussion of physical losses](https://physicsbaseddeeplearning.org/physicalloss-discuss.html) (Burgers examples; same ideas); [Lab 2](../900_labs/lab_02_surrogate_vs_pinn/index.md)
 
 ## Common misconceptions
 

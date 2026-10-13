@@ -8,8 +8,8 @@
 
 ## Reading
 
-- Course report §4 (three tasks) — B1, R1 for context  
-- Adapted from vault beginner Lessons 1–3 (teaching language only)
+- B1 for power-system context; R1 for the SciML landscape  
+- [Book map](../100_front/book_map.md) for the three applications
 
 ## Three tasks (same SMIB, different questions)
 
@@ -65,7 +65,7 @@ Specify one SMIB fault-on/clearing case in writing:
 
 ## Further reading
 
-- Course report §4.2–§4.3; Kundur (B1) for swing-equation context
+- Kundur (B1) for swing-equation context; R1 for the method families
 
 ## Common misconceptions
 

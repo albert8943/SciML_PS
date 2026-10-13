@@ -8,7 +8,7 @@
 
 ## Reading
 
-- Course report Lab 1; Weeks 2–4  
+- [Lab 1 — reference simulation](../900_labs/lab_01_reference_sim/index.md)  
 - Numerical ODE notes in [Preparation](../200_prep/overview.md)
 
 ## Why a reference first
@@ -39,7 +39,7 @@ Compare trajectories for the same physical scenario at two time steps. Report ma
 
 ## Further reading
 
-- Course report §6.2 Lab 1; §6.3 experiment record fields
+- [Lab 1](../900_labs/lab_01_reference_sim/index.md) protocol and dataset record fields
 
 ## Common misconceptions
 

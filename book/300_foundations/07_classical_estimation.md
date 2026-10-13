@@ -8,7 +8,7 @@
 
 ## Reading
 
-- Course report Lab 3; system identification references (B3, B6 as assigned)
+- [Lab 3 — inertia and damping identification](../900_labs/lab_03_inertia_damping_id/index.md); system identification references B6 (Ljung) and B3
 
 ## Least squares against a simulator
 
@@ -40,7 +40,7 @@ Fix a load-step experiment. Plot a coarse grid of $\mathcal{L}(H,D)$ and mark th
 
 ## Further reading
 
-- Course report §6.2 Lab 3; identifiability chapter next
+- [Lab 3](../900_labs/lab_03_inertia_damping_id/index.md); [identifiability](08_identifiability.md) chapter next
 - Gradient-based version of the same LS problem: [differentiable simulation](../600_identification/03_differentiable_simulation.md)
 - Maths background (external, link only): [least squares](https://notes.eecs245.org/simple-linear-regression/least-squares) in the EECS 245 notes (M-E245, CC BY-NC-ND 4.0)
 

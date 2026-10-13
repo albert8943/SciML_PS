@@ -8,8 +8,8 @@
 
 ## Reading
 
-- Course report §4.3 method table  
-- Teaching adapt of vault “SciML Families for Power System TSA” (career links removed)
+- R1 (physics-informed machine learning overview)  
+- B5 Thuerey et al., overview chapter (see the [reading list](../990_reference/reading_list.md))
 
 ## Plain-words map
 
@@ -48,7 +48,7 @@ Tighter coupling is not automatically better. Pick the level from the engineerin
 
 ## Further reading
 
-- B5 Thuerey et al., [overview and models](https://physicsbaseddeeplearning.org/overview.html) (source of the coupling ordering); report R6 (Neural ODE); operator-learning papers as assigned
+- B5 Thuerey et al., [overview and models](https://physicsbaseddeeplearning.org/overview.html) (source of the coupling ordering); R6 (Neural ODE); R7 (universal differential equations)
 
 ## Common misconceptions
 

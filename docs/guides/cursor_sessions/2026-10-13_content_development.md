@@ -27,7 +27,7 @@ Removed student-facing **Folder** columns and bare part IDs from book overviews 
 
 ## Later same day — home landing polish (Wealthfolio UX, JB2 stack)
 
-Rewrote [`book/index.md`](../../book/index.md): newcomer CTA, slim three-application bullets, Explore `{grid}`/`{card}` tiles, short live-vs-PDF note. Full “what you produce” table moved to book map. Pattern locked in [`../future_plans_online_resource.md`](../future_plans_online_resource.md) §1b (borrow UX, not product-docs tooling).
+Rewrote [`book/index.md`](../../../book/index.md): newcomer CTA, slim three-application bullets, Explore `{grid}`/`{card}` tiles, short live-vs-PDF note. Full “what you produce” table moved to book map. Pattern locked in [`../future_plans_online_resource.md`](../future_plans_online_resource.md) §1b (borrow UX, not product-docs tooling).
 
 ## Verify
 

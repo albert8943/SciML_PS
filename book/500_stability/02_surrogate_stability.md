@@ -9,7 +9,7 @@
 
 ## Reading
 
-- Course report Lab 2 and Lab 5  
+- [Lab 2](../900_labs/lab_02_surrogate_vs_pinn/index.md) and [Lab 5](../900_labs/lab_05_stability_cct/index.md)  
 - [Stability labels and CCT](01_stability_and_cct.md); [Forward PINNs](../300_foundations/06_forward_pinn.md)
 
 ## What the model is asked to produce

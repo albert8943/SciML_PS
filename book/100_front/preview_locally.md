@@ -2,7 +2,7 @@
 
 Use these commands from the **repository root** (the folder that contains `myst.yml`). After the server starts, open **one book URL:** [http://localhost:3000/](http://localhost:3000/).
 
-Jupyter Book 2 also starts a file/content server (usually port **3100**). That is part of the same preview, not a second book. Prefer **Chrome or Edge** for the navbar **PDF** link (Cursor’s built-in browser often shows a blank PDF). Or open `exports/sciml_ps_notes.pdf` on disk after `scripts/build_pdf.ps1`.
+Jupyter Book 2 also starts a file/content server (usually port **3100**). That is part of the same preview, not a second book. Prefer **Chrome or Edge** for the navbar **PDF** link (editor-embedded browsers often show a blank PDF). Or open `exports/sciml_ps_notes.pdf` on disk after `scripts/build_pdf.ps1`.
 
 ## 1. One-time environment setup
 
@@ -126,7 +126,7 @@ Open the `index.html` path printed by the CLI (often under `_build/`).
 |---------|-----|
 | Page will not load / connection refused | Start the server first (`.\scripts\preview.ps1`) and leave that terminal open |
 | Confused by port **3100** | Normal JB2 content/static server for the same preview; bookmark only `http://localhost:3000/` |
-| Navbar PDF is blank in Cursor | Open in Chrome/Edge, or open `exports/sciml_ps_notes.pdf` on disk |
+| Navbar PDF is blank in an editor-embedded browser | Open in Chrome/Edge, or open `exports/sciml_ps_notes.pdf` on disk |
 | Navbar PDF is old / 404 | Run `.\scripts\build_pdf.ps1`, then `python scripts/build_pdf.py --sync-only` if preview is already up; hard-refresh |
 | `jupyter` / `jupyter book` not found | `conda activate sciml_ps` (or re-run `.\scripts\setup_env.ps1`) |
 | `node` not found / JB asks to install Node | `conda activate sciml_ps` then `conda env update -f environment.yml --prune` |

@@ -8,7 +8,7 @@
 
 ## Reading
 
-- Course report Weeks on gradients / PyTorch; Goodfellow-style AD intuition (B4 if assigned)
+- R2 (automatic differentiation survey); B4 for backpropagation intuition
 
 ## Why AD matters for PINNs
 

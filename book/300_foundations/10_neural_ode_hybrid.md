@@ -8,8 +8,8 @@
 
 ## Reading
 
-- Course report §4.3 (Neural ODE, hybrid/UDE, DeepONet)  
-- Chen et al., Neural ODEs (R6) as assigned
+- Chen et al., Neural ODEs (R6)  
+- Rackauckas et al., universal differential equations (R7)
 
 ## Collocation PINN vs Neural ODE
 
@@ -35,7 +35,7 @@ Define a held-out longer time horizon before training a Neural ODE on SMIB data.
 
 ## Further reading
 
-- Course report Lab 4; advanced part overview
+- [Lab 4 — learned dynamics](../900_labs/lab_04_learned_dynamics/index.md)
 
 ## Common misconceptions
 

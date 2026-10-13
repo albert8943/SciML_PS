@@ -8,8 +8,8 @@
 
 ## Reading
 
-- Adapted from vault Lessons 4–5  
-- Course report Lab 3
+- Raissi, Perdikaris, and Karniadakis (R3): inverse problems section  
+- [Lab 3 — inertia and damping identification](../900_labs/lab_03_inertia_damping_id/index.md)
 
 ## Where parameters enter
 

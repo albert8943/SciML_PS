@@ -8,7 +8,7 @@
 
 ## Reading
 
-- Teaching adapt of vault concept “Physical versus Equivalent Parameters” (no Paper 1 metrics)  
+- B6 (Ljung) on model structure and parameter interpretation  
 - [Identifiability](../300_foundations/08_identifiability.md)
 
 ## Definitions

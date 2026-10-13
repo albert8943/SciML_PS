@@ -11,10 +11,10 @@ Canonical maintainer rule + full inventory: [`../andes_content_strategy.md`](../
 
 ### New
 
-- Student bridge: [`../../book/500_stability/03_andes_network_reference.md`](../../book/500_stability/03_andes_network_reference.md) (in `myst.yml` Stability TOC)
-- Notebook: [`../../book/900_labs/lab_05_stability_cct/lab05_network_cct_andes.ipynb`](../../book/900_labs/lab_05_stability_cct/lab05_network_cct_andes.ipynb)
-- Helper: [`../../src/sciml_ps/andes_cct.py`](../../src/sciml_ps/andes_cct.py)
-- Env: [`../../envs/course_andes.yml`](../../envs/course_andes.yml) pinned **`andes==2.0.0`** (local Kundur PFlow/TDS smoke OK; run `andes prep` once if needed)
+- Student bridge: [`../../book/500_stability/03_andes_network_reference.md`](../../../book/500_stability/03_andes_network_reference.md) (in `myst.yml` Stability TOC)
+- Notebook: [`../../book/900_labs/lab_05_stability_cct/lab05_network_cct_andes.ipynb`](../../../book/900_labs/lab_05_stability_cct/lab05_network_cct_andes.ipynb)
+- Helper: [`../../src/sciml_ps/andes_cct.py`](../../../src/sciml_ps/andes_cct.py)
+- Env: [`../../envs/course_andes.yml`](../../../envs/course_andes.yml) pinned **`andes==2.0.0`** (local Kundur PFlow/TDS smoke OK; run `andes prep` once if needed)
 
 ### Book pages updated (hooks)
 

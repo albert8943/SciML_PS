@@ -10,7 +10,7 @@
 
 - B1 equal-area / energy chapters (edition-check before class)  
 - [Stability labels and CCT](01_stability_and_cct.md)  
-- Course report Lab 5 narrative  
+- [Lab 5 — stability and CCT](../900_labs/lab_05_stability_cct/index.md)  
 
 ## Why direct methods belong in a SciML course
 
@@ -66,7 +66,7 @@ Fair when (for example) mechanical power is treated as constant and damping is n
 ## Further reading
 
 - B1; R-K04 / R-H21 for classification context  
-- Converter energy-function TSA: defer to Advanced elective (maintainer note: website programme 01)
+- Energy-function TSA for converter-dominated grids: see the [Advanced](../700_advanced/overview.md) part
 
 ## Common misconceptions
 

@@ -10,8 +10,7 @@
 
 - [Identification overview](../600_identification/overview.md)  
 - [Dynamics overview](../400_dynamics/overview.md)  
-- [Stability overview](../500_stability/overview.md)  
-- Maintainer career alignment: `docs/guides/website_career_to_book.md` (not student-required)
+- [Stability overview](../500_stability/overview.md)
 
 ## The three applications in one loop
 
@@ -48,7 +47,7 @@ Grid / PMU-like measurements
     → operator-facing or planning decision
 ```
 
-That programme is a **career-scale** direction. Published teaching evidence in this book is strongest on Foundations + classical SMIB SciML tasks. Treat the twin loop as **aspiration and synthesis**, not as a claim that the course already ships a twin.
+That programme is a **long-term research** direction. Published teaching evidence in this book is strongest on Foundations + classical SMIB SciML tasks. Treat the twin loop as **aspiration and synthesis**, not as a claim that the course already ships a twin.
 
 ## Honesty rules
 

@@ -9,7 +9,7 @@
 ## Reading
 
 - Kundur / Malik (B1): swing equations and transient stability framing  
-- Course report Weeks 2–3
+- [Lab 1 — reference simulation](../900_labs/lab_01_reference_sim/index.md) uses this model
 
 ## Classical swing model (teaching form)
 
@@ -56,7 +56,7 @@ Inertia $H$ scales how quickly rotor speed (and then angle) accelerate for a giv
 
 ## Further reading
 
-- B1 swing chapter; course report Stage A (SMIB classical machine)
+- B1 swing-equation chapter (classical SMIB machine)
 
 ## Common misconceptions
 

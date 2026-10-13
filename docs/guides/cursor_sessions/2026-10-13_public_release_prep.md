@@ -22,4 +22,4 @@ Removed from all commits (`git filter-branch`): EEI Days PDF/PPTX/text extract, 
 
 - Force push, then make the repo public and finish the Pages/DNS checklist.
 - Website figures on albertpoulose.com may share the same copied images; check separately.
-- Visa / university IP check before any paid use of the content.
+- University IP check before any paid use of the content.
