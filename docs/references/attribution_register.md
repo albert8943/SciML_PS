@@ -7,6 +7,7 @@ One row per external asset that shaped, or was copied into, SciML_PS. This regis
 | Mode | Meaning | License obligation |
 |------|---------|--------------------|
 | `idea-cited` | Concept or teaching pattern explained in our own words, own examples, own figures | Cite the source (reading list ID); no license copy needed |
+| `link-only` | Hyperlink to the external page; we do not host or adapt their text | Attribute on the linking page; do not copy content (required when the source is ND or unlicensed) |
 | `adapted-text` | Sentences or structure closely follow the source text | Follow source license; mark the page as adapted |
 | `adapted-code` | Code copied or modified from the source | Follow source license; file header naming source, license, and changes |
 | `software-dependency` | Used as an installed tool, not redistributed in this repo | Respect vendor license when redistributing derivatives |
@@ -25,6 +26,8 @@ One row per external asset that shaped, or was copied into, SciML_PS. This regis
 | IEEE-CIGRE-CLASS | https://doi.org/10.1109/TPWRS.2020.3041774 | Hatziargyriou et al. (revising Kundur et al., 2004) | Stability classification tree | 2021 | IEEE copyright; idea only | idea-cited | `book/500_stability/01_stability_and_cct.md` classification diagram | Redrawn as Mermaid in our own layout (2026-10-13); earlier copied PNG removed from repo history | "Redrawn for this book after the IEEE/CIGRE task-force definitions (R-K04, R-H21)" | No |
 | ANDES | https://github.com/CURENT/andes | Cui et al. | Installed package (pinned 2.0.0 in `envs/course_andes.yml`) | 2.0.0 | GPL-3.0 (official repo) | software-dependency | Labs 1 and 5, Stability network reference | Not redistributed; called from notebooks | Cite ANDES paper | n/a |
 | DeepXDE | https://github.com/lululxvi/deepxde | Lu et al. | Not used in labs yet | n/a | LGPL-2.1 (official repo) | software-dependency | Reading list only | None | Cite DeepXDE paper | n/a |
+| RAMP-01 | https://notes.eecs245.org/ | Suraj Rampure | Live notes site (not copied); maths sections linked from Prep / Foundations | checked 2026-10-13 | **CC BY-NC-ND 4.0** (stated on home page); repo `eecs245/notes` has no LICENSE for plugins/CSS | link-only + idea-cited | Prep maths refresher; advice / why / a11y / activity *patterns* in own words | No text, exercises, figures, CSS, or JS copied; ND forbids distributing adaptations | "EECS 245 notes, Suraj Rampure, CC BY-NC-ND 4.0" on linking pages | No |
+| RAMP-02 | https://notes.math124.org/ ; https://github.com/math-124/notes-example | Kartik Prasanna & Suraj Rampure | Site + workshop template | checked 2026-10-13 | No licence stated → all rights reserved | link-only / idea-cited | Under-development banner pattern; product-shape note only | No content copied; Math 124 too early-stage for maths links | Cite as product model when relevant | No |
 
 ## Outbound SciML_PS licenses (not third-party)
 

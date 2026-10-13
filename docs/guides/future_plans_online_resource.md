@@ -13,8 +13,8 @@ This note records **product / site features** to add over time, inspired by publ
 
 | Reference | URL | What to learn |
 |-----------|-----|----------------|
-| EECS 245 **notes** (book) | https://notes.eecs245.org/ | Mature MyST-style notes book (Rampure) |
-| Math 124 **notes** (book) | https://notes.math124.org/ | Second notes book (Prasanna & Rampure); under development Fall 2026 |
+| EECS 245 **notes** (book) | https://notes.eecs245.org/ | Mature MyST-style notes book (Rampure); **CC BY-NC-ND 4.0** — link only; patterns reimplemented (see [`../references/rampure_notes_vs_course_sites.md`](../references/rampure_notes_vs_course_sites.md)) |
+| Math 124 **notes** (book) | https://notes.math124.org/ | Second notes book (Prasanna & Rampure); under development Fall 2026; **no licence stated** — patterns only |
 | EECS 245 **PDF export** | https://notes.eecs245.org/exports/notes.pdf | Full-book PDF; mark experimental if interactive content does not survive export |
 | EECS 245 **course portal** | https://eecs245.org/ (e.g. [/sp26/](https://eecs245.org/sp26/)) | Ops site + **term paths**; links *to* the shared notes book |
 | EECS 245 **feedback** | [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSfrAu2o3eBa9ZvjerOFxqDHV63GlR9NoYdA4TOgK8BBoSguCg/viewform) | Lightweight typo / UX feedback without building a CMS |

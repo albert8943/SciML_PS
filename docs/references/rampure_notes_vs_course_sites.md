@@ -69,3 +69,19 @@ E  Feedback         Google Form on notes navbar
 ```
 
 Copy his **ecosystem shape** (notes + portal + deep links + living updates). Do not copy his linear-algebra chapter order.
+
+---
+
+## Licence and what we take
+
+| Source | Licence evidence (checked 2026-10-13) | Allowed for SciML_PS |
+|--------|----------------------------------------|----------------------|
+| EECS 245 notes | Home page: **CC BY-NC-ND 4.0** | Link with attribution; **do not** adapt or host their text (ND). Patterns in our own words are fine. |
+| `eecs245/notes` repo | No `LICENSE` file | Do not copy plugins, CSS, banner scripts, or PDF template |
+| Math 124 notes / `notes-example` | No licence stated | All rights reserved → patterns only; no content links until a licence appears |
+
+**What we adopt (own implementation):** advice-to-student page; “why this book” + acknowledgements block; accessibility statement; MyST `exercise`/`solution` dropdowns (not their custom plugins); under-development banners on stubs; optional Prep maths-refresher **links** to EECS 245 sections.
+
+**What we never take:** their prose, exercises, figures, CSS, or JS.
+
+**Our outbound licence** (separate): content CC BY-NC-SA 4.0, code MIT — see [`../guides/legal_and_licensing_considerations.md`](../guides/legal_and_licensing_considerations.md). Register rows: `RAMP-01`, `RAMP-02` in [`attribution_register.md`](attribution_register.md).
