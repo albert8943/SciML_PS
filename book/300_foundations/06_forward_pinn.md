@@ -46,6 +46,19 @@ In a **forward** PINN, parameters $\theta$ inside the residual are **known and f
 
 For the classical swing equations with known $(H,D)$, place collocation points in time and write $r_\delta$ and $r_\omega$ explicitly. Train with a small labeled window plus residual.
 
+## Strengths and limits of physics losses
+
+The points below follow the discussion of physical losses in B5, rewritten for the swing equation.
+
+| Strength | Limit |
+|----------|-------|
+| Needs no solver: only the network, AD, and the residual $r_\delta, r_\omega$ | **Soft constraint.** The residual is only *penalized*, so a trained $\hat{x}(t)$ still violates the swing equation by some amount. Report the residual next to trajectory error |
+| Works with sparse or partial measurements (e.g. only $\omega$ measured) | **Collocation cost.** The residual is only checked at collocation points. Fault switching at $t_f$ and $t_c$ needs points concentrated around the events |
+| Same code pattern for forward and inverse problems | **Loss weighting.** $\mathcal{L}_{\mathrm{data}}$, $r_\delta$ and $r_\omega$ have different scales, so $\lambda_{\mathrm{phys}}$ (and per-term weights) change the answer. See [gradient scaling](05_differentiation.md#gradient-scaling) |
+| Smooth, differentiable output in $t$ | **Weak extrapolation.** A network trained on $t \in [0, 2]$ s is not a simulator. Outside the training window, or for a new clearing time, it must be re-checked against Lab 1 |
+
+**Plain words:** a PINN is a curve fitted to data and nudged toward the physics. It is not a solver that guarantees the physics.
+
 ## Lab
 
 - [Lab 2 — Surrogate versus PINN](../900_labs/lab_02_surrogate_vs_pinn/index.md)  
@@ -53,7 +66,7 @@ For the classical swing equations with known $(H,D)$, place collocation points i
 
 ## Further reading
 
-- Physics-based Deep Learning (B5) physical-loss chapters; course report Lab 2
+- B5 Thuerey et al., [physical losses](https://physicsbaseddeeplearning.org/physicalloss.html) and [discussion of physical losses](https://physicsbaseddeeplearning.org/physicalloss-discuss.html) (Burgers examples; same ideas); course report Lab 2
 
 ## Common misconceptions
 

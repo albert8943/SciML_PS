@@ -42,6 +42,16 @@ Measured power is **not** a parameter; it is a known signal or observation chann
 
 Write $\mathcal{L}_{\mathrm{data}} + \lambda_{\mathrm{phys}}\mathcal{L}_{\mathrm{phys}}$ with $\theta=(H,D)$ trainable. List which tensors require `requires_grad=True`.
 
+## Strengths and limits for identification
+
+The forward-PINN limits ([strengths and limits of physics losses](06_forward_pinn.md#strengths-and-limits-of-physics-losses)) carry over. Inverse use adds three of its own.
+
+- **Shared blame.** Network weights and $(H, D)$ are fitted together. A flexible network can absorb model error that should have shown up in $\theta$. So a low loss does not mean $\theta$ is right.
+- **Weighting moves $\theta$.** Changing $\lambda_{\mathrm{phys}}$ can shift the estimated $(H, D)$, not only the fit quality. Report estimates for more than one weight.
+- **Residual consistency is not trajectory consistency.** Check the fitted $\theta$ by re-simulating with the reference solver (Lab 1). Compare that trajectory with the measurements, not the network output.
+
+A tighter alternative puts the solver itself in the loop: [differentiable simulation](../600_identification/03_differentiable_simulation.md). There, $\theta$ is the only unknown and every candidate trajectory obeys the model exactly.
+
 ## Lab
 
 - [Lab 3 — Inertia and damping estimation](../900_labs/lab_03_inertia_damping_id/index.md)
@@ -49,6 +59,7 @@ Write $\mathcal{L}_{\mathrm{data}} + \lambda_{\mathrm{phys}}\mathcal{L}_{\mathrm
 ## Further reading
 
 - [Identifiability](08_identifiability.md); identification pillar overview
+- B5 Thuerey et al., [discussion of physical losses](https://physicsbaseddeeplearning.org/physicalloss-discuss.html) and [differentiable physics versus physics-informed training](https://physicsbaseddeeplearning.org/diffphys-dpvspinn.html)
 
 ## Common misconceptions
 
