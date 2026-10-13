@@ -42,6 +42,7 @@ Fix a load-step experiment. Plot a coarse grid of $\mathcal{L}(H,D)$ and mark th
 
 - Course report §6.2 Lab 3; identifiability chapter next
 - Gradient-based version of the same LS problem: [differentiable simulation](../600_identification/03_differentiable_simulation.md)
+- Maths background (external, link only): [least squares](https://notes.eecs245.org/simple-linear-regression/least-squares) in the EECS 245 notes (M-E245, CC BY-NC-ND 4.0)
 
 ## Common misconceptions
 

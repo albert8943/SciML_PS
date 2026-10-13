@@ -35,6 +35,12 @@ Fluids-only examples (Navier-Stokes, airfoils, Lagrangian and meshless methods, 
 | R-K04 | [Kundur et al., IEEE Trans. Power Syst., 2004](https://doi.org/10.1109/TPWRS.2004.825981) | IEEE/CIGRE stability definitions (classic framework) |
 | R-H21 | [Hatziargyriou et al., IEEE Trans. Power Syst., 2021](https://doi.org/10.1109/TPWRS.2020.3041774) | Converter-era stability classification update |
 
+## Maths refresher (external, link only)
+
+| ID | Source | Role |
+|----|--------|------|
+| M-E245 | [EECS 245 course notes](https://notes.eecs245.org/) (Suraj Rampure) | Optional linear-algebra / gradient / SVD background; **CC BY-NC-ND 4.0** — link only, do not adapt; table on [Preparation overview](../200_prep/overview.md) |
+
 ## Domain teaching pointers
 
 | ID | Source | Role |

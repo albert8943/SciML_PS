@@ -55,6 +55,7 @@ Differentiate $\sin(w t)$ w.r.t. $t$ with AD in PyTorch/`torch.autograd` and com
 ## Further reading
 
 - Framework AD docs; course prep notebook on gradients
+- Maths background (external, link only): [gradient descent](https://notes.eecs245.org/gradients/gradient-descent) and [convexity](https://notes.eecs245.org/gradients/convexity) in the EECS 245 notes (M-E245, CC BY-NC-ND 4.0)
 
 ## Common misconceptions
 

@@ -37,6 +37,7 @@ For $(H,D)$ on one load step, plot $\mathcal{L}(H,D)$. If the valley is elongate
 ## Further reading
 
 - Course report Lab 3 success criteria; physical vs equivalent discussion in identification pillar
+- Maths background (external, link only): [low-rank approximation](https://notes.eecs245.org/singular-value-decomposition/low-rank-approximation) / [PCA](https://notes.eecs245.org/singular-value-decomposition/principal-components-analysis) in the EECS 245 notes (M-E245, CC BY-NC-ND 4.0) — useful intuition for flat directions in a loss surface
 
 ## Common misconceptions
 
