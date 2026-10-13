@@ -17,3 +17,13 @@ Identifiability, measurement contracts, excitation, and classical vs physics-inf
 ## Honesty rule
 
 Low trajectory error does not certify physical parameter recovery. Report bounds, excitation, and a held-out disturbance test.
+
+## Discussion: what Identification methods can and cannot claim
+
+| Can claim (with evidence) | Cannot claim |
+|---------------------------|--------------|
+| Recovery of a known $\theta$ in a synthetic test with stated noise and excitation | Recovery on real data without a model-map argument |
+| Held-out disturbance error with frozen $\hat{\theta}$ | That $\hat{\theta}$ is a **physical** constant when the model is mismatched (it may be equivalent) |
+| Which parameter the data inform weakly (loss surface, sensitivity) | That a faster or gradient-based estimator removes weak identifiability |
+
+**Rule:** least squares, differentiable simulation, and inverse PINN are compared on the same data contract, and every estimate is re-simulated with the reference solver.

@@ -12,6 +12,22 @@ Seed from the course planning report bibliography. Replace stubs with edition-ch
 | S1 | [ANDES documentation](https://docs.andes.app/en/stable/) | Network simulation reference (GPL v3); course bridge: [ANDES as network reference](../500_stability/03_andes_network_reference.md) |
 | S1a | [ANDES Gallery](https://docs.andes.app/en/stable/gallery/index.html) | Optional cases; preferred class network CCT: [Kundur CCT mapping](https://docs.andes.app/en/stable/gallery/critical-clearing-time.html) |
 
+## B5 by chapter: where this book uses it
+
+B5 is a method textbook with fluid-dynamics examples. This book takes its ideas and rewrites them for the SMIB swing equation; it does not copy its figures or notebooks.
+
+| B5 chapter | Used in |
+|------------|---------|
+| [Overview and models](https://physicsbaseddeeplearning.org/overview.html) | [SciML landscape](../300_foundations/00_sciml_landscape.md) § How tightly is physics coupled? |
+| [Supervised training discussion](https://physicsbaseddeeplearning.org/supervised-discuss.html) | [Data and surrogates](../300_foundations/04_data_and_surrogates.md); pillar Discussion sections |
+| [Physical losses](https://physicsbaseddeeplearning.org/physicalloss.html), [discussion](https://physicsbaseddeeplearning.org/physicalloss-discuss.html) | [Forward PINN](../300_foundations/06_forward_pinn.md), [inverse PINN](../300_foundations/09_inverse_pinn.md) |
+| [Differentiable physics](https://physicsbaseddeeplearning.org/diffphys.html), [DP versus PINN](https://physicsbaseddeeplearning.org/diffphys-dpvspinn.html) | [Differentiable simulation](../600_identification/03_differentiable_simulation.md); Lab 3 option |
+| [Improved gradients](https://physicsbaseddeeplearning.org/physgrad.html), [half-inverse gradients](https://physicsbaseddeeplearning.org/physgrad-hig.html) | [Automatic differentiation](../300_foundations/05_differentiation.md) § Gradient scaling (further reading) |
+| [Model reduction and time series](https://physicsbaseddeeplearning.org/others-timeseries.html) | [Dynamics overview](../400_dynamics/overview.md); Lab 4 |
+| [Probabilistic learning](https://physicsbaseddeeplearning.org/probmodels-intro.html), [graph diffusion](https://physicsbaseddeeplearning.org/probmodels-graph.html), [reinforcement learning](https://physicsbaseddeeplearning.org/reinflearn-intro.html) | [Advanced overview](../700_advanced/overview.md) § Fast-forward topics |
+
+Fluids-only examples (Navier-Stokes, airfoils, Lagrangian and meshless methods, GANs): link only if a student asks; not part of this course.
+
 ## Stability classification and margins
 
 | ID | Source (short) | Role |

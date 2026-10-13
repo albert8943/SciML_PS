@@ -11,6 +11,14 @@
 - Multimachine / network scaling after SMIB mastery (ANDES / Kundur path under Stability)
 - Selected converter synchronization case studies (after Labs 1–5; VSM–swing bridge first)
 
+## Fast-forward topics
+
+Short pointers to directions this book does not teach yet. Each needs Labs 1–5 first. Method background is B5 Thuerey et al.; linked external code carries its own license.
+
+- **Probabilistic learning for uncertainty.** Generative models (diffusion, flow matching) learn a *distribution* of trajectories or parameters instead of one answer. In this book's terms: a spread of plausible $(H, D)$ or a probability of instability, instead of a point estimate. Background: [probabilistic learning introduction](https://physicsbaseddeeplearning.org/probmodels-intro.html).
+- **Graph architectures for networks.** Multimachine systems are graphs (buses and lines). Graph neural networks and graph-based generative models respect that structure and are a natural next step after the Kundur path. Background: [network architectures](https://physicsbaseddeeplearning.org/supervised-arch.html), [graph-based diffusion models](https://physicsbaseddeeplearning.org/probmodels-graph.html).
+- **Reinforcement learning for control.** Learning control actions (e.g. damping) from interaction. It is outside the three pillars of this book; treat it as curiosity. Background: [reinforcement learning introduction](https://physicsbaseddeeplearning.org/reinflearn-intro.html); applied example: the ANDES RL gallery entry below.
+
 ## Linked further practice (ANDES gallery)
 
 Summarize-then-link only — not core TOC spines:
