@@ -12,7 +12,7 @@ Readable teaching prose; examples, figures, and exercises are still growing. See
 
 ## Reading
 
-- [Lab 2 — surrogate versus PINN](../900_labs/lab_02_surrogate_vs_pinn/index.md); B4 for neural-network training basics
+- [Lab 2 — surrogate versus PINN](../900_labs/lab_02_surrogate_vs_pinn/index.md); neural-network training basics [@bishop2024deep]
 
 ## Supervised surrogate
 
@@ -42,7 +42,8 @@ Train a small MLP to predict $\delta(t)$ on a grid of clearing times. Report err
 
 ## Further reading
 
-- PBDL supervised chapters (B5) as method background; B3 for data-driven dynamics
+- [Supervised training discussion](https://physicsbaseddeeplearning.org/supervised-discuss.html) in @thuerey2021pbdl as method background
+- Data-driven dynamics [@brunton2022datadriven]
 
 ## Common misconceptions
 

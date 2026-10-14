@@ -40,7 +40,24 @@ Full DCO text: https://developercertificate.org/
 3. **Teaching voice** — “we/you” or impersonal prose; not CV or paper-promo copy.
 4. **Accessibility** — every figure needs `:alt:` text; do not encode meaning only in colour (see `book/chapter_template.md`).
 5. **Scope** — keep Dynamics / Stability / Identification as the core; scope changes follow [docs/guides/scope_lock_three_pillars.md](docs/guides/scope_lock_three_pillars.md) and editor review.
-6. **Maturity label** — new or thin pages use a Stub / Draft / Under development note near the top.
+6. **Maturity label** — every chapter carries a `{note} Maturity: Stub` (or Draft / In review / Stable) block near the top.
+
+## Adding a reference
+
+All sources live in one shared bibliography, [`references.bib`](references.bib). Each chapter cites what it uses and gets its own **References** list at the bottom of the page automatically; do not write a References heading by hand.
+
+1. Search `references.bib` first; reuse an existing key rather than adding a duplicate.
+2. New entry: key `firstauthorYEARword` in lower case (e.g. `raissi2019physics`). Take metadata from the DOI (`https://doi.org/<doi>` with header `Accept: application/x-bibtex`) or the publisher page, never from memory. Every entry needs `doi` or `url`.
+3. Cite in the chapter with `[@key]` (parenthetical) or `@key` (in a sentence); several at once: `[@a; @b]`.
+4. Link to a specific chapter of a web book inline, next to the citation.
+
+## Adding a chapter
+
+1. Copy [`book/chapter_template.md`](book/chapter_template.md) and keep its section order.
+2. Add the page to the `toc` in `myst.yml`.
+3. Add one row for it to the [Full outline](book/100_front/outline.md) (title link, one-line summary, maturity, lab).
+4. Set the maturity note at the top of the page.
+5. Run `python scripts/check_book.py`; CI runs it on every pull request.
 
 ## Local preview and build
 
@@ -58,7 +75,9 @@ CI builds HTML (and PDF when possible) on every pull request to `master`.
 - [ ] Commits are signed off (`git commit -s`)
 - [ ] Sources cited; no confidential data
 - [ ] Figures have alt text
-- [ ] TOC updated in `myst.yml` if you added a page
+- [ ] TOC in `myst.yml` and the Full outline updated if you added a page
+- [ ] New sources added to `references.bib` and cited with `[@key]`
+- [ ] `python scripts/check_book.py` passes
 - [ ] Local preview builds without broken links you introduced
 
 ## Credit

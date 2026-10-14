@@ -13,7 +13,7 @@ Readable teaching prose; examples, figures, and exercises are still growing. See
 ## Reading
 
 - [Classical estimation](../300_foundations/07_classical_estimation.md), [automatic differentiation](../300_foundations/05_differentiation.md), [inverse PINN](../300_foundations/09_inverse_pinn.md)
-- B5 Thuerey et al., [differentiable physics](https://physicsbaseddeeplearning.org/diffphys.html) and [differentiable physics versus physics-informed training](https://physicsbaseddeeplearning.org/diffphys-dpvspinn.html) (method background with fluid examples)
+- @thuerey2021pbdl, [differentiable physics](https://physicsbaseddeeplearning.org/diffphys.html) and [differentiable physics versus physics-informed training](https://physicsbaseddeeplearning.org/diffphys-dpvspinn.html) (method background with fluid examples)
 
 ## The idea
 

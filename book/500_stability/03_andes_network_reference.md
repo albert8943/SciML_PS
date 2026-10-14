@@ -4,7 +4,7 @@
 Readable teaching prose; examples, figures, and exercises are still growing. See [Status and versions](../100_front/status_and_versions.md) and [Join and contribute](../100_front/contribute.md).
 ```
 
-After you can run **SMIB** stability and CCT work ([Lab 5](../900_labs/lab_05_stability_cct/index.md)), the next plant fidelity step is a **network** simulator. This course uses [ANDES](https://docs.andes.app/en/stable/) as that reference: load a case, run power flow and time-domain simulation, then apply the **same SciML evaluation ideas** (scenarios, operational labels, CCT brackets, manifests) you already used on SMIB.
+After you can run **SMIB** stability and CCT work ([Lab 5](../900_labs/lab_05_stability_cct/index.md)), the next plant fidelity step is a **network** simulator. This course uses [ANDES](https://docs.andes.app/en/stable/) [@cui2021hybrid; @andes] as that reference: load a case, run power flow and time-domain simulation, then apply the **same SciML evaluation ideas** (scenarios, operational labels, CCT brackets, manifests) you already used on SMIB.
 
 ANDES is open-source (GPL v3). We summarize what you need here and point to the official docs for full tutorials and derivations — we do not republish the ANDES manual in this book.
 
@@ -80,4 +80,4 @@ Network simulation labels and CCT values are **operational** under a stated crit
 
 ## Citation
 
-Hantao Cui et al., ANDES — [documentation](https://docs.andes.app/en/stable/), [GitHub](https://github.com/CURENT/andes). License: GPL v3.
+When you use ANDES in a report, cite @cui2021hybrid. Tool links: [documentation](https://docs.andes.app/en/stable/), [GitHub](https://github.com/CURENT/andes). License: GPL v3.

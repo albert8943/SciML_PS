@@ -14,13 +14,13 @@ Readable teaching prose; examples, figures, and exercises are still growing. See
 ## Reading
 
 - [Lab 5 — stability and CCT](../900_labs/lab_05_stability_cct/index.md)  
-- R-K04, R-H21 (IEEE/CIGRE classification); B1 transient stability chapters  
+- IEEE/CIGRE stability classification [@kundur2004definition; @hatziargyriou2021definition]; transient stability chapters of @kundur2022power  
 
 ## Dynamic security (short)
 
 **Dynamic security** is the ability of the grid, in its **present operating condition**, to remain stable after credible disturbances such as short circuits. Assessment checks whether machines (and, later, converters) keep synchronism and whether a **margin** such as CCT remains adequate.
 
-That framing comes from IEEE/CIGRE stability and security language ([R-K04](../990_reference/reading_list.md); [R-H21](../990_reference/reading_list.md)).
+That framing comes from IEEE/CIGRE stability and security language [@kundur2004definition; @hatziargyriou2021definition].
 
 ## Where this sits in power system stability
 
@@ -56,7 +56,7 @@ flowchart TD
     style RA2 stroke:#c00,stroke-width:3px
 ```
 
-Power system stability classification, redrawn for this book after the IEEE/CIGRE task-force definitions (R-K04, R-H21). Teaching focus here: **rotor-angle** stability and its **transient** branch; converter-driven stability appears in later electives.
+Power system stability classification, redrawn for this book after the IEEE/CIGRE task-force definitions [@kundur2004definition; @hatziargyriou2021definition]. Teaching focus here: **rotor-angle** stability and its **transient** branch; converter-driven stability appears in later electives.
 
 ## Transient stability — three qualitative cases
 
@@ -73,7 +73,7 @@ Rotor-angle response to a three-phase fault on the classical SMIB model (`sciml_
 2. **First-swing instability.** The angle keeps increasing until synchronism is lost (often insufficient synchronizing torque).  
 3. **Oscillatory instability.** The first swing looks acceptable, but growing oscillations later drive loss of synchronism.
 
-Classical multimachine TSA study windows are often about **3–5 seconds** (longer, ~10 s, when slow interarea modes dominate). With converters, the critical post-fault interval can be shorter, and assessment may need converter-driven phenomena as well as rotor-angle behaviour (R-H21). Finite-horizon simulation labels used in labs are **operational**, not asymptotic Lyapunov certificates.
+Classical multimachine TSA study windows are often about **3–5 seconds** (longer, ~10 s, when slow interarea modes dominate). With converters, the critical post-fault interval can be shorter, and assessment may need converter-driven phenomena as well as rotor-angle behaviour [@hatziargyriou2021definition]. Finite-horizon simulation labels used in labs are **operational**, not asymptotic Lyapunov certificates.
 
 ## Critical clearing time
 
@@ -104,7 +104,8 @@ Accuracy alone can hide an unacceptable false-safe imbalance. Test **boundary-ad
 
 ## Further reading
 
-- R-K04, R-H21; B1 transient stability chapters  
+- [Direct methods](04_direct_methods.md) for an independent equal-area check on CCT
+- [Surrogate models for stability tasks](02_surrogate_stability.md) for learned labels and margins  
 
 ## Common misconceptions
 

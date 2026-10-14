@@ -1,0 +1,172 @@
+% SciML for PS shared bibliography.
+% One entry per source; chapters cite by key (see CONTRIBUTING.md) and MyST builds a References list per page.
+% Do not put the at-sign in comments: the BibTeX reader treats it as the start of an entry.
+% Key convention: firstauthorYEARword (lower case). Every entry needs doi or url.
+% Fill metadata from the DOI (https://doi.org/<doi> with Accept: application/x-bibtex) or publisher page.
+
+% ---------------------------------------------------------------- Textbooks
+
+@book{kundur2022power,
+  author    = {Kundur, Prabha and Malik, Om P.},
+  title     = {Power System Stability and Control},
+  edition   = {Second},
+  publisher = {McGraw-Hill Education},
+  year      = {2022},
+  isbn      = {9781260473544},
+  url       = {https://openlibrary.org/isbn/9781260473544}
+}
+
+@book{brunton2022datadriven,
+  author    = {Brunton, Steven L. and Kutz, J. Nathan},
+  title     = {Data-Driven Science and Engineering: Machine Learning, Dynamical Systems, and Control},
+  edition   = {Second},
+  publisher = {Cambridge University Press},
+  year      = {2022},
+  isbn      = {9781009098489},
+  doi       = {10.1017/9781009089517},
+  url       = {https://www.databookuw.com/}
+}
+
+@book{bishop2024deep,
+  author    = {Bishop, Christopher M. and Bishop, Hugh},
+  title     = {Deep Learning: Foundations and Concepts},
+  publisher = {Springer},
+  year      = {2024},
+  isbn      = {9783031454684},
+  doi       = {10.1007/978-3-031-45468-4},
+  url       = {https://www.bishopbook.com/}
+}
+
+@misc{thuerey2021pbdl,
+  author    = {Thuerey, N. and Holzschuh, B. and Holl, P. and Kohl, G. and Lino, M. and Liu, Q. and Schnell, P. and Trost, F.},
+  title     = {Physics-based Deep Learning},
+  year      = {2021},
+  publisher = {arXiv},
+  doi       = {10.48550/arXiv.2109.05237},
+  url       = {https://physicsbaseddeeplearning.org/},
+  note      = {Online book; cited chapters are linked in the text}
+}
+
+@book{ljung1999system,
+  author    = {Ljung, Lennart},
+  title     = {System Identification: Theory for the User},
+  edition   = {Second},
+  publisher = {Prentice Hall PTR},
+  year      = {1999},
+  isbn      = {0136566952},
+  url       = {https://openlibrary.org/isbn/0136566952}
+}
+
+% ---------------------------------------------------------------- Method papers
+
+@article{karniadakis2021physics,
+  author    = {Karniadakis, George Em and Kevrekidis, Ioannis G. and Lu, Lu and Perdikaris, Paris and Wang, Sifan and Yang, Liu},
+  title     = {Physics-informed machine learning},
+  journal   = {Nature Reviews Physics},
+  volume    = {3},
+  number    = {6},
+  pages     = {422--440},
+  year      = {2021},
+  doi       = {10.1038/s42254-021-00314-5}
+}
+
+@misc{baydin2015automatic,
+  author    = {Baydin, Atilim Gunes and Pearlmutter, Barak A. and Radul, Alexey Andreyevich and Siskind, Jeffrey Mark},
+  title     = {Automatic differentiation in machine learning: a survey},
+  year      = {2015},
+  publisher = {arXiv},
+  doi       = {10.48550/arXiv.1502.05767},
+  url       = {https://arxiv.org/abs/1502.05767}
+}
+
+@article{raissi2019physics,
+  author    = {Raissi, M. and Perdikaris, P. and Karniadakis, G. E.},
+  title     = {Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations},
+  journal   = {Journal of Computational Physics},
+  volume    = {378},
+  pages     = {686--707},
+  year      = {2019},
+  doi       = {10.1016/j.jcp.2018.10.045}
+}
+
+@misc{chen2018neural,
+  author    = {Chen, Ricky T. Q. and Rubanova, Yulia and Bettencourt, Jesse and Duvenaud, David},
+  title     = {Neural Ordinary Differential Equations},
+  year      = {2018},
+  publisher = {arXiv},
+  doi       = {10.48550/arXiv.1806.07366},
+  url       = {https://arxiv.org/abs/1806.07366}
+}
+
+@misc{rackauckas2020universal,
+  author    = {Rackauckas, Christopher and Ma, Yingbo and Martensen, Julius and Warner, Collin and Zubov, Kirill and Supekar, Rohit and Skinner, Dominic and Ramadhan, Ali and Edelman, Alan},
+  title     = {Universal Differential Equations for Scientific Machine Learning},
+  year      = {2020},
+  publisher = {arXiv},
+  doi       = {10.48550/arXiv.2001.04385},
+  url       = {https://arxiv.org/abs/2001.04385}
+}
+
+% ---------------------------------------------------------------- Stability definitions
+
+@article{kundur2004definition,
+  author    = {Kundur, P. and Paserba, J. and Ajjarapu, V. and Andersson, G. and Bose, A. and Canizares, C. and Hatziargyriou, N. and Hill, D. J. and Stankovic, A. and Taylor, C. and Van Cutsem, T. and Vittal, V.},
+  title     = {Definition and Classification of Power System Stability {IEEE/CIGRE} Joint Task Force on Stability Terms and Definitions},
+  journal   = {IEEE Transactions on Power Systems},
+  volume    = {19},
+  number    = {3},
+  pages     = {1387--1401},
+  year      = {2004},
+  doi       = {10.1109/TPWRS.2004.825981}
+}
+
+@article{hatziargyriou2021definition,
+  author    = {Hatziargyriou, Nikos and Milanovic, Jovica and Rahmann, Claudia and Ajjarapu, Venkataramana and Canizares, Claudio and Erlich, Istvan and Hill, David and Hiskens, Ian and Kamwa, Innocent and Pal, Bikash and Pourbeik, Pouyan and Sanchez-Gasca, Juan and Stankovic, Aleksandar and Van Cutsem, Thierry and Vittal, Vijay and Vournas, Costas},
+  title     = {Definition and Classification of Power System Stability -- Revisited \& Extended},
+  journal   = {IEEE Transactions on Power Systems},
+  volume    = {36},
+  number    = {4},
+  pages     = {3271--3281},
+  year      = {2021},
+  doi       = {10.1109/TPWRS.2020.3041774}
+}
+
+% ---------------------------------------------------------------- Simulators and software
+
+@article{cui2021hybrid,
+  author    = {Cui, Hantao and Li, Fangxing and Tomsovic, Kevin},
+  title     = {Hybrid Symbolic-Numeric Framework for Power System Modeling and Analysis},
+  journal   = {IEEE Transactions on Power Systems},
+  volume    = {36},
+  number    = {2},
+  pages     = {1373--1384},
+  year      = {2021},
+  doi       = {10.1109/TPWRS.2020.3017019}
+}
+
+@misc{andes,
+  title     = {{ANDES} documentation},
+  author    = {{ANDES developers}},
+  url       = {https://docs.andes.app/en/stable/},
+  urldate   = {2026-10-14},
+  note      = {Python library for power system modeling and numerical analysis (GPL-3.0)}
+}
+
+@misc{poulose_smib_tsa_benchmark,
+  author    = {Poulose, Albert},
+  title     = {Unified physics-informed neural surrogate {SMIB} {TSA/CCT} benchmark},
+  howpublished = {GitHub repository},
+  url       = {https://github.com/albert8943/unified-physics-informed-neural-surrogate-smib-tsa-cct-benchmark},
+  urldate   = {2026-10-14},
+  note      = {Research code; optional further reading, not a course lab}
+}
+
+% ---------------------------------------------------------------- Teaching resources (link only)
+
+@misc{rampure_eecs245,
+  author    = {Rampure, Suraj},
+  title     = {{EECS} 245 course notes},
+  url       = {https://notes.eecs245.org/},
+  urldate   = {2026-10-14},
+  note      = {University of Michigan; CC BY-NC-ND 4.0, linked only}
+}

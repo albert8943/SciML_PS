@@ -1,6 +1,6 @@
 # Dynamics pillar overview
 
-```{note} Under development
+```{note} Maturity: Stub
 This section is under development. The engineering question and lab links are stable; chapter depth grows after Foundations and Labs 1–2.
 ```
 
@@ -29,7 +29,7 @@ A learned dynamics model is usually trained on short windows but used for long r
 - **Reduced state.** Learn the dynamics in a small latent state (an encoder compresses the measured state, a learned map advances it, a decoder returns physical variables). For SMIB the full state is already small; the idea matters for multimachine and converter-rich systems.
 - **Rollout error growth.** One-step accuracy does not guarantee multi-step accuracy, because errors feed back into the next prediction. Lab 4 should report error **versus horizon**, not one number.
 
-Method background: B5 Thuerey et al., [model reduction and time series](https://physicsbaseddeeplearning.org/others-timeseries.html) (fast-forward overview with pointers to external code; check each linked implementation's own license).
+Method background: @thuerey2021pbdl, [model reduction and time series](https://physicsbaseddeeplearning.org/others-timeseries.html) (fast-forward overview with pointers to external code; check each linked implementation's own license).
 
 ## Discussion: what Dynamics methods can and cannot claim
 

@@ -21,6 +21,9 @@ project:
     content: CC-BY-NC-SA-4.0
     code: MIT
   github: https://github.com/albert8943/SciML_PS
+  # Shared bibliography; each page lists only the works it cites (see CONTRIBUTING.md).
+  bibliography:
+    - references.bib
   # Full-book PDF via LaTeX (jtex). Build: .\scripts\build_pdf.ps1 or ./scripts/build_pdf.sh
   # Custom skin: templates/sciml_ps_book (tcolorbox callouts, navy/teal branding).
   # static_files keeps a stable /exports/… URL for the navbar (not a hashed public/ copy).
@@ -42,6 +45,7 @@ project:
         - file: book/100_front/advice.md
         - file: book/100_front/preview_locally.md
         - file: book/100_front/book_map.md
+        - file: book/100_front/outline.md
         - file: book/100_front/learning_paths.md
         - file: book/100_front/related_resources.md
         - file: book/100_front/contribute.md
@@ -120,6 +124,8 @@ site:
   # Local preview PDF is on the content server (port 3100). Before public deploy, switch PDF url
   # to your hosted absolute PDF URL (still http(s) so it stays a new tab).
   actions:
+    - title: Outline
+      url: /outline
     - title: PDF
       url: http://localhost:3100/exports/sciml_ps_notes.pdf
     - title: Feedback

@@ -1,10 +1,10 @@
 # Book map
 
-How the notes are organized. Use the left sidebar for day-to-day navigation; this page is the big picture.
+How the notes are organized. Use the left sidebar for day-to-day navigation; this page is the big picture. For every chapter and lab on one page, see the [Full outline](outline.md).
 
 | Section | What you find here |
 |---------|-------------------|
-| **Front matter** | How to use, local preview, this map, learning paths, [related open resources](related_resources.md), [contribute](contribute.md), [status](status_and_versions.md), feedback, [license](license.md) |
+| **Front matter** | How to use, local preview, this map, [full outline](outline.md), learning paths, [related open resources](related_resources.md), [contribute](contribute.md), [status](status_and_versions.md), feedback, [license](license.md) |
 | **Preparation** | Overview plus four diagnostic notebooks in the sidebar (stubs today: NumPy, ODEs, tiny MLP, gradients) |
 | **Foundations** | Shared SMIB model and core SciML ideas (losses, forward/inverse PINN, baselines) |
 | **Dynamics** | Deeper dynamic modeling and simulation (SciML for trajectories / vector fields) |

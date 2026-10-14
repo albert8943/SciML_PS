@@ -12,8 +12,7 @@ Readable teaching prose; examples, figures, and exercises are still growing. See
 
 ## Reading
 
-- Raissi, Perdikaris, and Karniadakis (R3): original PINN formulation  
-- B5 physical-loss chapters (see Further reading)
+- Original PINN formulation [@raissi2019physics]
 
 ## Three pieces
 
@@ -52,7 +51,7 @@ For the classical swing equations with known $(H,D)$, place collocation points i
 
 ## Strengths and limits of physics losses
 
-The points below follow the discussion of physical losses in B5, rewritten for the swing equation.
+The points below follow the discussion of physical losses in @thuerey2021pbdl, rewritten for the swing equation.
 
 | Strength | Limit |
 |----------|-------|
@@ -70,7 +69,7 @@ The points below follow the discussion of physical losses in B5, rewritten for t
 
 ## Further reading
 
-- B5 Thuerey et al., [physical losses](https://physicsbaseddeeplearning.org/physicalloss.html) and [discussion of physical losses](https://physicsbaseddeeplearning.org/physicalloss-discuss.html) (Burgers examples; same ideas); [Lab 2](../900_labs/lab_02_surrogate_vs_pinn/index.md)
+- @thuerey2021pbdl, [physical losses](https://physicsbaseddeeplearning.org/physicalloss.html) and [discussion of physical losses](https://physicsbaseddeeplearning.org/physicalloss-discuss.html) (Burgers examples; same ideas); [Lab 2](../900_labs/lab_02_surrogate_vs_pinn/index.md)
 
 ## Common misconceptions
 

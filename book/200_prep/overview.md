@@ -1,5 +1,9 @@
 # Preparation overview
 
+```{note} Maturity: Draft
+This overview is readable; the four notebooks below are still stubs. See [Status and versions](../100_front/status_and_versions.md) and [Join and contribute](../100_front/contribute.md).
+```
+
 ## Learning goals
 
 - Confirm Python/NumPy fluency for array workflows
@@ -35,7 +39,7 @@ If linear algebra or multivariable calculus feels rusty, these **external** sect
 | Eigenvalues | [Eigenvalues and eigenvectors](https://notes.eecs245.org/eigenvalues-and-eigenvectors/eigenvalues-eigenvectors) | Small-signal / modal ideas (later) |
 | SVD / low-rank / PCA | [Low-rank approximation](https://notes.eecs245.org/singular-value-decomposition/low-rank-approximation), [PCA](https://notes.eecs245.org/singular-value-decomposition/principal-components-analysis) | [Identifiability](../300_foundations/08_identifiability.md), model reduction |
 
-Reading-list ID: **M-E245**.
+Source: @rampure_eecs245.
 
 ## What is not in Preparation
 

@@ -62,7 +62,7 @@ That programme is a **long-term research** direction. Published teaching evidenc
 ## Further reading
 
 - Stability: [CCT](../500_stability/01_stability_and_cct.md), [surrogates](../500_stability/02_surrogate_stability.md), [direct methods](../500_stability/04_direct_methods.md)  
-- Reading list R-K04, R-H21; optional software pointer S-PINN-TSA  
+- Stability definitions [@kundur2004definition; @hatziargyriou2021definition]; optional research code [@poulose_smib_tsa_benchmark]  
 
 ## Common misconceptions
 

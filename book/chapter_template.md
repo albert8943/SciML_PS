@@ -16,7 +16,11 @@ Other labels: **Draft** (readable prose, still growing), **In review** (awaiting
 
 ## Reading
 
-- Stub — link report biblio IDs (B#, R#, P#) when filling this chapter.
+<!-- Cite sources with [@key] (parenthetical) or @key (in a sentence); keys live in references.bib.
+     Do not write a References heading: MyST adds one at the bottom of this page, listing only what it cites.
+     New source? Add a bib entry with doi or url (see CONTRIBUTING.md, "Adding a reference"). -->
+
+- What to read *before* this chapter, e.g. "Swing equations [@kundur2022power]".
 
 ## Watch
 
@@ -55,7 +59,7 @@ Solution sketch.
 
 ## Further reading
 
-- …
+- Where to go *after* this chapter; do not repeat the Reading list. Deep links to a chapter of a web book stay inline, e.g. "[Physical losses](https://physicsbaseddeeplearning.org/physicalloss.html) in @thuerey2021pbdl".
 
 ## Common misconceptions
 
@@ -73,7 +77,7 @@ Solution sketch.
 If the chapter is still thin, put a maturity note near the top so readers are not surprised (prefer the labels above):
 
 ````markdown
-```{note} Under development
+```{note} Maturity: Stub
 This section is under development. The learning goals and reading list are stable; examples and labs will thicken in later passes.
 ```
 ````

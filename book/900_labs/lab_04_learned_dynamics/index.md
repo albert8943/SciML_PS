@@ -1,6 +1,6 @@
 # Lab 4 — Generalization of a learned dynamic model
 
-```{note} Under development
+```{note} Maturity: Stub
 This laboratory page is under development. Goals below are the contract; the executable notebook arrives after Labs 1–3 mature.
 ```
 

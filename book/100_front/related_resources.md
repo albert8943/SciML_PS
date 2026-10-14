@@ -15,7 +15,7 @@ Related research codes, short courses, general SciML notes, and energy-system Ju
 | Resource | Role relative to this book |
 |----------|----------------------------|
 | [EECS 245 course notes](https://notes.eecs245.org/) (Rampure) | Living MyST notes + separate course portal; **CC BY-NC-ND 4.0** — we link and reimplement *patterns*, we do not adapt their text |
-| [Physics-based Deep Learning](https://physicsbaseddeeplearning.org/) (Thuerey et al.) | Method textbook with runnable notebooks; ideas cited as B5, rewritten for SMIB |
+| [Physics-based Deep Learning](https://physicsbaseddeeplearning.org/) (Thuerey et al.) | Method textbook with runnable notebooks; ideas cited on chapter pages, rewritten for SMIB |
 | [The Turing Way](https://the-turing-way.netlify.app/), [Dive into Deep Learning](https://d2l.ai/), [Project Pythia](https://projectpythia.org/) | Models for governance, editions, and executable notebooks (patterns only) |
 
 ### General SciML (methods, not power-system applications)
@@ -38,7 +38,7 @@ Related research codes, short courses, general SciML notes, and energy-system Ju
 
 ### PINN / SciML research code for power dynamics (cite; do not treat as a textbook)
 
-The DTU group around Spyros Chatzivasileiadis has published foundational papers and open code for PINNs on power-system dynamics and identification, plus toolboxes and tutorials (Colab demos, assignments, [PowerPINN](https://github.com/radiakos/PowerPINN), [PINNSim](https://github.com/jbesty/PINNSim)). See [downloads](http://www.chatziva.com/downloads.html). These are **research and tutorial artifacts**, not a collaborative living course book with the Dynamics / Stability / Identification spine used here.
+The DTU group around Spyros Chatzivasileiadis has published foundational papers and open code for PINNs on power-system dynamics and identification, plus toolboxes and tutorials (Colab demos, assignments, [PowerPINN](https://github.com/radiakos/PowerPINN), [PINNSim](https://github.com/jbesty/PINNSim)). See [downloads](http://www.chatziva.com/downloads.html) and the [PSCC 2024 tutorial](https://www.chatziva.com/pscc2024.html) on power-system PINNs and trustworthy AI. These are **research and tutorial artifacts**, not a collaborative living course book with the Dynamics / Stability / Identification spine used here.
 
 Curated paper and tool lists such as [awesome-ml-power-systems](https://github.com/ArsamAryandoust/awesome-ml-power-systems) still point learners mainly to **general** ML textbooks; that gap is part of why this resource exists.
 

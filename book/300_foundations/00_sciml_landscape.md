@@ -12,8 +12,8 @@ Readable teaching prose; examples, figures, and exercises are still growing. See
 
 ## Reading
 
-- R1 (physics-informed machine learning overview)  
-- B5 Thuerey et al., overview chapter (see the [reading list](../990_reference/reading_list.md))
+- Physics-informed machine learning overview [@karniadakis2021physics]  
+- [Overview and models](https://physicsbaseddeeplearning.org/overview.html) chapter of @thuerey2021pbdl
 
 ## Plain-words map
 
@@ -32,7 +32,7 @@ For **transient stability**, families differ mainly by whether they output traje
 
 ## How tightly is physics coupled?
 
-A second way to sort the same families is by **how tightly the physics is built into training**. This ordering follows the method textbook by Thuerey et al. (B5). Here it is restated for the SMIB swing equation.
+A second way to sort the same families is by **how tightly the physics is built into training**. This ordering follows the method textbook by @thuerey2021pbdl. Here it is restated for the SMIB swing equation.
 
 ```{mermaid}
 flowchart LR
@@ -52,7 +52,7 @@ Tighter coupling is not automatically better. Pick the level from the engineerin
 
 ## Further reading
 
-- B5 Thuerey et al., [overview and models](https://physicsbaseddeeplearning.org/overview.html) (source of the coupling ordering); R6 (Neural ODE); R7 (universal differential equations)
+- Neural ODEs [@chen2018neural] and universal differential equations [@rackauckas2020universal], developed in [Neural ODEs and hybrid models](10_neural_ode_hybrid.md)
 
 ## Common misconceptions
 

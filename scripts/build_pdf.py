@@ -192,7 +192,9 @@ def sanitize_math_macros(text: str) -> str:
                 macro = "\\" + name
                 if text.startswith(macro, i):
                     end = i + len(macro)
-                    if end < len(text) and text[end].isalpha():
+                    # MyST glues "→" to the next word ("stable\rightarrowunstable"); only
+                    # \rightarrowtail-style names are genuinely longer macros.
+                    if text.startswith("tail", end):
                         continue
                     out.append(f"${{{macro}}}$")
                     i = end

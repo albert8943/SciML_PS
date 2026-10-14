@@ -12,7 +12,7 @@ Readable teaching prose; examples, figures, and exercises are still growing. See
 
 ## Reading
 
-- B1 for power-system context; R1 for the SciML landscape  
+- Power-system context: @kundur2022power; SciML landscape: @karniadakis2021physics  
 - [Book map](../100_front/book_map.md) for the three applications
 
 ## Three tasks (same SMIB, different questions)
@@ -69,7 +69,8 @@ Specify one SMIB fault-on/clearing case in writing:
 
 ## Further reading
 
-- Kundur (B1) for swing-equation context; R1 for the method families
+- [SciML method families](00_sciml_landscape.md) for how the three tasks map onto method choices
+- [Identifiability](08_identifiability.md) for why inverse estimation needs more than a good fit
 
 ## Common misconceptions
 

@@ -111,7 +111,7 @@ What landed in the **online book** under this strategy (commits `a546034`, `aaad
 | Lab 2 | [`book/900_labs/lab_02_surrogate_vs_pinn/index.md`](../../book/900_labs/lab_02_surrogate_vs_pinn/index.md) | Further-practice note |
 | Lab 5 | [`book/900_labs/lab_05_stability_cct/index.md`](../../book/900_labs/lab_05_stability_cct/index.md) | Network extension section |
 | Labs index | [`book/900_labs/README.md`](../../book/900_labs/README.md) | Lab 5 status + notebook link |
-| Reference | [`book/990_reference/reading_list.md`](../../book/990_reference/reading_list.md) | S1 / S1a ANDES + gallery |
+| Reference | [`book/990_reference/reading_list.md`](../../book/990_reference/reading_list.md) | ANDES + gallery (bib keys `cui2021hybrid`, `andes`) |
 
 TOC: `myst.yml` lists `03_andes_network_reference.md` under Stability.
 

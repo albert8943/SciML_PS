@@ -63,7 +63,7 @@ On SMIB Lab 1 scenarios, compare CCT from dense reference simulation vs CCT from
 ## Further reading
 
 - [Forward PINNs](../300_foundations/06_forward_pinn.md); [SciML landscape](../300_foundations/00_sciml_landscape.md)  
-- Optional published SMIB trajectory-surrogate example (Further reading only — not a course lab): see Reading list software pointer S-PINN-TSA  
+- Optional published SMIB trajectory-surrogate example (Further reading only — not a course lab): @poulose_smib_tsa_benchmark  
 
 ## Common misconceptions
 

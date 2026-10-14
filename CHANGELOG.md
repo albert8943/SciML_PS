@@ -10,7 +10,20 @@ and this project uses [Semantic Versioning](https://semver.org/) for public tags
 
 ### Added
 
-- (none yet beyond 0.1.0)
+- Full outline page (`/outline`): every chapter and lab on one page with summary, maturity, and lab; Outline navbar button; home cards for every section
+- Shared bibliography `references.bib` (metadata from DOIs/publisher pages); each page gets its own References section from `[@key]` citations
+- `scripts/check_book.py` (outline matches the TOC, bib keys unique with doi/url, cited keys exist), run in CI
+- CONTRIBUTING: "Adding a reference" and "Adding a chapter"
+
+### Changed
+
+- Short citation IDs (B1, R3, R-K04, ...) replaced by citations; Reading and Further reading no longer repeat each other
+- Reading list cut down to core textbooks, simulators, maths refresher, and the PBDL reuse map
+- Maturity labels made uniform (`Maturity: Stub` / `Draft`) on all chapter, lab, and overview pages
+
+### Fixed
+
+- PDF build: arrows glued to the next word (`\rightarrowunstable`) no longer cause undefined control sequences
 
 ## [0.1.0] — 2026-10-14
 

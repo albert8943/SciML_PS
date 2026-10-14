@@ -6,7 +6,7 @@ A Jupyter Book 2 / MyST computational textbook for **Scientific Machine Learning
 
 ## Suggested order
 
-**New here?** After this page, go to [Preparation](../200_prep/overview.md), then [Foundations](../300_foundations/overview.md). The [home page](../index.md) also has Explore cards into Getting started, Foundations, Laboratories, and Reference.
+**New here?** After this page, go to [Preparation](../200_prep/overview.md), then [Foundations](../300_foundations/overview.md). The [home page](../index.md) has Explore cards into every section, and the [Full outline](outline.md) lists every chapter and lab on one page.
 
 1. Complete [Preparation](../200_prep/overview.md).
 2. Work through [Foundations](../300_foundations/overview.md) before specializing.

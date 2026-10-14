@@ -12,7 +12,7 @@ Readable teaching prose; examples, figures, and exercises are still growing. See
 
 ## Reading
 
-- R2 (automatic differentiation survey); B4 for backpropagation intuition
+- Automatic differentiation survey [@baydin2015automatic]; backpropagation intuition [@bishop2024deep]
 
 ## Why AD matters for PINNs
 
@@ -46,7 +46,7 @@ Practical fixes, in the order to try them:
 
 **Plain words:** the optimizer follows whichever number is biggest. Make the numbers comparable before trusting the fit.
 
-Further reading: B5 Thuerey et al. treat this problem in depth, including [scale-invariant physics training](https://physicsbaseddeeplearning.org/physgrad.html) and [half-inverse gradients](https://physicsbaseddeeplearning.org/physgrad-hig.html) demonstrated on coupled oscillators. Those algorithms are beyond this course; the fixes above are enough for the labs.
+Further reading: @thuerey2021pbdl treat this problem in depth, including [scale-invariant physics training](https://physicsbaseddeeplearning.org/physgrad.html) and [half-inverse gradients](https://physicsbaseddeeplearning.org/physgrad-hig.html) demonstrated on coupled oscillators. Those algorithms are beyond this course; the fixes above are enough for the labs.
 
 ## Worked example
 
@@ -59,7 +59,7 @@ Differentiate $\sin(w t)$ w.r.t. $t$ with AD in PyTorch/`torch.autograd` and com
 ## Further reading
 
 - Framework AD docs; course prep notebook on gradients
-- Maths background (external, link only): [gradient descent](https://notes.eecs245.org/gradients/gradient-descent) and [convexity](https://notes.eecs245.org/gradients/convexity) in the EECS 245 notes (M-E245, CC BY-NC-ND 4.0)
+- Maths background (external, link only): [gradient descent](https://notes.eecs245.org/gradients/gradient-descent) and [convexity](https://notes.eecs245.org/gradients/convexity) in the EECS 245 notes [@rampure_eecs245] (CC BY-NC-ND 4.0)
 
 ## Common misconceptions
 

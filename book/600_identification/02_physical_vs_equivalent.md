@@ -12,7 +12,7 @@ Readable teaching prose; examples, figures, and exercises are still growing. See
 
 ## Reading
 
-- B6 (Ljung) on model structure and parameter interpretation  
+- Model structure and parameter interpretation [@ljung1999system]  
 - [Identifiability](../300_foundations/08_identifiability.md)
 
 ## Definitions

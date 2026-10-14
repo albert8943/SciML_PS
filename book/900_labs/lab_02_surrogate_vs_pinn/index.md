@@ -1,6 +1,6 @@
 # Lab 2 — Supervised surrogate versus PINN
 
-```{note} Under development
+```{note} Maturity: Stub
 This laboratory page is under development. Goals below are the contract; the executable notebook arrives in a later pass.
 ```
 

@@ -12,7 +12,7 @@ Readable teaching prose; examples, figures, and exercises are still growing. See
 
 ## Reading
 
-- Kundur / Malik (B1): swing equations and transient stability framing  
+- Swing equations and transient stability framing [@kundur2022power]  
 - [Lab 1 — reference simulation](../900_labs/lab_01_reference_sim/index.md) uses this model
 
 ## Classical swing model (teaching form)
@@ -61,7 +61,8 @@ Inertia $H$ scales how quickly rotor speed (and then angle) accelerate for a giv
 
 ## Further reading
 
-- B1 swing-equation chapter (classical SMIB machine)
+- Stability vocabulary used later in the book [@kundur2004definition]
+- [Stability labels and CCT](../500_stability/01_stability_and_cct.md) for what happens after the fault is cleared
 
 ## Common misconceptions
 

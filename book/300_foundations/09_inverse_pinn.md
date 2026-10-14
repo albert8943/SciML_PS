@@ -12,7 +12,7 @@ Readable teaching prose; examples, figures, and exercises are still growing. See
 
 ## Reading
 
-- Raissi, Perdikaris, and Karniadakis (R3): inverse problems section  
+- Inverse problems section of @raissi2019physics  
 - [Lab 3 — inertia and damping identification](../900_labs/lab_03_inertia_damping_id/index.md)
 
 ## Where parameters enter
@@ -63,7 +63,7 @@ A tighter alternative puts the solver itself in the loop: [differentiable simula
 ## Further reading
 
 - [Identifiability](08_identifiability.md); identification pillar overview
-- B5 Thuerey et al., [discussion of physical losses](https://physicsbaseddeeplearning.org/physicalloss-discuss.html) and [differentiable physics versus physics-informed training](https://physicsbaseddeeplearning.org/diffphys-dpvspinn.html)
+- @thuerey2021pbdl, [discussion of physical losses](https://physicsbaseddeeplearning.org/physicalloss-discuss.html) and [differentiable physics versus physics-informed training](https://physicsbaseddeeplearning.org/diffphys-dpvspinn.html)
 
 ## Common misconceptions
 

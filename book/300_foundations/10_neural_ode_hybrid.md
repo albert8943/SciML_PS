@@ -12,8 +12,8 @@ Readable teaching prose; examples, figures, and exercises are still growing. See
 
 ## Reading
 
-- Chen et al., Neural ODEs (R6)  
-- Rackauckas et al., universal differential equations (R7)
+- Neural ODEs [@chen2018neural]  
+- Universal differential equations [@rackauckas2020universal]
 
 ## Collocation PINN vs Neural ODE
 

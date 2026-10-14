@@ -12,7 +12,7 @@ Readable teaching prose; examples, figures, and exercises are still growing. See
 
 ## Reading
 
-- B1 equal-area / energy chapters (edition-check before class)  
+- Equal-area and energy chapters of @kundur2022power (check the edition before class)  
 - [Stability labels and CCT](01_stability_and_cct.md)  
 - [Lab 5 — stability and CCT](../900_labs/lab_05_stability_cct/index.md)  
 
@@ -70,7 +70,7 @@ Fair when (for example) mechanical power is treated as constant and damping is n
 
 ## Further reading
 
-- B1; R-K04 / R-H21 for classification context  
+- Classification context [@kundur2004definition; @hatziargyriou2021definition]  
 - Energy-function TSA for converter-dominated grids: see the [Advanced](../700_advanced/overview.md) part
 
 ## Common misconceptions

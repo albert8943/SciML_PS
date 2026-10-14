@@ -36,10 +36,46 @@ New here? Also read [Advice to the student](100_front/advice.md).
 How to use the book, local preview, learning paths, and feedback.
 :::
 
+:::{card} Full outline
+:link: 100_front/outline.md
+
+Every chapter and lab on one page, with maturity labels.
+:::
+
+:::{card} Preparation
+:link: 200_prep/overview.md
+
+Self-check and four short notebooks before Foundations.
+:::
+
 :::{card} Foundations
 :link: 300_foundations/overview.md
 
 Shared SMIB model and core SciML methods before the three pillars.
+:::
+
+:::{card} Dynamics
+:link: 400_dynamics/overview.md
+
+How will the system evolve under inputs, parameters, and disturbances?
+:::
+
+:::{card} Stability
+:link: 500_stability/overview.md
+
+Will the system remain stable, and how close is it to the boundary?
+:::
+
+:::{card} Identification
+:link: 600_identification/overview.md
+
+Which parameters and dynamics explain the measurements?
+:::
+
+:::{card} Advanced topics
+:link: 700_advanced/overview.md
+
+From assessment to decision, plus optional extensions.
 :::
 
 :::{card} Laboratories
@@ -64,7 +100,7 @@ Portable methods and public citations only — no sealed research campaign resul
 
 ## Acknowledgements, feedback, and licence
 
-Product and site patterns for living computational notes were informed by public teaching sites such as the [EECS 245 course notes](https://notes.eecs245.org/) (Suraj Rampure; CC BY-NC-ND 4.0 — we link and reimplement patterns; we do not adapt their text). Method background for physics-informed training draws on [Physics-based Deep Learning](https://physicsbaseddeeplearning.org/) (Thuerey et al.; Apache-2.0 ideas cited as B5). Network simulation references use [ANDES](https://docs.andes.app/en/stable/) as an installed tool (GPL-3.0).
+Product and site patterns for living computational notes were informed by public teaching sites such as the [EECS 245 course notes](https://notes.eecs245.org/) (Suraj Rampure; CC BY-NC-ND 4.0 — we link and reimplement patterns; we do not adapt their text). Method background for physics-informed training draws on [Physics-based Deep Learning](https://physicsbaseddeeplearning.org/) [@thuerey2021pbdl] (Apache-2.0; ideas cited, not copied). Network simulation references use [ANDES](https://docs.andes.app/en/stable/) as an installed tool (GPL-3.0).
 
 How this book sits next to other open SciML, AI-for-power, and PINN materials — including what we do **not** claim: [Related open resources](100_front/related_resources.md).
 
