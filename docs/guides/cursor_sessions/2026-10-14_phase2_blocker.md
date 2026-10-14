@@ -31,12 +31,16 @@ Then:
 5. After Zenodo DOI appears:
 
 ```powershell
-.\scripts\phase2_set_doi.ps1 -Doi "10.5281/zenodo.XXXX" -WebsiteOpenResources "<website-repo>/data/open_resources.yaml"
+.\scripts\phase2_set_doi.ps1 -Doi "10.5281/zenodo.XXXX"
+# If the personal site should show the DOI, also set doi in that repo's data/open_resources.yaml
 git add CITATION.cff README.md
-# also commit website open_resources.yaml
 ```
 
 6. Tick KNU employer IP in `docs/guides/legal_and_licensing_considerations.md` §7 when confirmed (before paid use).
+
+## Pre-public secrets note (2026-10-14)
+
+Maintainer contact email in `CODE_OF_CONDUCT.md` is intentional and approved for public sharing. Do not `git add -f` `docs/references/_private/` (third-party offline copies).
 
 ## Why agent stopped
 
