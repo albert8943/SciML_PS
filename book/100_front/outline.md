@@ -19,7 +19,7 @@ Every page of the notes on one page, in reading order. The [Book map](book_map.m
 | [Learning paths](learning_paths.md) | Routes by background and by role, plus course overlays |
 | [Related open resources](related_resources.md) | Neighbouring courses, notes, and research codes |
 | [Join and contribute](contribute.md) | How to report, write, review, or join as a section editor |
-| [Status and versions](status_and_versions.md) | Public preview (v0.x), versioning, maturity labels |
+| [Status and versions](status_and_versions.md) | Public preview v0.1 (until v1.0), versioning, maturity labels |
 | [Feedback](feedback.md) | Typos, broken links, unclear pages |
 | [License](license.md) | CC BY-NC-SA 4.0 content, MIT code, contribution sign-off |
 

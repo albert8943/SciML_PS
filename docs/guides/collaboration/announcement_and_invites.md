@@ -18,7 +18,7 @@ Cite neighbors where helpful: DTU / Chatzivasileiadis PINN tutorials and toolbox
 
 **Body (edit freely):**
 
-I am opening a living teaching book on scientific machine learning for power systems — short form **SciML for PS** — as a public preview (v0.x, under active development).
+I am opening a living teaching book on scientific machine learning for power systems — short form **SciML for PS** — as a public preview (**v0.1**, v0.x series), under development until **v1.0**.
 
 Focus: **dynamics**, **stability assessment**, and **system identification**, with shared foundations, classical baselines beside SciML methods, and labs beside the notes.
 
@@ -42,7 +42,7 @@ I am developing an open living textbook, *Scientific Machine Learning (SciML) fo
 
 I am writing because of your expertise in [area]. The project is intentionally collaborative: I serve as founding editor-in-chief, and I hope to appoint **section editors** over time for Dynamics, Stability, Identification, and Laboratories. Contributions use a simple Developer Certificate of Origin (same licences as the repo: CC BY-NC-SA 4.0 for content, MIT for code). Credit follows the All Contributors model; section editors are named in governance and citation metadata.
 
-The notes are a **public preview (v0.x)** — under development, with clear maturity labels on thin pages. Neighbors and positioning (including DTU PINN materials and related open courses) are summarized here:  
+The notes are a **public preview v0.1** (v0.x series) — under development until **v1.0**, with clear maturity labels on thin pages. Neighbors and positioning (including DTU PINN materials and related open courses) are summarized here:  
 https://sciml4ps.albertpoulose.com/related-resources
 
 Would you be open to a short conversation about reviewing a chapter, advising on the lab spine, or eventually serving as a section editor? There is no obligation; even occasional review would help.
@@ -64,7 +64,7 @@ https://albertpoulose.com
 
 **Body:**
 
-This repository hosts living teaching notes on **SciML for power-system dynamics, stability, and identification** (public preview v0.x).
+This repository hosts living teaching notes on **SciML for power-system dynamics, stability, and identification** (public preview **v0.1**, under development until **v1.0**).
 
 We are looking for:
 

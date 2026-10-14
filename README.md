@@ -1,13 +1,13 @@
 # Scientific Machine Learning (SciML) for Power Systems (PS)
 
-[![Under development](https://img.shields.io/badge/status-under%20development%20(v0.x)-orange)](book/100_front/status_and_versions.md)
+[![Under development](https://img.shields.io/badge/status-public%20preview%20v0.1%20(until%20v1.0)-orange)](book/100_front/status_and_versions.md)
 [![Content license](https://img.shields.io/badge/content-CC%20BY--NC--SA%204.0-lightgrey)](LICENSES/CC-BY-NC-SA-4.0.txt)
 [![Code license](https://img.shields.io/badge/code-MIT-blue)](LICENSES/MIT.txt)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
 
 Portable teaching book (Jupyter Book 2 / MyST) on SciML for power-system **dynamics**, **stability**, and **parameter estimation**. Short form: **SciML for PS** (repo folder `SciML_PS`). Machine-learning readers and power-systems readers, including complete beginners, choose an entrance on [Start here](book/100_front/start_here.md).
 
-**Status:** public preview (**v0.x**). Living notes; content may change until the first stable edition. See [status and versions](book/100_front/status_and_versions.md) and [roadmap](ROADMAP.md).
+**Status:** public preview (**v0.1**, v0.x series). Living notes; **under development until v1.0**. See [status and versions](book/100_front/status_and_versions.md) and [roadmap](ROADMAP.md).
 
 **Online book:** <https://sciml4ps.albertpoulose.com> (deployed from `master` by GitHub Actions; one-time setup in [`docs/guides/site_hosting.md`](docs/guides/site_hosting.md#hosting)).
 

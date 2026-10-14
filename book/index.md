@@ -8,8 +8,8 @@ Welcome. This book teaches **scientific machine learning for power-system applic
 
 Machine-learning readers and power-systems readers share these notes so each group can learn enough of the other field to work on the same plant. Students, teachers, engineers, utility workers, and researchers may open any chapter. [Start here](100_front/start_here.md) matches a route to your background and your role.
 
-:::{warning} Under development — public preview (v0.x)
-These are **living teaching notes**, not a finished textbook. Stub chapters, thin prep notebooks, and experimental PDF export are intentional while the core narrative and Labs 1–5 grow. Prefer the HTML site over the PDF snapshot. Versioning and chapter maturity labels: [Status and versions](100_front/status_and_versions.md). Experts and careful readers: [Join and contribute](100_front/contribute.md).
+:::{warning} Under development — public preview (v0.1)
+These are **living teaching notes**, not a finished textbook (**v0.x** series; under development until **v1.0**). Stub chapters, thin prep notebooks, and experimental PDF export are intentional while the core narrative and Labs 1–5 grow. Prefer the HTML site over the PDF snapshot. Versioning and chapter maturity labels: [Status and versions](100_front/status_and_versions.md). Experts and careful readers: [Join and contribute](100_front/contribute.md).
 :::
 
 **Choose an entrance:** [Start here](100_front/start_here.md). Each chapter then says what it assumes.

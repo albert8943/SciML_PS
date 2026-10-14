@@ -2,11 +2,14 @@
 
 ## Public preview (v0.x)
 
-SciML for PS is released early on purpose so learners and collaborators can use and improve it. A **site-wide under-development notice** stays until **v1.0**.
+SciML for PS is released early on purpose so learners and collaborators can use and improve it.
+
+**Say both when you cite or announce it:** this is a **public preview (currently v0.1)** in the **v0.x** series, and it stays **under development until v1.0**. A site-wide under-development notice remains until that first stable edition.
 
 | Stage | Meaning |
 |-------|---------|
-| **v0.x** | Preview. Goals and TOC are stable; many chapters are Stub or Draft. |
+| **v0.1** (current) | First public preview tag (`v0.1.0`). Usable, incomplete. |
+| **v0.x** | Preview series. Goals and TOC are stable; many chapters are Stub or Draft. |
 | **v1.0** | First stable edition (see criteria below). Site-wide warning may be removed. |
 | **v2.0+** | Later editions after major restructures. |
 
@@ -36,8 +39,8 @@ Prefer a **versioned** citation when you rely on a specific wording or figure:
 Suggested form (update the version when you pin a release):
 
 > Albert Poulose, *Scientific Machine Learning (SciML) for Power Systems (PS)*,  
-> version 0.x (public preview), https://sciml4ps.albertpoulose.com,  
-> licensed under CC BY-NC-SA 4.0.
+> version 0.1 (public preview; under development until v1.0),  
+> https://sciml4ps.albertpoulose.com, licensed under CC BY-NC-SA 4.0.
 
 ## Prefer the live notes
 

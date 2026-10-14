@@ -4,7 +4,7 @@ Public milestones for the living notes. Detail for maintainers also lives in
 [docs/guides/future_plans_online_resource.md](docs/guides/future_plans_online_resource.md)
 and the lab spine policy.
 
-**Current stage:** public preview (**v0.x**). Under development until v1.0.
+**Current stage:** public preview (**v0.1**, v0.x series). Under development until **v1.0**.
 
 ## v0.1 — First public preview
 

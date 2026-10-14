@@ -1,1 +1,1 @@
-**Under development (v0.x public preview).** Content may change; contributions welcome — [Join and contribute](../100_front/contribute.md) · [Status](../100_front/status_and_versions.md)
+**Under development until v1.0** — public preview **v0.1** (v0.x series). Content may change; contributions welcome — [Join and contribute](../100_front/contribute.md) · [Status](../100_front/status_and_versions.md)

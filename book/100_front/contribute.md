@@ -2,8 +2,8 @@
 
 These notes are a **collaborative teaching resource** under active development. Experts in power-system dynamics, stability, scientific machine learning, and system identification — and careful students — are welcome to help over the long term.
 
-:::{note} Under development (v0.x)
-Until the first stable edition (**v1.0**), treat the book as a public preview: structure and goals are intentional; many pages are still thickening. See [Status and versions](status_and_versions.md).
+:::{note} Under development until v1.0
+Treat the book as a **public preview v0.1** (v0.x series): structure and goals are intentional; many pages are still thickening until the first stable edition (**v1.0**). See [Status and versions](status_and_versions.md).
 :::
 
 ## Cross-domain collaboration

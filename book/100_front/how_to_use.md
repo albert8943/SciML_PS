@@ -63,7 +63,7 @@ Running a single lab notebook is a smaller job than previewing the whole site. B
 
 ## What not to expect yet
 
-This book is a **public preview (v0.x)** under active development. Stub pages and thin [Preparation](../200_prep/overview.md) notebooks in the sidebar are intentional. Prefer the live HTML site over the experimental PDF. Version labels: [Status and versions](status_and_versions.md). How to run lab notebooks (local = canonical; Binder = primary online; Colab = secondary): [Running notebooks](running_notebooks.md).
+This book is a **public preview v0.1** (v0.x series) and remains **under development until v1.0**. Stub pages and thin [Preparation](../200_prep/overview.md) notebooks in the sidebar are intentional. Prefer the live HTML site over the experimental PDF. Version labels: [Status and versions](status_and_versions.md). How to run lab notebooks (local = canonical; Binder = primary online; Colab = secondary): [Running notebooks](running_notebooks.md).
 
 :::{tip} PDF download
 The navbar **PDF** control opens a snapshot of the notes in a **new browser tab**, built each time the site is published. It may lag slightly behind the HTML pages. Treat the export as experimental. If you preview the book locally, see [Preview this book locally](preview_locally.md) for rebuilding the PDF.

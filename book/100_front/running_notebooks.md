@@ -1,6 +1,6 @@
 # Running notebooks
 
-```{warning} Under development (v0.x public preview)
+```{warning} Under development until v1.0 — public preview v0.1
 Launch paths and notebooks may change while the notes grow. Contributions are welcome — help harden Binder, Colab setup cells, or new lab notebooks: [Join and contribute](contribute.md). Version labels: [Status and versions](status_and_versions.md).
 ```
 

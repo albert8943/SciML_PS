@@ -1,6 +1,6 @@
 # Contributing to SciML for PS
 
-Thank you for helping improve these living teaching notes. This repository is **under active development** (public preview, version 0.x until the first stable edition).
+Thank you for helping improve these living teaching notes. This repository is a **public preview v0.1** (v0.x series) and remains **under development until v1.0**.
 
 Student-facing summary: [Join and contribute](book/100_front/contribute.md).  
 Governance and roles: [GOVERNANCE.md](GOVERNANCE.md).  
