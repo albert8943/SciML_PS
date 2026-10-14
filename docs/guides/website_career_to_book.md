@@ -30,7 +30,7 @@ Most website copy lives in config/data; Research Notes body is layouts (see site
 |---------------|--------------------------------|------------------|
 | Dynamic security definition | `config/_default/hugo.toml` → `researchDefinition` | `book/500_stability/01_stability_and_cct.md` |
 | IEEE/CIGRE placement + three TSA cases | `layouts/partials/research-stability-context.html` + related params | Same chapter |
-| Classification / cases figures | `static/images/research/*.png` | `media/figures/` (cite IEEE papers, not “from my website”) |
+| Classification / cases figures | SVG redraw + original `smib-transient-cases.png` (2026-10-14) | Book: Mermaid + same original PNG (cite IEEE/CIGRE as idea, not website art) |
 | Classifier vs trajectory story | Pillar 02 + `layouts/partials/research-fig-02.html` | `book/500_stability/02_surrogate_stability.md` |
 | Energy / direct methods | `data/research_pillars.yaml` programme 01 | `book/500_stability/04_direct_methods.md` (classical SMIB first) |
 | Twin loop | Programme 03 pipeline | `book/700_advanced/01_assessment_to_decision.md` |

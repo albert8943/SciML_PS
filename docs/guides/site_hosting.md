@@ -49,11 +49,24 @@ The book lives only in this repo. The personal website repo (`dr-albert-poulose`
 
 ### One-time setup (maintainer)
 
-1. **Repo visibility:** GitHub Pages on a free plan needs a **public** repo. Audit for sealed research content (checklist: [legal and licensing](legal_and_licensing_considerations.md#7-checklist-tick-in-place)), then Settings → General → Change visibility. (Alternatives: GitHub Pro, or Cloudflare Pages / Netlify from a private repo.)
+**Phase 0 gates** (audit): [cursor_sessions/2026-10-14_phase0_gates.md](cursor_sessions/2026-10-14_phase0_gates.md). Author must still confirm KNU IP before paid use.
+
+**Automated helpers** (after `gh auth login`):
+
+```powershell
+.\scripts\phase2_go_public.ps1          # public + labels + Discussions + v0.1.0 release
+.\scripts\phase2_set_doi.ps1 -Doi "10.5281/zenodo.XXXX"   # after Zenodo
+```
+
+Manual checklist:
+
+1. **Repo visibility:** GitHub Pages on a free plan needs a **public** repo. Audit for sealed research content (checklist: [legal and licensing](legal_and_licensing_considerations.md#7-checklist-tick-in-place)), then Settings → General → Change visibility — or run `phase2_go_public.ps1`. (Alternatives: GitHub Pro, or Cloudflare Pages / Netlify from a private repo.)
 2. **Pages source:** Settings → Pages → Build and deployment → Source: **GitHub Actions**.
 3. **DNS** at the `albertpoulose.com` registrar: add `CNAME` record, host `sciml4ps`, value `albert8943.github.io`.
 4. **Custom domain:** Settings → Pages → Custom domain: `sciml4ps.albertpoulose.com`, then tick **Enforce HTTPS** once the certificate is issued.
-5. **Personal site:** add a nav link (e.g. Teaching / Books) to `https://sciml4ps.albertpoulose.com` in the Hugo repo.
+5. **Personal site:** Open educational resources block on Teaching (`dr-albert-poulose` `data/open_resources.yaml`) linking to `https://sciml4ps.albertpoulose.com`.
+6. **Apps / labels:** DCO App, all-contributors, Zenodo; labels created by the Phase 2 script.
+7. **Optional:** branch protection on `master`; Google Form for Feedback; pin Collaboration Discussion from [collaboration/announcement_and_invites.md](collaboration/announcement_and_invites.md).
 
 ### Local preview (one book URL)
 

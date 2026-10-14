@@ -75,10 +75,10 @@ Official descriptions: [Creative Commons licences](https://creativecommons.org/l
 
 ## 7. Checklist (tick in place)
 
-- [ ] Employer / university IP policy checked (again before any paid use)
-- [ ] Repo audited for confidential results, collaborator data, and paywalled figures before going public for Pages ([site hosting](site_hosting.md) setup step 1). Partly done 2026-10-13: third-party slides removed from history, copied stability figures replaced by original ones. Final look before switching visibility.
-- [ ] Each own-paper figure checked against its publisher reuse terms (recorded in the attribution register)
-- [ ] Figures on albertpoulose.com that the book once shared: check their origin separately
+- [x] Employer / university IP policy checked for open teaching release — **2026-10-14:** author confirmed no KNU / employment-contract conflict with releasing SciML for PS under CC BY-NC-SA 4.0 (content) + MIT (code). Re-check before any **paid** use of the materials. Gate note: [`cursor_sessions/2026-10-14_phase0_gates.md`](cursor_sessions/2026-10-14_phase0_gates.md) §4
+- [x] Repo audited for confidential results, collaborator data, and paywalled figures before going public for Pages ([site hosting](site_hosting.md) setup step 1). 2026-10-13 history cleanup + **2026-10-14 final agent re-audit** (no sealed metrics/secrets in `book/`; notebooks cleared; only original `smib-transient-cases.png` in `media/`; IEEE/CIGRE as Mermaid). Detail: [`cursor_sessions/2026-10-14_phase0_gates.md`](cursor_sessions/2026-10-14_phase0_gates.md) §1. Author may skim once more before Public.
+- [x] Each own-paper figure checked against its publisher reuse terms (recorded in the attribution register) — **N/A for current book media** (no IEEE paper figures embedded; SMIB cases figure is original). Revisit if paper screenshots are added.
+- [x] Figures on albertpoulose.com that the book once shared: checked separately — **book** clean (Mermaid + original PNG). **Website fixed 2026-10-14:** classification → site-owned SVG redraw (`research-fig-stability-classification.html`, idea-cited IEEE/CIGRE); cases → author’s original `smib-transient-cases.png`; old rasters deleted. Gate note §2.
 - [x] Prose licence chosen: CC BY-NC-SA 4.0 (root `LICENSE`, `LICENSES/CC-BY-NC-SA-4.0.txt`, `myst.yml`, site footer, PDF cover, `book/100_front/license.md`, planning report §13)
 - [x] Code licence chosen: MIT for `src/sciml_ps/`, `scripts/`, `tests/`, `templates/` (`LICENSES/MIT.txt`, SPDX headers on package modules, jtex `template.yml`)
 - [x] Citation file: `CITATION.cff` (dual SPDX)
