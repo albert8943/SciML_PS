@@ -50,9 +50,9 @@ Practitioners open the application they work on; researchers use the researcher 
 
 ## Three applications
 
-- **Dynamics** — How will the system evolve under specified inputs, parameters, and disturbances?
-- **Stability** — Will the system remain stable, and how close is it to a stability boundary?
-- **Identification** — Which parameters and dynamic relationships explain the measurements?
+- **Dynamics** (dynamic modeling) — How will the system evolve under specified inputs, parameters, and disturbances?
+- **Stability** (stability assessment) — Will the system remain stable, and how close is it to a stability boundary?
+- **Identification** (system identification) — Which parameters and dynamic relationships explain the measurements?
 
 Shared tools (SMIB models, data and physics losses, classical baselines) come first in **Foundations**, then you deepen along one or more pillars. What each application *produces*: [Book map](100_front/book_map.md).
 
