@@ -4,6 +4,10 @@
 Readable teaching prose; examples, figures, and exercises are still growing. See [Status and versions](../100_front/status_and_versions.md) and [Join and contribute](../100_front/contribute.md).
 ```
 
+:::{tip} Before you start
+**Needs:** [Problem framing](01_problem_framing.md) helps; the symbols are defined on this page | **Coming from ML:** read [Power systems for ML people](../200_prep/bridge_power_systems_for_ml.md); angle and speed are the state, H and D are parameters | **Coming from power systems:** this is the classical swing model in per-unit form | **New to both:** read the [power-systems primer](../200_prep/bridge_power_systems_for_ml.md), then this page
+:::
+
 ## Learning goals
 
 - Write classical SMIB swing equations in consistent units

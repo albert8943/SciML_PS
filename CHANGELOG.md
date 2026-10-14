@@ -10,6 +10,7 @@ and this project uses [Semantic Versioning](https://semver.org/) for public tags
 
 ### Added
 
+- Audience pathways: [Start here](book/100_front/start_here.md) (background and role), three bridge primers, [Your first lab](book/100_front/first_lab_walkthrough.md), two-way [glossary](book/990_reference/glossary.md), and a Before you start box on chapter and lab pages
 - Notebook launch stack (under development): [Running notebooks](book/100_front/running_notebooks.md) — local install canonical, Binder primary online, Colab secondary; lean `binder/` student env; Materials badges on Labs 1 and 3; collaboration invite on launch paths
 - Full outline page (`/outline`): every chapter and lab on one page with summary, maturity, and lab; Outline navbar button; home cards for every section
 - Shared bibliography `references.bib` (metadata from DOIs/publisher pages); each page gets its own References section from `[@key]` citations

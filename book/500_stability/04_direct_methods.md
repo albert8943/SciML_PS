@@ -4,6 +4,10 @@
 Readable teaching prose; examples, figures, and exercises are still growing. See [Status and versions](../100_front/status_and_versions.md) and [Join and contribute](../100_front/contribute.md).
 ```
 
+:::{tip} Before you start
+**Needs:** [Stability labels and CCT](01_stability_and_cct.md) and [SMIB dynamics](../300_foundations/02_smib_dynamics.md) | **Coming from ML:** a classical check beside the learned margin | **Coming from power systems:** equal-area when the assumptions of that criterion hold | **New to both:** read the [power-systems primer](../200_prep/bridge_power_systems_for_ml.md) and the CCT chapter
+:::
+
 ## Learning goals
 
 - Use a **classical** CCT check (equal-area / energy idea) when assumptions hold, before trusting only bisection or a surrogate

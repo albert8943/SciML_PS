@@ -4,6 +4,10 @@
 Readable teaching prose; examples, figures, and exercises are still growing. See [Status and versions](../100_front/status_and_versions.md) and [Join and contribute](../100_front/contribute.md).
 ```
 
+:::{tip} Before you start
+**Needs:** [Data and surrogates](../300_foundations/04_data_and_surrogates.md) and [Stability labels and CCT](01_stability_and_cct.md) | **Coming from ML:** a classifier, a margin model, and a trajectory model are different outputs | **Coming from power systems:** a close trajectory and a correct CCT ranking can disagree | **New to both:** read the [ML primer](../200_prep/bridge_ml_for_power_systems.md) and the CCT chapter
+:::
+
 ## Learning goals
 
 - Separate **binary labels**, **margin estimates**, and **trajectory surrogates** as different products

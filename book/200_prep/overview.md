@@ -10,6 +10,17 @@ This overview is readable; the four notebooks below are still stubs. See [Status
 - Integrate a simple ODE and plot trajectories
 - Fit a small neural regression model and compute gradients
 
+## Choose your bridge
+
+Preparation is optional when you already know the missing side. Pick the primer that matches you, then use the notebooks below as drills.
+
+| If this is you | Read |
+|----------------|------|
+| New to programming | [Programming from zero](bridge_programming_from_zero.md), then [Your first lab](../100_front/first_lab_walkthrough.md) |
+| Machine learning, new to power systems | [Power systems for ML people](bridge_power_systems_for_ml.md) |
+| Power systems, new to machine learning | [Machine learning for power-systems people](bridge_ml_for_power_systems.md) |
+| Choosing a longer route | [Start here](../100_front/start_here.md) and [Learning paths](../100_front/learning_paths.md) |
+
 ## Prep package (four notebooks)
 
 The four notebooks are also in the left sidebar under **Preparation**. Today they are **stubs** (scaffold cells only); expand them before relying on this section for a full course offering.
@@ -25,7 +36,7 @@ The four notebooks are also in the left sidebar under **Preparation**. Today the
 
 ## Diagnostic
 
-After the four notebooks, simulate a damped oscillator and fit a simple regression model to its samples. If that is painful, finish a programming bridge course before Lab 1.
+After the four notebooks, simulate a damped oscillator and fit a simple regression model to its samples. If that is painful, work through [Programming from zero](bridge_programming_from_zero.md) and [Your first lab](../100_front/first_lab_walkthrough.md), then return to Lab 1.
 
 ## Maths refresher (optional, external)
 

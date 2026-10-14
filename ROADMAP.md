@@ -15,6 +15,7 @@ and the lab spine policy.
 - [x] Site-wide under-development warning + maturity labels
 - [x] Personal website Teaching link to the book (`dr-albert-poulose` open_resources + news)
 - [x] Notebook launch stack scaffolding: local (canonical), Binder (primary online), Colab (secondary) — see `book/100_front/running_notebooks.md` and `binder/`; cloud buttons need public repo then a click-test
+- [x] Audience pathways: Start here, bridge primers (programming, power systems for ML, ML for power systems), first-lab walkthrough, glossary, Before you start boxes, role-based learning paths
 - [ ] Zenodo DOI on first GitHub Release (`.\scripts\phase2_set_doi.ps1` after deposit)
 
 ## v0.2 — Foundations and Lab 1 usable
@@ -40,6 +41,7 @@ and the lab spine policy.
 - [ ] Dynamics pillar thickened
 - [ ] Labs 2 and 4 past stub maturity
 - [ ] Harden Binder/Colab for Labs 2 and 4 when those notebooks exist; keep local install canonical
+- [ ] Grow the glossary and the three bridge primers with collaborators from machine learning and from power systems
 
 ## v1.0 — First stable edition
 

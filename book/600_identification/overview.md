@@ -4,6 +4,10 @@
 Readable teaching prose; examples, figures, and exercises are still growing. See [Status and versions](../100_front/status_and_versions.md) and [Join and contribute](../100_front/contribute.md).
 ```
 
+:::{tip} Before you start
+**Needs:** [Classical estimation](../300_foundations/07_classical_estimation.md) | **Coming from ML:** an inverse problem with a measurement contract | **Coming from power systems:** which parameters explain the records | **New to both:** read the [ML primer](../200_prep/bridge_ml_for_power_systems.md) and finish [Lab 1](../900_labs/lab_01_reference_sim/index.md)
+:::
+
 **Engineering question:** Which parameters and dynamic relationships explain the measurements?
 
 ## Focus

@@ -4,6 +4,10 @@
 Readable teaching prose; examples, figures, and exercises are still growing. See [Status and versions](../100_front/status_and_versions.md) and [Join and contribute](../100_front/contribute.md).
 ```
 
+:::{tip} Before you start
+**Needs:** [Stability pillar overview](overview.md) | **Coming from ML:** CCT is a margin for one scenario | **Coming from power systems:** IEEE/CIGRE placement, plus a bisection definition of CCT | **New to both:** read CCT in the [glossary](../990_reference/glossary.md#glossary-checks)
+:::
+
 ## Learning goals
 
 - Place transient rotor-angle security in the IEEE/CIGRE stability picture

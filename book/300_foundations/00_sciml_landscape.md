@@ -4,6 +4,10 @@
 Readable teaching prose; examples, figures, and exercises are still growing. See [Status and versions](../100_front/status_and_versions.md) and [Join and contribute](../100_front/contribute.md).
 ```
 
+:::{tip} Before you start
+**Needs:** names of PINN and Neural ODE in the [glossary](../990_reference/glossary.md#glossary-learning) | **Coming from ML:** these are the families this book uses on one grid model | **Coming from power systems:** a PINN is a neural model trained with a residual of the equations you already write | **New to both:** read both primers on [Start here](../100_front/start_here.md), then use this page as a map
+:::
+
 ## Learning goals
 
 - Name major SciML families used for power-system dynamics and TSA

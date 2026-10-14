@@ -4,6 +4,10 @@
 Readable teaching prose; examples, figures, and exercises are still growing. See [Status and versions](../100_front/status_and_versions.md) and [Join and contribute](../100_front/contribute.md).
 ```
 
+:::{tip} Before you start
+**Needs:** the [glossary](../990_reference/glossary.md#glossary-quantities) entries for state and parameter | **Coming from ML:** three different prediction problems on one plant | **Coming from power systems:** forward simulation, stability, and estimation stay separate questions | **New to both:** open [Start here](../100_front/start_here.md), then this chapter
+:::
+
 ## Learning goals
 
 - Formulate forward dynamics, stability assessment, and inverse estimation as distinct tasks

@@ -10,6 +10,14 @@ Outline and goals only. Examples and labs will thicken later.
 
 Other labels: **Draft** (readable prose, still growing), **In review** (awaiting editor/outside review), **Stable** (reviewed for the current edition; errata still welcome).
 
+After the maturity note, add a **Before you start** box so a reader can jump to this page:
+
+````markdown
+:::{tip} Before you start
+**Needs:** what this page assumes, with links | **Coming from ML:** one-line translation | **Coming from power systems:** one-line translation | **New to both:** which bridge primer to read first
+:::
+````
+
 ## Learning goals
 
 - …

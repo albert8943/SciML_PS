@@ -4,11 +4,28 @@
 Readable teaching prose; examples, figures, and exercises are still growing. See [Status and versions](../100_front/status_and_versions.md) and [Join and contribute](../100_front/contribute.md).
 ```
 
+:::{tip} Before you start
+**Needs:** a bridge primer if either field is new | **Coming from ML:** skim [Power systems for ML people](../200_prep/bridge_power_systems_for_ml.md), then [Problem framing](01_problem_framing.md) | **Coming from power systems:** skim [Machine learning for power-systems people](../200_prep/bridge_ml_for_power_systems.md), then [Problem framing](01_problem_framing.md) | **New to both:** [Programming from zero](../200_prep/bridge_programming_from_zero.md), then both primers
+:::
+
 Shared method core before the three application pillars. Use a classical **SMIB** (single-machine infinite-bus) system repeatedly so the same equations appear as forward simulation, surrogate learning, stability labels, and parameter estimation.
 
 :::{important} Shared SMIB spine
 Foundations reuse one classical **SMIB** model so forward simulation, surrogates, stability labels, and parameter estimation share the same equations and notation.
 :::
+
+## Coming from another field
+
+Chapters in this part can be read out of order when the **Before you start** box on the page is already satisfied.
+
+| If this is you | Do this first |
+|----------------|---------------|
+| Machine learning, new to power systems | [Power systems for ML people](../200_prep/bridge_power_systems_for_ml.md), then [Problem framing](01_problem_framing.md) |
+| Power systems, new to machine learning | [Machine learning for power-systems people](../200_prep/bridge_ml_for_power_systems.md), then [Problem framing](01_problem_framing.md) |
+| New to both | [Programming from zero](../200_prep/bridge_programming_from_zero.md) and [Your first lab](../100_front/first_lab_walkthrough.md) |
+| Comfortable with both | Use the [outline](../100_front/outline.md) and open the chapter you need |
+
+Word-by-word translations: [Glossary](../990_reference/glossary.md). Routes by role: [Learning paths](../100_front/learning_paths.md).
 
 ## Learning outcomes
 

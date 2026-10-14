@@ -13,8 +13,8 @@ Positioning among neighbors: [book/100_front/related_resources.md](book/100_fron
 |--------------|--------------|
 | Typo, broken link, unclear page | [Feedback](book/100_front/feedback.md) or a GitHub issue |
 | Small content or lab fix | Pull request with DCO sign-off (below) |
-| New chapter or major rewrite | Open a **chapter proposal** issue first |
 | Improving Binder / Colab | Fix `binder/` env, notebook setup cells, or lab Materials badges; see [Running notebooks](book/100_front/running_notebooks.md) |
+| New chapter or major rewrite | Open a **chapter proposal** issue first |
 | Section editor / long-term role | Open a collaboration interest issue or Discussion |
 
 ## Developer Certificate of Origin (DCO)
@@ -56,8 +56,8 @@ All sources live in one shared bibliography, [`references.bib`](references.bib).
 
 1. Copy [`book/chapter_template.md`](book/chapter_template.md) and keep its section order.
 2. Add the page to the `toc` in `myst.yml`.
-3. Add one row for it to the [Full outline](book/100_front/outline.md) (title link, one-line summary, maturity, lab).
-4. Set the maturity note at the top of the page.
+3. Add one row for it to the [Full outline](book/100_front/outline.md) (title link, one-line summary, maturity, lab, and a short Needs note).
+4. Set the maturity note at the top of the page, then a **Before you start** box (`Needs`, `Coming from ML`, `Coming from power systems`, `New to both`), as in [`book/chapter_template.md`](book/chapter_template.md).
 5. Run `python scripts/check_book.py`; CI runs it on every pull request.
 
 ## Local preview and build

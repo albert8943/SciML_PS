@@ -4,6 +4,10 @@
 Readable teaching prose; examples, figures, and exercises are still growing. See [Status and versions](../100_front/status_and_versions.md) and [Join and contribute](../100_front/contribute.md).
 ```
 
+:::{tip} Before you start
+**Needs:** [Identifiability](../300_foundations/08_identifiability.md) | **Coming from ML:** a fitted number is a physical constant only when the model matches the plant | **Coming from power systems:** an equivalent parameter absorbs model error and still has a stated test | **New to both:** read physical and equivalent parameter in the [glossary](../990_reference/glossary.md#glossary-checks)
+:::
+
 ## Learning goals
 
 - Define physical vs equivalent (effective) fitted parameters

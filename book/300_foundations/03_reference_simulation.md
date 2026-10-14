@@ -4,6 +4,10 @@
 Readable teaching prose; examples, figures, and exercises are still growing. See [Status and versions](../100_front/status_and_versions.md) and [Join and contribute](../100_front/contribute.md).
 ```
 
+:::{tip} Before you start
+**Needs:** [SMIB dynamics](02_smib_dynamics.md) and a way to run code ([Your first lab](../100_front/first_lab_walkthrough.md)) | **Coming from ML:** the simulator is the data-generating process for later labs | **Coming from power systems:** document the event schedule the way you document a study case | **New to both:** follow [Your first lab](../100_front/first_lab_walkthrough.md)
+:::
+
 ## Learning goals
 
 - Build a transparent numerical SMIB reference with an event schedule

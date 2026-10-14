@@ -4,6 +4,10 @@
 This section is under development. Start with [assessment to decision](01_assessment_to_decision.md); other Advanced topics thicken after Labs 1–5.
 ```
 
+:::{tip} Before you start
+**Needs:** a skim of the Dynamics, Stability, and Identification overviews | **Coming from ML:** operator learning and uncertainty sit here after a SMIB PINN is familiar | **Coming from power systems:** multimachine and converter pointers sit here after the SMIB labs | **New to both:** follow a route on [Learning paths](../100_front/learning_paths.md)
+:::
+
 ## Start here
 
 1. [From assessment to decision](01_assessment_to_decision.md) — how Identification, Dynamics, and Stability connect toward operating-point decisions  

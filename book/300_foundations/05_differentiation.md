@@ -4,6 +4,10 @@
 Readable teaching prose; examples, figures, and exercises are still growing. See [Status and versions](../100_front/status_and_versions.md) and [Join and contribute](../100_front/contribute.md).
 ```
 
+:::{tip} Before you start
+**Needs:** Prep 04, or the training section of the [ML primer](../200_prep/bridge_ml_for_power_systems.md) | **Coming from ML:** this is reverse-mode automatic differentiation applied to a residual | **Coming from power systems:** the software computes the derivative of the loss with respect to H and D | **New to both:** read the [ML primer](../200_prep/bridge_ml_for_power_systems.md); use Prep 04 when that notebook is filled
+:::
+
 ## Learning goals
 
 - Contrast finite differences with reverse-mode AD for residual losses

@@ -4,6 +4,10 @@
 Readable teaching prose; examples, figures, and exercises are still growing. See [Status and versions](../100_front/status_and_versions.md) and [Join and contribute](../100_front/contribute.md).
 ```
 
+:::{tip} Before you start
+**Needs:** [Reference simulation](03_reference_simulation.md) | **Coming from ML:** least squares against the simulator, before any neural inverse method | **Coming from power systems:** the curve fit you know, with named bounds on H and D | **New to both:** read the loss section of the [ML primer](../200_prep/bridge_ml_for_power_systems.md) and finish [Lab 1](../900_labs/lab_01_reference_sim/index.md)
+:::
+
 ## Learning goals
 
 - Set up simulation-based least squares for named parameters with bounds

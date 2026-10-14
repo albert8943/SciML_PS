@@ -10,7 +10,8 @@ Fails (exit 1) when:
 - a bib key is duplicated, or an entry has neither ``doi`` nor ``url``;
 - a page in the ``toc`` cites a key that is not in the bibliography.
 
-Bib entries that no page cites are reported as warnings only.
+Warnings (exit 0) when a bib entry is unused, or when a chapter, pillar, or lab page
+has no ``Before you start`` box.
 
 Usage: ``python scripts/check_book.py``
 """
@@ -81,6 +82,21 @@ def bib_entries(paths: list[Path]) -> tuple[list[str], list[str]]:
     return keys, missing_link
 
 
+def pages_needing_before_you_start() -> list[Path]:
+    """Chapter, pillar, and lab pages that should carry a Before you start box."""
+    pages: list[Path] = []
+    for folder in (
+        "300_foundations",
+        "400_dynamics",
+        "500_stability",
+        "600_identification",
+        "700_advanced",
+    ):
+        pages.extend(sorted((ROOT / "book" / folder).glob("*.md")))
+    pages.extend(sorted((ROOT / "book" / "900_labs").glob("lab_*/index.md")))
+    return pages
+
+
 def main() -> int:
     errors: list[str] = []
     warnings: list[str] = []
@@ -122,6 +138,11 @@ def main() -> int:
             errors.append(f"cite: {page} cites unknown key @{key}")
     for key in sorted(known - used):
         warnings.append(f"bib: {key} is not cited on any page")
+
+    for page in pages_needing_before_you_start():
+        if "Before you start" not in page.read_text(encoding="utf-8"):
+            rel = page.relative_to(ROOT).as_posix()
+            warnings.append(f"before-you-start: {rel} has no Before you start box")
 
     for w in warnings:
         print(f"warning: {w}")

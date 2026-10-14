@@ -4,6 +4,10 @@
 Readable teaching prose; examples, figures, and exercises are still growing. See [Status and versions](../../100_front/status_and_versions.md) and [Join and contribute](../../100_front/contribute.md).
 ```
 
+:::{tip} Before you start
+**Needs:** [Lab 1](../lab_01_reference_sim/index.md), [classical estimation](../../300_foundations/07_classical_estimation.md), [identifiability](../../300_foundations/08_identifiability.md), and [inverse PINNs](../../300_foundations/09_inverse_pinn.md) | **Coming from ML:** H and D are named parameters with bounds, separate from network weights | **Coming from power systems:** least squares beside an inverse PINN on the same records | **New to both:** read the [ML primer](../../200_prep/bridge_ml_for_power_systems.md) and finish Lab 1
+:::
+
 ## Goals
 
 Compare **simulation-based least squares** with an **inverse PINN** (or collocation residual estimator) on the same measurements and bounds. Vary noise, window length, and excitation. Plot a two-parameter loss surface or local sensitivity diagnostic. Test fitted $(H,D)$ on another disturbance.

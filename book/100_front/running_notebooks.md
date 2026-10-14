@@ -4,6 +4,8 @@
 Launch paths and notebooks may change while the notes grow. Contributions are welcome — help harden Binder, Colab setup cells, or new lab notebooks: [Join and contribute](contribute.md). Version labels: [Status and versions](status_and_versions.md).
 ```
 
+New to notebooks? Follow the numbered steps in [Your first lab](first_lab_walkthrough.md) (Colab, then Binder, then a local install). This page is the full comparison of the three launch paths.
+
 These living notes keep every assessed notebook in the [GitHub repository](https://github.com/albert8943/SciML_PS). You can run them in three ways. Use them in this order of trust:
 
 1. **Local install** — canonical (always works once the repo is cloned)

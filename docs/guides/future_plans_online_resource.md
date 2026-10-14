@@ -52,7 +52,7 @@ Wealthfolio’s help site is an **app manual** (MDX/Nextra/Starlight-*class* too
 
 | Borrow | SciML_PS placement |
 |--------|-------------------|
-| One newcomer CTA | Home: “New here? → How to use → Preparation → Foundations” |
+| One newcomer CTA | Home: [Start here](../../book/100_front/start_here.md), then a route by background. The long route remains Preparation → Foundations |
 | Slim pillar skim + depth elsewhere | Home: three bullets; full “what you produce” table on [book map](../../book/100_front/book_map.md) |
 | Explore entry tiles | Home: MyST `{grid}` + `{card}` (Getting started / Foundations / Laboratories / Reference) |
 | Quiet version cue | PDF cover **Last updated** (git commit); home note points there — do not add a second maintainer clock on every page |
@@ -131,7 +131,7 @@ Target actions once URLs exist (via `site.actions` and/or `site.parts.navbar_end
 - [x] Replace default “Made with MyST” (navbar `logo_text` + `site.parts.primary_sidebar_footer` in `book/_site/`).
 - [x] Home landing polish (§1b): CTA, slim pillars, Explore cards, short PDF caveat.
 - [x] Theme builds `myst.search.json` (local search available in book theme); re-check UX label after public host is live.
-- [ ] Colab/Binder launch buttons for selected lab notebooks (PBDL-style). Prep `nb01`–`nb04` are in the Preparation TOC as stub pages with download via theme/repo; Colab/Binder still deferred until Labs 1–5 are ready.
+- [x] Colab/Binder launch scaffolding (PBDL-style badges + `binder/` + [Running notebooks](../../book/100_front/running_notebooks.md)). Cloud buttons need a public repo; click-test after go-public. Prep `nb01`–`nb04` badges still deferred until those stubs are filled.
 - [x] Site-wide footer (`site.parts.footer`); pre-1.0 announcement part + footer notice (2026-10-14).
 - [ ] Accessibility pass (alt text, contrast) before a large enrollment.
 - [x] License choice: content CC BY-NC-SA 4.0, code MIT (root `LICENSE`). Rationale and remaining pre-public checks: [`legal_and_licensing_considerations.md`](legal_and_licensing_considerations.md).

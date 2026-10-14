@@ -4,6 +4,10 @@
 Readable teaching prose; examples, figures, and exercises are still growing. See [Status and versions](../100_front/status_and_versions.md) and [Join and contribute](../100_front/contribute.md).
 ```
 
+:::{tip} Before you start
+**Needs:** [Identifiability](../300_foundations/08_identifiability.md) | **Coming from ML:** features, noise, and window length are part of the data contract | **Coming from power systems:** channels and excitation aimed at H and D | **New to both:** read the [glossary](../990_reference/glossary.md#glossary-quantities)
+:::
+
 ## Learning goals
 
 - Specify observation channels, noise models, and window lengths

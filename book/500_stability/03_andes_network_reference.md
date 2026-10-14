@@ -4,6 +4,10 @@
 Readable teaching prose; examples, figures, and exercises are still growing. See [Status and versions](../100_front/status_and_versions.md) and [Join and contribute](../100_front/contribute.md).
 ```
 
+:::{tip} Before you start
+**Needs:** the SMIB path in [Lab 5](../900_labs/lab_05_stability_cct/index.md) | **Coming from ML:** the same evaluation protocol on a larger simulator | **Coming from power systems:** network time-domain simulation after the SMIB CCT study | **New to both:** finish [Lab 1](../900_labs/lab_01_reference_sim/index.md) and the [stability overview](overview.md) first
+:::
+
 After you can run **SMIB** stability and CCT work ([Lab 5](../900_labs/lab_05_stability_cct/index.md)), the next plant fidelity step is a **network** simulator. This course uses [ANDES](https://docs.andes.app/en/stable/) [@cui2021hybrid; @andes] as that reference: load a case, run power flow and time-domain simulation, then apply the **same SciML evaluation ideas** (scenarios, operational labels, CCT brackets, manifests) you already used on SMIB.
 
 ANDES is open-source (GPL v3). We summarize what you need here and point to the official docs for full tutorials and derivations — we do not republish the ANDES manual in this book.

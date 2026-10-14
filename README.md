@@ -5,7 +5,7 @@
 [![Code license](https://img.shields.io/badge/code-MIT-blue)](LICENSES/MIT.txt)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
 
-Portable teaching book (Jupyter Book 2 / MyST) on SciML for power-system **dynamics**, **stability**, and **parameter estimation**. Short form: **SciML for PS** (repo folder `SciML_PS`).
+Portable teaching book (Jupyter Book 2 / MyST) on SciML for power-system **dynamics**, **stability**, and **parameter estimation**. Short form: **SciML for PS** (repo folder `SciML_PS`). Machine-learning readers and power-systems readers, including complete beginners, choose an entrance on [Start here](book/100_front/start_here.md).
 
 **Status:** public preview (**v0.x**). Living notes; content may change until the first stable edition. See [status and versions](book/100_front/status_and_versions.md) and [roadmap](ROADMAP.md).
 
@@ -121,4 +121,4 @@ Others may share and adapt the content for **non-commercial** teaching with attr
 
 ## Single book
 
-One site, one TOC. Optional semester packaging lives in `book/100_front/learning_paths.md` (stub). Course I/II split folders are deferred.
+One site, one TOC. Routes by background and by role live in [`book/100_front/learning_paths.md`](book/100_front/learning_paths.md). Course I/II split folders are deferred.

@@ -120,15 +120,15 @@ conda activate sciml_ps_andes
 ### 3.1 As a reader / student (once published)
 
 1. Open the hosted site (GitHub Pages or other host — wire later).
-2. Read [How to use this book](../../book/100_front/how_to_use.md) and the [book map](../../book/100_front/book_map.md).
-3. Follow **Preparation → Foundations**, then deepen along Dynamics, Stability, or Identification.
+2. Open [Start here](../../book/100_front/start_here.md) to choose an entrance, then [How to use this book](../../book/100_front/how_to_use.md) and the [book map](../../book/100_front/book_map.md).
+3. Follow the matching route on [Learning paths](../../book/100_front/learning_paths.md). The long route is **Preparation → Foundations**, then Dynamics, Stability, or Identification.
 4. Complete labs under `900_labs` as assigned.
 
 Until hosting exists, use local preview (§2) as the “online” experience.
 
 ### 3.2 As an instructor shipping a semester
 
-1. Keep this **single book**; fill `book/100_front/learning_paths.md` with week-by-week pointers.
+1. Keep this **single book**. Role and background routes are on `book/100_front/learning_paths.md`; add week-by-week pointers when an institution schedules a term.
 2. Freeze env pins for that term (`envs/course_core.yml`, and ANDES if used).
 3. Point students at the published URL + lab folders, not at research repos.
 4. Treat `docs/planning/` as instructor-only curriculum memory unless you deliberately publish excerpts.

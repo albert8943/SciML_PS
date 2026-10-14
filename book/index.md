@@ -4,13 +4,49 @@ subtitle: Focus — dynamic modeling, stability assessment, and system identific
 
 # Scientific Machine Learning (SciML) for Power Systems (PS)
 
-Welcome. This book teaches **scientific machine learning for power-system applications**: methods in the service of concrete engineering tasks on the grid, not abstract algorithms alone. After this page we usually write the short form **SciML for PS**.
+Welcome. This book teaches **scientific machine learning for power-system applications**: methods in the service of concrete engineering tasks on the grid, with the engineering question stated first. After this page we usually write the short form **SciML for PS**.
+
+Machine-learning readers and power-systems readers share these notes so each group can learn enough of the other field to work on the same plant. Students, teachers, engineers, utility workers, and researchers may open any chapter. [Start here](100_front/start_here.md) matches a route to your background and your role.
 
 :::{warning} Under development — public preview (v0.x)
 These are **living teaching notes**, not a finished textbook. Stub chapters, thin prep notebooks, and experimental PDF export are intentional while the core narrative and Labs 1–5 grow. Prefer the HTML site over the PDF snapshot. Versioning and chapter maturity labels: [Status and versions](100_front/status_and_versions.md). Experts and careful readers: [Join and contribute](100_front/contribute.md).
 :::
 
-**New here?** Start with [How to use this book](100_front/how_to_use.md), then [Preparation](200_prep/overview.md) → [Foundations](300_foundations/overview.md).
+**Choose an entrance:** [Start here](100_front/start_here.md). Each chapter then says what it assumes.
+
+::::{grid} 1 1 2 2
+
+:::{card} Complete beginner
+:link: 200_prep/bridge_programming_from_zero.md
+
+Programming words, then a first lab in the browser. No install required to start.
+:::
+
+:::{card} From machine learning
+:link: 200_prep/bridge_power_systems_for_ml.md
+
+Generators, swing equations, faults, and CCT, in the language of states and losses.
+:::
+
+:::{card} From power systems
+:link: 200_prep/bridge_ml_for_power_systems.md
+
+Losses, training, and generalization, in the language of least squares and study cases.
+:::
+
+:::{card} Teachers
+:link: 100_front/learning_paths.md#path-teachers
+
+Course overlays on one book. Week plans can be shared back.
+:::
+
+:::{card} Researchers and practitioners
+:link: 100_front/learning_paths.md#path-practitioners
+
+Practitioners open the application they work on. The researcher route is the next section on the same page.
+:::
+
+::::
 
 ## Three applications
 
@@ -24,7 +60,7 @@ Shared tools (SMIB models, data and physics losses, classical baselines) come fi
 
 Power-system SciML is scattered across papers, gallery notebooks, and research codes. This book keeps **one living narrative**: three engineering questions on a shared SMIB plant, classical baselines beside neural methods, and runnable labs. Methods appear when an application needs them, not as a method ladder. Interactive notebooks sit beside the prose so you can check claims on the same model you just read about.
 
-New here? Also read [Advice to the student](100_front/advice.md).
+Also read [Advice to readers](100_front/advice.md). The sidebar order is one route among several: [Learning paths](100_front/learning_paths.md).
 
 ## Explore the notes
 
@@ -33,7 +69,7 @@ New here? Also read [Advice to the student](100_front/advice.md).
 :::{card} Getting started
 :link: 100_front/how_to_use.md
 
-How to use the book, local preview, learning paths, and feedback.
+Entrances, how pages work, local preview, and feedback.
 :::
 
 :::{card} Full outline

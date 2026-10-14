@@ -4,6 +4,10 @@
 Readable teaching prose; examples, figures, and exercises are still growing. See [Status and versions](../100_front/status_and_versions.md) and [Join and contribute](../100_front/contribute.md).
 ```
 
+:::{tip} Before you start
+**Needs:** [Classical estimation](07_classical_estimation.md) | **Coming from ML:** a low loss can still leave H and D ambiguous | **Coming from power systems:** poor excitation and model mismatch, written for the estimation labs | **New to both:** read the [glossary](../990_reference/glossary.md#glossary-checks) section
+:::
+
 ## Learning goals
 
 - Separate noise, poor excitation, and structural non-identifiability

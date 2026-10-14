@@ -4,6 +4,10 @@
 Readable teaching prose; examples, figures, and exercises are still growing. See [Status and versions](../../100_front/status_and_versions.md) and [Join and contribute](../../100_front/contribute.md).
 ```
 
+:::{tip} Before you start
+**Needs:** [SMIB dynamics](../../300_foundations/02_smib_dynamics.md) helps; programming is optional if you use the walkthrough | **Coming from ML:** this lab builds the simulator that later labs learn from | **Coming from power systems:** an event schedule, two solver settings, and a dataset manifest | **New to both:** follow [Your first lab](../../100_front/first_lab_walkthrough.md)
+:::
+
 ## Goals
 
 Deliver an SMIB simulator, event schedule, dataset manifest, and convergence check. Compare at least two numerical settings. Explain scenario-based splits. Retain numerical failures as flagged records.

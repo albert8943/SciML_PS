@@ -4,6 +4,10 @@
 Readable teaching prose; examples, figures, and exercises are still growing. See [Status and versions](../100_front/status_and_versions.md) and [Join and contribute](../100_front/contribute.md).
 ```
 
+:::{tip} Before you start
+**Needs:** [Lab 1](../900_labs/lab_01_reference_sim/index.md) and [SMIB dynamics](../300_foundations/02_smib_dynamics.md) | **Coming from ML:** labels and margins, reported beside trajectory error | **Coming from power systems:** CCT and operational labels on the shared SMIB | **New to both:** read the fault section of the [power-systems primer](../200_prep/bridge_power_systems_for_ml.md), then Lab 1
+:::
+
 **Engineering question:** Will the system remain stable, and how close is it to a stability boundary?
 
 ## Focus

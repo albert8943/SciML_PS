@@ -4,6 +4,10 @@
 This laboratory page is under development. Goals below are the contract; the executable notebook arrives in a later pass.
 ```
 
+:::{tip} Before you start
+**Needs:** [Data and surrogates](../../300_foundations/04_data_and_surrogates.md) and [Lab 1](../lab_01_reference_sim/index.md) | **Coming from ML:** a matched supervised baseline beside a residual loss | **Coming from power systems:** read the [ML primer](../../200_prep/bridge_ml_for_power_systems.md), then this comparison | **New to both:** read the [ML primer](../../200_prep/bridge_ml_for_power_systems.md); the executable notebook is still a stub
+:::
+
 ## Goals
 
 Matched input/output definitions and a documented training budget. Vary labeled-data amount. Report trajectory errors, residuals, and error near event interfaces. Include a controlled ablation removing the physics term.

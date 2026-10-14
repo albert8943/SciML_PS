@@ -4,6 +4,10 @@
 This section is under development. The engineering question and lab links are stable; chapter depth grows after Foundations and Labs 1–2.
 ```
 
+:::{tip} Before you start
+**Needs:** [SMIB dynamics](../300_foundations/02_smib_dynamics.md) and [Lab 1](../900_labs/lab_01_reference_sim/index.md) | **Coming from ML:** the target is a trajectory or a vector field | **Coming from power systems:** the same study question, with learned models beside the simulator | **New to both:** [Your first lab](../100_front/first_lab_walkthrough.md), then this page
+:::
+
 **Engineering question:** How will the system evolve under specified inputs, parameters, and disturbances?
 
 ## Planned depth (stubs later)

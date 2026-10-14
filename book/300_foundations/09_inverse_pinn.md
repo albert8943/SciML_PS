@@ -4,6 +4,10 @@
 Readable teaching prose; examples, figures, and exercises are still growing. See [Status and versions](../100_front/status_and_versions.md) and [Join and contribute](../100_front/contribute.md).
 ```
 
+:::{tip} Before you start
+**Needs:** [Forward PINNs](06_forward_pinn.md) and [Classical estimation](07_classical_estimation.md) | **Coming from ML:** network weights and named parameters are different knobs | **Coming from power systems:** H and D become trainable beside the residual | **New to both:** read the [ML primer](../200_prep/bridge_ml_for_power_systems.md) and [Classical estimation](07_classical_estimation.md)
+:::
+
 ## Learning goals
 
 - Formulate an inverse PINN with trainable named parameters

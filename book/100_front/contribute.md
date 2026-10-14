@@ -6,6 +6,19 @@ These notes are a **collaborative teaching resource** under active development. 
 Until the first stable edition (**v1.0**), treat the book as a public preview: structure and goals are intentional; many pages are still thickening. See [Status and versions](status_and_versions.md).
 :::
 
+## Cross-domain collaboration
+
+This book is a bridge. A chapter is stronger when a machine-learning reader and a power-systems reader both review it.
+
+| Contribution | Why it helps |
+|--------------|--------------|
+| A [glossary](../990_reference/glossary.md) row that translates one term into the other field | Gives the next reader a shared word |
+| A "Coming from ML" or "Coming from power systems" sentence on a chapter you know | Lets people jump in without reading everything above |
+| A paired review (one reader from each field) on a pull request | Catches jargon that only one community understands |
+| A teacher overlay (week plan) for [Learning paths](learning_paths.md#path-teachers) | Lets another course reuse the same labs |
+
+A glossary row or a translation sentence is a good first contribution. A single row is enough.
+
 ## How you can help
 
 | Role | Examples |

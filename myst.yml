@@ -41,10 +41,12 @@ project:
     - file: book/index.md
     - title: Front matter
       children:
+        - file: book/100_front/start_here.md
         - file: book/100_front/how_to_use.md
         - file: book/100_front/advice.md
         - file: book/100_front/preview_locally.md
         - file: book/100_front/running_notebooks.md
+        - file: book/100_front/first_lab_walkthrough.md
         - file: book/100_front/book_map.md
         - file: book/100_front/outline.md
         - file: book/100_front/learning_paths.md
@@ -56,6 +58,9 @@ project:
     - title: Preparation
       children:
         - file: book/200_prep/overview.md
+        - file: book/200_prep/bridge_programming_from_zero.md
+        - file: book/200_prep/bridge_power_systems_for_ml.md
+        - file: book/200_prep/bridge_ml_for_power_systems.md
         - file: book/200_prep/nb01_numpy_basics.ipynb
         - file: book/200_prep/nb02_ode_integration.ipynb
         - file: book/200_prep/nb03_nn_regression.ipynb
@@ -105,6 +110,7 @@ project:
     - title: Reference
       children:
         - file: book/990_reference/reading_list.md
+        - file: book/990_reference/glossary.md
         - file: book/990_reference/notation.md
 site:
   template: book-theme
@@ -125,6 +131,8 @@ site:
   # Local preview PDF is on the content server (port 3100). Before public deploy, switch PDF url
   # to your hosted absolute PDF URL (still http(s) so it stays a new tab).
   actions:
+    - title: Start here
+      url: /start-here
     - title: Outline
       url: /outline
     - title: PDF

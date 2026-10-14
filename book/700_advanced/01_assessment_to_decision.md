@@ -4,6 +4,10 @@
 Readable teaching prose; examples, figures, and exercises are still growing. See [Status and versions](../100_front/status_and_versions.md) and [Join and contribute](../100_front/contribute.md).
 ```
 
+:::{tip} Before you start
+**Needs:** the three pillar overviews | **Coming from ML:** one operating-point loop joining prediction, labels, and estimation | **Coming from power systems:** how the three studies connect toward a decision | **New to both:** read the [book map](../100_front/book_map.md) first
+:::
+
 ## Learning goals
 
 - See how the three book applications connect in one operating-point loop

@@ -1,5 +1,7 @@
 # Notation
 
+Plain-language meanings, with a power-systems reading and a machine-learning reading of the same word, are in the [glossary](glossary.md). This page is the symbol table.
+
 ## Conventions (teaching draft)
 
 | Symbol | Meaning |

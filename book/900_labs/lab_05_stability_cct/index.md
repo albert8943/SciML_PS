@@ -4,6 +4,10 @@
 Readable teaching prose; examples, figures, and exercises are still growing. See [Status and versions](../../100_front/status_and_versions.md) and [Join and contribute](../../100_front/contribute.md).
 ```
 
+:::{tip} Before you start
+**Needs:** [Lab 1](../lab_01_reference_sim/index.md) and [Stability labels and CCT](../../500_stability/01_stability_and_cct.md) | **Coming from ML:** report false-safe counts and CCT error beside trajectory error | **Coming from power systems:** build the reference CCT by search, then judge a learned model | **New to both:** read the fault section of the [power-systems primer](../../200_prep/bridge_power_systems_for_ml.md) and finish Lab 1
+:::
+
 ## Goals
 
 Create reference labels and CCT brackets on classical SMIB (Lab 1 tooling), then evaluate a learned surrogate or forward PINN near the boundary. Report signed and absolute CCT errors, false-safe decisions, and one case where trajectory ranking and CCT ranking disagree.

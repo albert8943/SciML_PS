@@ -4,6 +4,10 @@
 Readable teaching prose; examples, figures, and exercises are still growing. See [Status and versions](../100_front/status_and_versions.md) and [Join and contribute](../100_front/contribute.md).
 ```
 
+:::{tip} Before you start
+**Needs:** [Forward PINNs](06_forward_pinn.md) | **Coming from ML:** a numerical solver in the loop, distinct from collocation | **Coming from power systems:** the integrator stays visible; a neural term can sit inside the ODE | **New to both:** read the [ML primer](../200_prep/bridge_ml_for_power_systems.md) and [Reference simulation](03_reference_simulation.md)
+:::
+
 ## Learning goals
 
 - Contrast collocation PINNs with solver-based learned dynamics

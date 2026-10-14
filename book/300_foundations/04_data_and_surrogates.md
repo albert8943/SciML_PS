@@ -4,6 +4,10 @@
 Readable teaching prose; examples, figures, and exercises are still growing. See [Status and versions](../100_front/status_and_versions.md) and [Join and contribute](../100_front/contribute.md).
 ```
 
+:::{tip} Before you start
+**Needs:** [Problem framing](01_problem_framing.md) | **Coming from ML:** a surrogate is supervised learning on simulator trajectories | **Coming from power systems:** read the loss section of [Machine learning for power-systems people](../200_prep/bridge_ml_for_power_systems.md) | **New to both:** read the [ML primer](../200_prep/bridge_ml_for_power_systems.md), then this chapter
+:::
+
 ## Learning goals
 
 - Define matched input/output contracts for a supervised trajectory surrogate

@@ -4,6 +4,10 @@
 Readable teaching prose; examples, figures, and exercises are still growing. See [Status and versions](../100_front/status_and_versions.md) and [Join and contribute](../100_front/contribute.md).
 ```
 
+:::{tip} Before you start
+**Needs:** [Data and surrogates](04_data_and_surrogates.md) and [Automatic differentiation](05_differentiation.md) | **Coming from ML:** a data loss plus a residual of a known ODE | **Coming from power systems:** the swing equation enters the training objective | **New to both:** read the [ML primer](../200_prep/bridge_ml_for_power_systems.md) and [SMIB dynamics](02_smib_dynamics.md)
+:::
+
 ## Learning goals
 
 - Write data and physics losses for a known ODE fragment

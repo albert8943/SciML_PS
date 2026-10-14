@@ -4,6 +4,10 @@
 Readable teaching prose; examples, figures, and exercises are still growing. See [Status and versions](../100_front/status_and_versions.md) and [Join and contribute](../100_front/contribute.md).
 ```
 
+:::{tip} Before you start
+**Needs:** [Automatic differentiation](../300_foundations/05_differentiation.md) and [Classical estimation](../300_foundations/07_classical_estimation.md) | **Coming from ML:** gradients through the numerical solver | **Coming from power systems:** the simulator stays the model; the fit uses its derivatives | **New to both:** read the [ML primer](../200_prep/bridge_ml_for_power_systems.md) and [Classical estimation](../300_foundations/07_classical_estimation.md)
+:::
+
 ## Learning goals
 
 - Explain how a gradient with respect to $(H, D)$ can flow through a numerical solver
