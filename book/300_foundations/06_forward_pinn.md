@@ -1,5 +1,9 @@
 # Forward PINNs
 
+```{note} Maturity: Draft
+Readable teaching prose; examples, figures, and exercises are still growing. See [Status and versions](../100_front/status_and_versions.md) and [Join and contribute](../100_front/contribute.md).
+```
+
 ## Learning goals
 
 - Write data and physics losses for a known ODE fragment

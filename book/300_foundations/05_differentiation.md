@@ -1,5 +1,9 @@
 # Automatic differentiation
 
+```{note} Maturity: Draft
+Readable teaching prose; examples, figures, and exercises are still growing. See [Status and versions](../100_front/status_and_versions.md) and [Join and contribute](../100_front/contribute.md).
+```
+
 ## Learning goals
 
 - Contrast finite differences with reverse-mode AD for residual losses

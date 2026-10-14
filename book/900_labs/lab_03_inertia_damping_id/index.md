@@ -1,5 +1,9 @@
 # Lab 3 — Inertia and damping estimation
 
+```{note} Maturity: Draft
+Readable teaching prose; examples, figures, and exercises are still growing. See [Status and versions](../../100_front/status_and_versions.md) and [Join and contribute](../../100_front/contribute.md).
+```
+
 ## Goals
 
 Compare **simulation-based least squares** with an **inverse PINN** (or collocation residual estimator) on the same measurements and bounds. Vary noise, window length, and excitation. Plot a two-parameter loss surface or local sensitivity diagnostic. Test fitted $(H,D)$ on another disturbance.

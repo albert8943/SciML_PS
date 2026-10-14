@@ -1,5 +1,9 @@
 # SciML method families (landscape)
 
+```{note} Maturity: Draft
+Readable teaching prose; examples, figures, and exercises are still growing. See [Status and versions](../100_front/status_and_versions.md) and [Join and contribute](../100_front/contribute.md).
+```
+
 ## Learning goals
 
 - Name major SciML families used for power-system dynamics and TSA

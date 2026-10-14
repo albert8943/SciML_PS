@@ -11,7 +11,7 @@ Portable teaching book (Jupyter Book 2 / MyST) on SciML for power-system **dynam
 
 **Online book:** <https://sciml4ps.albertpoulose.com> (deployed from `master` by GitHub Actions; one-time setup in [`docs/guides/site_hosting.md`](docs/guides/site_hosting.md#hosting)).
 
-**Positioning:** to our knowledge there is not yet an established open, collaborative living textbook with this three-application spine; see [related open resources](book/100_front/related_resources.md). Do not announce as “first” or “only.”
+**Positioning:** to our knowledge there is not yet an established open, collaborative living textbook with this three-application spine; see [related open resources](book/100_front/related_resources.md) for neighbouring courses, notes, and research codes.
 
 Title usage (full vs short vs focus subtitle): [`docs/guides/naming_and_titles.md`](docs/guides/naming_and_titles.md).
 

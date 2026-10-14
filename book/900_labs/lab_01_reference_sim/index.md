@@ -1,5 +1,9 @@
 # Lab 1 — Reference simulation and scientific dataset
 
+```{note} Maturity: Draft
+Readable teaching prose; examples, figures, and exercises are still growing. See [Status and versions](../../100_front/status_and_versions.md) and [Join and contribute](../../100_front/contribute.md).
+```
+
 ## Goals
 
 Deliver an SMIB simulator, event schedule, dataset manifest, and convergence check. Compare at least two numerical settings. Explain scenario-based splits. Retain numerical failures as flagged records.

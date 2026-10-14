@@ -6,7 +6,7 @@ This page situates **SciML for PS** among nearby open materials. It is a positio
 
 To our knowledge, there is **not yet** an established open, collaborative *living textbook* that organizes scientific machine learning around power-system **dynamics**, **stability assessment**, and **system identification** as three engineering applications with a shared plant, classical baselines, and an assessed lab spine.
 
-Related research codes, short courses, general SciML notes, and energy-system Jupyter Books **do** exist. This book aims to fill the **teaching-product** gap: one long-lived narrative you can study, cite by version, and help improve. Avoid phrases such as “first,” “only,” or “best in the world” in announcements; use the sentence above instead.
+Related research codes, short courses, general SciML notes, and energy-system Jupyter Books **do** exist. This book aims to fill the **teaching-product** gap: one long-lived narrative you can study, cite by version, and help improve. If you know a resource we have missed, please [tell us](feedback.md) so this page stays fair.
 
 ## Neighbors worth knowing
 

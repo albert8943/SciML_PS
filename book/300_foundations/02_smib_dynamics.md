@@ -1,5 +1,9 @@
 # SMIB dynamics
 
+```{note} Maturity: Draft
+Readable teaching prose; examples, figures, and exercises are still growing. See [Status and versions](../100_front/status_and_versions.md) and [Join and contribute](../100_front/contribute.md).
+```
+
 ## Learning goals
 
 - Write classical SMIB swing equations in consistent units
@@ -41,11 +45,12 @@ Critical clearing time (CCT) later asks: *how long can fault-on last before post
 For fixed $H$, plot qualitative $\delta(t)$ after a short fault vs a long fault. Which parameter mainly scales the “inertia” of the swing?
 
 ```{exercise} Inertia vs clearing time
+:label: ex-inertia-clearing-time
 :class: dropdown
 Keep $D$, network strengths, and $P_m$ fixed. Compare a short fault-on interval with a long one. Which parameter mainly scales how slowly $\delta(t)$ builds during the fault, and what happens to that story if you only change $D$?
 ```
 
-```{solution} Inertia vs clearing time
+```{solution} ex-inertia-clearing-time
 :class: dropdown
 Inertia $H$ scales how quickly rotor speed (and then angle) accelerate for a given power imbalance — larger $H$ means slower angle growth during the fault. Damping $D$ mainly shapes postfault settling and oscillation decay; it is a poor substitute for changing clearing time when you are studying first-swing margin.
 ```

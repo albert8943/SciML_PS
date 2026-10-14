@@ -38,11 +38,12 @@ Use MyST built-in directives (do **not** copy third-party plugins):
 
 ````markdown
 ```{exercise} Short prompt
+:label: ex-short-slug
 :class: dropdown
 Question in your own words.
 ```
 
-```{solution} Short prompt
+```{solution} ex-short-slug
 :class: dropdown
 Solution sketch.
 ```

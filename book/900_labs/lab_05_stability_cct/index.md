@@ -1,5 +1,9 @@
 # Lab 5 — Stability and CCT
 
+```{note} Maturity: Draft
+Readable teaching prose; examples, figures, and exercises are still growing. See [Status and versions](../../100_front/status_and_versions.md) and [Join and contribute](../../100_front/contribute.md).
+```
+
 ## Goals
 
 Create reference labels and CCT brackets on classical SMIB (Lab 1 tooling), then evaluate a learned surrogate or forward PINN near the boundary. Report signed and absolute CCT errors, false-safe decisions, and one case where trajectory ranking and CCT ranking disagree.

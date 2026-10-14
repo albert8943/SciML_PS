@@ -1,5 +1,9 @@
 # Foundations overview
 
+```{note} Maturity: Draft
+Readable teaching prose; examples, figures, and exercises are still growing. See [Status and versions](../100_front/status_and_versions.md) and [Join and contribute](../100_front/contribute.md).
+```
+
 Shared method core before the three application pillars. Use a classical **SMIB** (single-machine infinite-bus) system repeatedly so the same equations appear as forward simulation, surrogate learning, stability labels, and parameter estimation.
 
 :::{important} Shared SMIB spine

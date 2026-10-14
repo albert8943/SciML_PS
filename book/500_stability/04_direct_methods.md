@@ -1,5 +1,9 @@
 # Direct methods (equal-area and energy ideas)
 
+```{note} Maturity: Draft
+Readable teaching prose; examples, figures, and exercises are still growing. See [Status and versions](../100_front/status_and_versions.md) and [Join and contribute](../100_front/contribute.md).
+```
+
 ## Learning goals
 
 - Use a **classical** CCT check (equal-area / energy idea) when assumptions hold, before trusting only bisection or a surrogate
@@ -49,11 +53,12 @@ For this course:
 Same rule across all three. Trajectory RMSE alone does not validate CCT.
 
 ```{exercise} When equal-area is a fair check
+:label: ex-equal-area-fair-check
 :class: dropdown
 You have a classical SMIB Lab 5 bisection CCT under a first-swing $|\delta|$ rule. Name two modelling assumptions that must hold before you treat an equal-area CCT as a meaningful cross-check — and one situation where you should refuse the comparison.
 ```
 
-```{solution} When equal-area is a fair check
+```{solution} ex-equal-area-fair-check
 :class: dropdown
 Fair when (for example) mechanical power is treated as constant and damping is negligible, and the network is reduced to classical before/during/after strengths matching the equal-area sketch. Refuse the comparison for strongly damped swings, multi-swing criteria, or converter-rich plants where classical equal-area assumptions do not hold — then use energy ideas only as elective background, not as a Lab 5 certificate.
 ```

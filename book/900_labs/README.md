@@ -1,5 +1,9 @@
 # Laboratories
 
+```{note} Maturity: Draft
+Readable teaching prose; examples, figures, and exercises are still growing. See [Status and versions](../100_front/status_and_versions.md) and [Join and contribute](../100_front/contribute.md).
+```
+
 Five assessed laboratories aligned to the course plan. This **is** the full lab set for SciML for PS — we deepen these rather than adding Lab 6+.
 
 | Lab | Topic | Status |
