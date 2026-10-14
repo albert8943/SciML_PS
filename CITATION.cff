@@ -21,5 +21,11 @@ keywords:
   - PINN
   - transient stability
   - system identification
-version: 0.0.2-dev
+version: 0.1.0
 date-released: "2026-10-14"
+# After Zenodo deposit of the GitHub Release, add:
+# identifiers:
+#   - type: doi
+#     value: "10.5281/zenodo.XXXX"
+#     description: Zenodo version DOI
+# Or run: .\scripts\phase2_set_doi.ps1 -Doi "10.5281/zenodo.XXXX"

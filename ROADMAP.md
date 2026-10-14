@@ -8,13 +8,13 @@ and the lab spine policy.
 
 ## v0.1 — First public preview
 
-- [ ] Repository public; site live at https://sciml4ps.albertpoulose.com
+- [ ] Repository public; site live at https://sciml4ps.albertpoulose.com (run `.\scripts\phase2_go_public.ps1` after `gh auth login`; DNS CNAME still manual)
 - [x] Dual licence (CC BY-NC-SA 4.0 content / MIT code)
 - [x] Collaboration scaffolding (CONTRIBUTING, DCO, GOVERNANCE, CoC)
 - [x] Related-resources / positioning page (honest niche claim)
 - [x] Site-wide under-development warning + maturity labels
-- [ ] Personal website Teaching link to the book
-- [ ] Zenodo DOI on first GitHub Release
+- [x] Personal website Teaching link to the book (`dr-albert-poulose` open_resources + news)
+- [ ] Zenodo DOI on first GitHub Release (`.\scripts\phase2_set_doi.ps1` after deposit)
 
 ## v0.2 — Foundations and Lab 1 usable
 
