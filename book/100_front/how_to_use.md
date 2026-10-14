@@ -16,6 +16,18 @@ Three things make that safe:
 
 The sidebar order (Preparation, then Foundations, then Dynamics, Stability, or Identification) is one useful route. It is the `path_core` overlay for a first course. It is optional if your background already covers part of it.
 
+## How SciML methods appear
+
+These notes are organized by **power-system question**, not by a catalogue of architectures.
+
+1. Name the engineering question: [Dynamics](../400_dynamics/overview.md), [Stability](../500_stability/overview.md), or [Identification](../600_identification/overview.md).
+2. Use the same plant: [Lab 1](../900_labs/lab_01_reference_sim/index.md) (and Foundations SMIB chapters).
+3. Keep a classical or supervised baseline, then meet an early physics-informed path: residual / inverse PINN in Labs 2–3.
+4. Meet other families when the same plant needs them — Neural ODEs and operators in [Lab 4](../900_labs/lab_04_learned_dynamics/index.md), differentiable simulation under Identification, frontiers under [Advanced](../700_advanced/overview.md). They do not get a second table of contents.
+5. Keep five assessed labs. New methods deepen Labs 1–5 or sit in Advanced; they do not become Lab 6.
+
+Family map: [SciML method families](../300_foundations/00_sciml_landscape.md). Practice table: [Laboratories](../900_labs/README.md).
+
 :::{tip} Browser
 Prefer **Google Chrome**, **Microsoft Edge**, or another Chromium-based browser for the live notes. Interactive figures and long pages scroll more reliably there than in Safari.
 :::

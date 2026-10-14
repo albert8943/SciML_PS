@@ -8,6 +8,10 @@ Readable teaching prose; examples, figures, and exercises are still growing. See
 **Needs:** names of PINN and Neural ODE in the [glossary](../990_reference/glossary.md#glossary-learning) | **Coming from ML:** these are the families this book uses on one grid model | **Coming from power systems:** a PINN is a neural model trained with a residual of the equations you already write | **New to both:** read both primers on [Start here](../100_front/start_here.md), then use this page as a map
 :::
 
+:::{important} Reader path
+Practice order on the shared plant: [Lab 1](../900_labs/lab_01_reference_sim/index.md) (reference) → [Lab 2](../900_labs/lab_02_surrogate_vs_pinn/index.md) (supervised surrogate versus PINN residual) → [Lab 3](../900_labs/lab_03_inertia_damping_id/index.md) (inverse) → [Lab 4](../900_labs/lab_04_learned_dynamics/index.md) (Neural ODE / operator options) → [Lab 5](../900_labs/lab_05_stability_cct/index.md) (CCT). Pick the physics-coupling level from the engineering question and the data contract, not from climbing the ladder below. The table on this page says where each family lives in the book.
+:::
+
 ## Learning goals
 
 - Name major SciML families used for power-system dynamics and TSA

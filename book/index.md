@@ -60,7 +60,9 @@ Shared tools (SMIB models, data and physics losses, classical baselines) come fi
 
 Power-system SciML is scattered across papers, gallery notebooks, and research codes. This book keeps **one living narrative**: three engineering questions on a shared SMIB plant, classical baselines beside neural methods, and runnable labs. Methods appear when an application needs them, not as a method ladder. Interactive notebooks sit beside the prose so you can check claims on the same model you just read about.
 
-Also read [Advice to readers](100_front/advice.md). The sidebar order is one route among several: [Learning paths](100_front/learning_paths.md).
+**PINN is an early deep path, not the whole book.** Labs 2–3 use physics-informed residuals because the swing equation makes that residual easy to write and to ablate. Other SciML families (Neural ODEs, operator learning, differentiable simulation) appear later on the same plant when the question needs them. The method map: [SciML method families](300_foundations/00_sciml_landscape.md). Where each family is practiced: [Laboratories](900_labs/README.md).
+
+Also read [Advice to readers](100_front/advice.md). How methods show up in reading order: [How to use this book](100_front/how_to_use.md). The sidebar order is one route among several: [Learning paths](100_front/learning_paths.md).
 
 ## Explore the notes
 

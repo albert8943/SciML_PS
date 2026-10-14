@@ -1,4 +1,4 @@
-# Lab 2 — Supervised surrogate versus PINN
+# Lab 2 — Supervised surrogate versus physics residual (PINN)
 
 ```{note} Maturity: Stub
 This laboratory page is under development. Goals below are the contract; the executable notebook arrives in a later pass.
@@ -7,6 +7,10 @@ This laboratory page is under development. Goals below are the contract; the exe
 :::{tip} Before you start
 **Needs:** [Data and surrogates](../../300_foundations/04_data_and_surrogates.md) and [Lab 1](../lab_01_reference_sim/index.md) | **Coming from ML:** a matched supervised baseline beside a residual loss | **Coming from power systems:** read the [ML primer](../../200_prep/bridge_ml_for_power_systems.md), then this comparison | **New to both:** read the [ML primer](../../200_prep/bridge_ml_for_power_systems.md); the executable notebook is still a stub
 :::
+
+## Why this lab names PINN
+
+The teaching contrast is **data-only** versus **data plus a physics residual** on the same SMIB plant, inputs, and training budget. A collocation PINN makes that residual easy to write for the swing equation and easy to remove in an ablation. This lab is not a survey of every SciML method. Neural ODEs, hybrids, and operator learning belong in [Lab 4](../lab_04_learned_dynamics/index.md) and on the [SciML method families](../../300_foundations/00_sciml_landscape.md) map.
 
 ## Goals
 

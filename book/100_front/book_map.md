@@ -16,6 +16,8 @@ How the notes are organized. Use the left sidebar for day-to-day navigation; thi
 
 Read **Preparation → Foundations**, then deepen along **Dynamics**, **Stability**, or **Identification**, when you want the long route. Other entrances (by background and by role) are on [Start here](start_here.md) and [Learning paths](learning_paths.md). Any chapter can be a starting page when its **Before you start** box is satisfied. Labs sit beside the notes and cross-link from chapters.
 
+Methods appear when an application needs them. PINN is an early deep path (Labs 2–3); other SciML families sit under Lab 4, Identification options, or Advanced. Labs 1–5 are the fixed assessed set — deepen notebooks rather than adding Lab 6. Reader summary: [How SciML methods appear](how_to_use.md#how-sciml-methods-appear).
+
 This top-level layout is intentional and meant to stay stable as the notes grow: shared foundations, three applications, labs beside the prose, and a separate reference section. Semester week-by-week paths belong under [Learning paths](learning_paths.md), not as a rewrite of these sections.
 
 ## What each application produces

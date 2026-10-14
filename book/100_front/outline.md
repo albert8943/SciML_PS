@@ -91,7 +91,7 @@ Every page of the notes on one page, in reading order. The [Book map](book_map.m
 |-----|------------------|----------|-------|
 | [Laboratories index](../900_labs/README.md) | How the five assessed labs fit together | Draft | [Start here](start_here.md) |
 | [Lab 1: Reference simulation and scientific dataset](../900_labs/lab_01_reference_sim/index.md) | SMIB simulator, event schedule, dataset manifest, convergence check | Draft | [First lab](first_lab_walkthrough.md) |
-| [Lab 2: Supervised surrogate versus PINN](../900_labs/lab_02_surrogate_vs_pinn/index.md) | Matched comparison with a physics-term ablation | Stub | Data and surrogates; Lab 1 |
+| [Lab 2: Supervised surrogate versus physics residual (PINN)](../900_labs/lab_02_surrogate_vs_pinn/index.md) | Matched comparison with a physics-term ablation | Stub | Data and surrogates; Lab 1 |
 | [Lab 3: Inertia and damping estimation](../900_labs/lab_03_inertia_damping_id/index.md) | Least squares versus inverse PINN on the same measurements | Draft | Lab 1; classical estimation |
 | [Lab 4: Generalization of a learned dynamic model](../900_labs/lab_04_learned_dynamics/index.md) | Hybrid/neural ODE or DeepONet tested on a held-out domain | Stub | Neural ODEs; Labs 1–3 |
 | [Lab 5: Stability and CCT](../900_labs/lab_05_stability_cct/index.md) | Reference CCT brackets, then a learned model near the boundary | Draft | Lab 1; CCT |

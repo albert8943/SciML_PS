@@ -27,6 +27,8 @@ Chapters in this part can be read out of order when the **Before you start** box
 
 Word-by-word translations: [Glossary](../990_reference/glossary.md). Routes by role: [Learning paths](../100_front/learning_paths.md).
 
+Foundations teach the shared plant and an early physics-informed path (supervised baseline, then forward and inverse PINNs). [Dynamics](../400_dynamics/overview.md), [Stability](../500_stability/overview.md), and [Identification](../600_identification/overview.md) deepen the three engineering questions. Other SciML families (Neural ODEs, operators) arrive when needed — see [SciML method families](00_sciml_landscape.md) and [Lab 4](../900_labs/lab_04_learned_dynamics/index.md).
+
 ## Learning outcomes
 
 After this part you should be able to:

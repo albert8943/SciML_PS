@@ -9,10 +9,22 @@ Five assessed laboratories aligned to the course plan. This **is** the full lab 
 | Lab | Topic | Status |
 |-----|-------|--------|
 | 1 | [Reference simulation and scientific dataset](lab_01_reference_sim/index.md) | Notebook + `sciml_ps.smib` helper |
-| 2 | [Surrogate versus PINN](lab_02_surrogate_vs_pinn/index.md) | Brief only (after Lab 1) |
+| 2 | [Supervised surrogate versus physics residual (PINN)](lab_02_surrogate_vs_pinn/index.md) | Brief only (after Lab 1) |
 | 3 | [Inertia and damping estimation](lab_03_inertia_damping_id/index.md) | LS + loss-surface notebook; PINN template |
 | 4 | [Learned dynamics generalization](lab_04_learned_dynamics/index.md) | Brief only |
 | 5 | [Stability and CCT](lab_05_stability_cct/index.md) | Protocol ready; SMIB path + optional [Kundur/ANDES notebook](lab_05_stability_cct/lab05_network_cct_andes.ipynb) |
+
+## Where SciML families are practiced
+
+| Family | Lab |
+|--------|-----|
+| Classical reference simulation | [Lab 1](lab_01_reference_sim/index.md) |
+| Supervised surrogate and PINN residual (with physics ablation) | [Lab 2](lab_02_surrogate_vs_pinn/index.md) |
+| Classical least squares and inverse PINN | [Lab 3](lab_03_inertia_damping_id/index.md) |
+| Neural ODE / hybrid or operator learning (held-out domain) | [Lab 4](lab_04_learned_dynamics/index.md) |
+| Stability labels and CCT | [Lab 5](lab_05_stability_cct/index.md) |
+
+New architectures should deepen these five labs or sit under [Advanced topics](../700_advanced/overview.md) / optional further practice. They do not become a sixth assessed laboratory. Method map: [SciML method families](../300_foundations/00_sciml_landscape.md).
 
 Install helpers from the repository root: `pip install -e .`
 

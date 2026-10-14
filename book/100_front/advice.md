@@ -12,11 +12,11 @@ Run the notebook before you try to understand every line. [Your first lab](first
 
 ## If you come from machine learning
 
-Respect units, per-unit bases, and operating limits. A trajectory error is one score. Test on a disturbance the model did not train on, and report stability labels and CCT beside that error when the chapter is about security. Inertia and damping are named parameters with bounds. They are separate from network weights.
+Respect units, per-unit bases, and operating limits. A trajectory error is one score. Test on a disturbance the model did not train on, and report stability labels and CCT beside that error when the chapter is about security. Inertia and damping are named parameters with bounds. They are separate from network weights. Do not treat every neural method as a PINN — read the [SciML method families](../300_foundations/00_sciml_landscape.md) map first.
 
 ## If you come from power systems
 
-A low training loss is a fit, and a held-out disturbance is the check. Ask whether a fitted $(H, D)$ is the physical constant in the model or an equivalent value that absorbed model error. Classical least squares stays beside the neural estimator so you can see what the extra machinery changed.
+A low training loss is a fit, and a held-out disturbance is the check. Ask whether a fitted $(H, D)$ is the physical constant in the model or an equivalent value that absorbed model error. Classical least squares stays beside the neural estimator so you can see what the extra machinery changed. In these notes, a PINN means the swing-equation residual enters the loss (Labs 2–3). Lab 4 and Lab 5 are other SciML jobs on the same plant — learned dynamics and CCT margins — not more PINN chapters by another name.
 
 ## Run the notebook while you read
 

@@ -16,6 +16,7 @@ This book is a bridge. A chapter is stronger when a machine-learning reader and 
 | A "Coming from ML" or "Coming from power systems" sentence on a chapter you know | Lets people jump in without reading everything above |
 | A paired review (one reader from each field) on a pull request | Catches jargon that only one community understands |
 | A teacher overlay (week plan) for [Learning paths](learning_paths.md#path-teachers) | Lets another course reuse the same labs |
+| Deepening Labs 1–5, a landscape example, or a Lab 4 option — not a new assessed Lab 6 for a new architecture | Keeps one spine; maintainers: `docs/guides/lab_spine_policy.md` |
 
 A glossary row or a translation sentence is a good first contribution. A single row is enough.
 
