@@ -1,0 +1,32 @@
+name: Content improvement
+description: Suggest a clearer explanation, example, or exercise on an existing page.
+title: "[content] "
+labels: ["help wanted"]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page or chapter
+    validations:
+      required: true
+  - type: dropdown
+    id: pillar
+    attributes:
+      label: Area
+      options:
+        - Front matter / Prep / Foundations
+        - Dynamics
+        - Stability
+        - Identification
+        - Advanced
+        - Laboratories
+        - Reference / other
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What should change?
+      description: Keep published sources only; no sealed research metrics.
+    validations:
+      required: true

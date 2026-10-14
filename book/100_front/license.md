@@ -26,10 +26,16 @@ You may use, modify, and redistribute the code, including in commercial software
 
 Full legal text: [LICENSES/MIT.txt](https://github.com/albert8943/SciML_PS/blob/master/LICENSES/MIT.txt) in the repository.
 
+## Contributions
+
+Outside contributions are accepted under the [Developer Certificate of Origin (DCO)](https://developercertificate.org/) with **inbound = outbound** licensing: content you submit is licensed under CC BY-NC-SA 4.0, and code under MIT, matching this repository. See [CONTRIBUTING.md](https://github.com/albert8943/SciML_PS/blob/master/CONTRIBUTING.md) and [Join and contribute](contribute.md).
+
 ## Suggested attribution
 
 > Albert Poulose, *Scientific Machine Learning (SciML) for Power Systems (PS)*,  
 > <https://sciml4ps.albertpoulose.com>, licensed under CC BY-NC-SA 4.0.
+
+Prefer a tagged release or Zenodo DOI once published (see root `CITATION.cff` and [Status and versions](status_and_versions.md)).
 
 ## Third-party software and citations
 

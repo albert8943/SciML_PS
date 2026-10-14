@@ -43,6 +43,9 @@ project:
         - file: book/100_front/preview_locally.md
         - file: book/100_front/book_map.md
         - file: book/100_front/learning_paths.md
+        - file: book/100_front/related_resources.md
+        - file: book/100_front/contribute.md
+        - file: book/100_front/status_and_versions.md
         - file: book/100_front/feedback.md
         - file: book/100_front/license.md
     - title: Preparation
@@ -110,6 +113,8 @@ site:
   parts:
     primary_sidebar_footer: book/_site/primary_sidebar_footer.md
     footer: book/_site/site_footer.md
+    # Pre-1.0 banner (book-theme announcement slot when supported; footer also carries the notice).
+    announcement: book/_site/announcement.md
   # Navbar actions (EECS 245–style). Replace Feedback URL with a Google Form when ready.
   # Absolute http(s) URLs open in a new tab; relative /paths replace the current tab (mystmd#2788).
   # Local preview PDF is on the content server (port 3100). Before public deploy, switch PDF url
@@ -118,7 +123,9 @@ site:
     - title: PDF
       url: http://localhost:3100/exports/sciml_ps_notes.pdf
     - title: Feedback
-      url: https://github.com/albert8943/SciML_PS/issues/new
+      url: https://github.com/albert8943/SciML_PS/issues/new/choose
+    - title: Contribute
+      url: /contribute
     - title: GitHub
       url: https://github.com/albert8943/SciML_PS
     # Uncomment when a public course portal exists:

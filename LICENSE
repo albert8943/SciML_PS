@@ -23,6 +23,10 @@ LICENSES/PBDL-Apache-2.0.txt). Every external asset is recorded in
 docs/references/attribution_register.md. Installed software (e.g. ANDES,
 GPL-3.0) keeps its vendor license and is not redistributed here.
 
+Contributions: accepted under the Developer Certificate of Origin (DCO)
+with inbound = outbound licensing (content CC BY-NC-SA 4.0, code MIT).
+See CONTRIBUTING.md and GOVERNANCE.md.
+
 Student-facing summary: book/100_front/license.md
 Citation file: CITATION.cff
 Maintainer notes and pre-public checks:

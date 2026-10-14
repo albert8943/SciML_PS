@@ -1,0 +1,35 @@
+name: Collaboration / section editor interest
+description: Offer to review, contribute regularly, or become a section editor.
+title: "[collaboration] "
+labels: ["help wanted"]
+body:
+  - type: dropdown
+    id: interest
+    attributes:
+      label: Interest
+      options:
+        - Occasional contributor (PRs / issues)
+        - Regular reviewer
+        - Section editor (Dynamics)
+        - Section editor (Stability)
+        - Section editor (Identification)
+        - Section editor (Laboratories)
+        - Other (describe below)
+    validations:
+      required: true
+  - type: textarea
+    id: background
+    attributes:
+      label: Background and relevant expertise
+      description: Affiliation optional. Link public profiles or papers if useful.
+    validations:
+      required: true
+  - type: textarea
+    id: availability
+    attributes:
+      label: Rough availability
+      description: e.g. a few hours per month; willing to review Lab 3 only; etc.
+  - type: markdown
+    attributes:
+      value: |
+        Roles and appointment process: see GOVERNANCE.md. Conduct: CODE_OF_CONDUCT.md.

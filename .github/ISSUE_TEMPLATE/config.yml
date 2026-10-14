@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Discussions
+    url: https://github.com/albert8943/SciML_PS/discussions
+    about: Ideas, Q&A, and collaboration chat (enable Discussions after the repo is public).
+  - name: Book feedback page
+    url: https://github.com/albert8943/SciML_PS/blob/master/book/100_front/feedback.md
+    about: How to report typos and accessibility issues.

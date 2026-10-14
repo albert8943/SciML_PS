@@ -57,7 +57,7 @@ Official descriptions: [Creative Commons licences](https://creativecommons.org/l
 - **The owner can license twice.** Free online under NC and, separately, a print or commercial edition with a publisher, or paid training. This only works while you hold all the rights (see contributions below).
 - **Share-alike covers adaptations.** Anyone who adapts the content must release the adaptation under CC BY-NC-SA too; they cannot close it up or sell it.
 - **Prose and code have separate licences** (done: CC BY-NC-SA for content, MIT for code). MIT lets anyone, including companies, reuse the teaching code; that is intended.
-- **Outside contributions.** Before accepting the first external pull request, write a contribution policy (for example "contributions are licensed under the repository licences") or use a contributor licence agreement. Without one, you may not be able to relicense or sell contributed parts later.
+- **Outside contributions.** Policy chosen 2026-10-14: **DCO** with inbound = outbound (content CC BY-NC-SA 4.0, code MIT). See `CONTRIBUTING.md` and `GOVERNANCE.md`. A later print/commercial edition of chapters with substantial third-party text needs those contributors’ consent or a rewrite of their parts.
 - **AI-crawler opt-out** (e.g. robots rules for AI crawlers on the hosted site) is optional and not a guarantee.
 
 ## 5. Evidence of authorship
@@ -82,6 +82,6 @@ Official descriptions: [Creative Commons licences](https://creativecommons.org/l
 - [x] Prose licence chosen: CC BY-NC-SA 4.0 (root `LICENSE`, `LICENSES/CC-BY-NC-SA-4.0.txt`, `myst.yml`, site footer, PDF cover, `book/100_front/license.md`, planning report §13)
 - [x] Code licence chosen: MIT for `src/sciml_ps/`, `scripts/`, `tests/`, `templates/` (`LICENSES/MIT.txt`, SPDX headers on package modules, jtex `template.yml`)
 - [x] Citation file: `CITATION.cff` (dual SPDX)
-- [ ] Contribution policy written before the first outside pull request
+- [x] Contribution policy written before the first outside pull request (2026-10-14: DCO inbound = outbound in `CONTRIBUTING.md`, `GOVERNANCE.md`, `book/100_front/license.md`, root `LICENSE`; PR template + `.github/workflows/dco.yml`)
 - [ ] Trademark search on "SciML for PS" before commercial use
 - [ ] Optional: Korea Copyright Commission registration after the first stable public version

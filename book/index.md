@@ -6,8 +6,8 @@ subtitle: Focus — dynamic modeling, stability assessment, and system identific
 
 Welcome. This book teaches **scientific machine learning for power-system applications**: methods in the service of concrete engineering tasks on the grid, not abstract algorithms alone. After this page we usually write the short form **SciML for PS**.
 
-:::{note} Under active development
-These are **living teaching notes**. Stub chapters, thin prep notebooks, and experimental PDF export are intentional while the core narrative and Labs 1–5 grow. Prefer the HTML site over the PDF snapshot.
+:::{warning} Under development — public preview (v0.x)
+These are **living teaching notes**, not a finished textbook. Stub chapters, thin prep notebooks, and experimental PDF export are intentional while the core narrative and Labs 1–5 grow. Prefer the HTML site over the PDF snapshot. Versioning and chapter maturity labels: [Status and versions](100_front/status_and_versions.md). Experts and careful readers: [Join and contribute](100_front/contribute.md).
 :::
 
 **New here?** Start with [How to use this book](100_front/how_to_use.md), then [Preparation](200_prep/overview.md) → [Foundations](300_foundations/overview.md).
@@ -65,6 +65,8 @@ Portable methods and public citations only — no sealed research campaign resul
 ## Acknowledgements, feedback, and licence
 
 Product and site patterns for living computational notes were informed by public teaching sites such as the [EECS 245 course notes](https://notes.eecs245.org/) (Suraj Rampure; CC BY-NC-ND 4.0 — we link and reimplement patterns; we do not adapt their text). Method background for physics-informed training draws on [Physics-based Deep Learning](https://physicsbaseddeeplearning.org/) (Thuerey et al.; Apache-2.0 ideas cited as B5). Network simulation references use [ANDES](https://docs.andes.app/en/stable/) as an installed tool (GPL-3.0).
+
+How this book sits next to other open SciML, AI-for-power, and PINN materials — including what we do **not** claim: [Related open resources](100_front/related_resources.md).
 
 Typos and unclear pages: [Feedback](100_front/feedback.md).
 

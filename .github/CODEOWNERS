@@ -1,0 +1,9 @@
+# Default owners until section editors are appointed.
+# See GOVERNANCE.md. Update paths when editors join.
+
+*       @albert8943
+
+/book/400_dynamics/          @albert8943
+/book/500_stability/         @albert8943
+/book/600_identification/    @albert8943
+/book/900_labs/              @albert8943

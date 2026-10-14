@@ -42,7 +42,7 @@ Then open [http://localhost:3000/](http://localhost:3000/) and leave that termin
 
 ## What not to expect yet
 
-This book is **under active development**. Stub pages and thin [Preparation](../200_prep/overview.md) notebooks in the sidebar are intentional. Filled labs, full slide decks, videos, and Colab/Binder launch buttons arrive in later passes. Prefer the live HTML site over the experimental PDF.
+This book is a **public preview (v0.x)** under active development. Stub pages and thin [Preparation](../200_prep/overview.md) notebooks in the sidebar are intentional. Filled labs, full slide decks, videos, and Colab/Binder launch buttons arrive in later passes. Prefer the live HTML site over the experimental PDF. Version labels: [Status and versions](status_and_versions.md).
 
 :::{tip} PDF download
 The navbar **PDF** control opens a snapshot of the notes in a **new browser tab**, built each time the site is published. It may lag slightly behind the HTML pages. Treat the export as experimental. If you preview the book locally, see [Preview this book locally](preview_locally.md) for rebuilding the PDF.
@@ -52,9 +52,9 @@ The navbar **PDF** control opens a snapshot of the notes in a **new browser tab*
 For executable laboratories and notebooks, use the HTML book (or Binder/Colab later), not the PDF snapshot.
 :::
 
-## Feedback
+## Feedback and collaboration
 
-See [Feedback](feedback.md) (GitHub issues for now; Google Form planned).
+See [Feedback](feedback.md) (GitHub issues for now; Google Form planned). To help improve the notes or express interest as a reviewer/section editor: [Join and contribute](contribute.md). Neighbors and positioning: [Related open resources](related_resources.md).
 
 ## License
 
@@ -62,4 +62,4 @@ Book content is **CC BY-NC-SA 4.0** (free to share and adapt for non-commercial 
 
 ## For instructors and maintainers
 
-Previewing, editing chapters, wiring the TOC, and growing parts over many years is documented in the git repo under the `docs/guides/` folder (maintainer handbook; not a book page). Hosting/PDF notes: `docs/guides/site_hosting.md`. Legal checklist: `docs/guides/legal_and_licensing_considerations.md`.
+Previewing, editing chapters, wiring the TOC, and growing parts over many years is documented in the git repo under the `docs/guides/` folder (maintainer handbook; not a book page). Hosting/PDF notes: `docs/guides/site_hosting.md`. Legal checklist: `docs/guides/legal_and_licensing_considerations.md`. Governance: root `GOVERNANCE.md`.

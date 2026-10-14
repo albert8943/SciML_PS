@@ -1,5 +1,15 @@
 # Chapter title
 
+<!-- Maturity: choose one admonition near the top (see status_and_versions.md). -->
+
+````markdown
+```{note} Maturity: Stub
+Outline and goals only. Examples and labs will thicken later.
+```
+````
+
+Other labels: **Draft** (readable prose, still growing), **In review** (awaiting editor/outside review), **Stable** (reviewed for the current edition; errata still welcome).
+
 ## Learning goals
 
 - …
@@ -57,9 +67,9 @@ Solution sketch.
 - [ ] Important plots have a one-sentence caption in the surrounding prose
 - [ ] Videos (when added) have captions or a transcript link
 
-## Stub pages
+## Stub / under-development pages
 
-If the chapter is still thin, put this near the top so readers are not surprised:
+If the chapter is still thin, put a maturity note near the top so readers are not surprised (prefer the labels above):
 
 ````markdown
 ```{note} Under development

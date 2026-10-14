@@ -14,6 +14,8 @@
 | [Site hosting, PDF, feedback](site_hosting.md) | Phase E: CI, Pages, LaTeX PDF export, ports 3000/3100, cover Last updated, Form swap |
 | [Naming and titles](naming_and_titles.md) | Full title vs SciML for PS vs focus subtitle; student chrome vs folder IDs |
 | [Legal and licensing](legal_and_licensing_considerations.md) | Inbound/outbound risks, licence options, authorship evidence, pre-public checklist (not legal advice) |
+
+Root collaboration docs (not under `docs/guides/`): [`CONTRIBUTING.md`](../../CONTRIBUTING.md), [`GOVERNANCE.md`](../../GOVERNANCE.md), [`CODE_OF_CONDUCT.md`](../../CODE_OF_CONDUCT.md), [`ROADMAP.md`](../../ROADMAP.md), [`CHANGELOG.md`](../../CHANGELOG.md).
 | [PBDL reuse map](pbdl_reuse_map.md) | Apache-2.0 facts, cite-don't-copy default, PBDL section → book page tiers; pairs with the [attribution register](../references/attribution_register.md) |
 
 Cursor session notes: [`cursor_sessions/`](cursor_sessions/).

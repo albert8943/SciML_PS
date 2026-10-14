@@ -26,6 +26,7 @@ This note records **product / site features** to add over time, inspired by publ
 | Workshop template | https://github.com/math-124/notes-example | Hands-on `jupyter book start` demo from the talk |
 | Wealthfolio **docs** (product help UX) | https://wealthfolio.app/docs/introduction/ | Landing discipline only — not our stack or TOC (see §1b) |
 | ANDES **docs / gallery** | https://docs.andes.app/en/stable/ | Network reference — summarize-then-link; see [`andes_content_strategy.md`](andes_content_strategy.md) |
+| Field positioning (student page) | [`book/100_front/related_resources.md`](../../book/100_front/related_resources.md) | Niche vs neighbors; safe announcement wording; re-check before public launch |
 
 **Rampure pattern (important):**
 
@@ -131,7 +132,7 @@ Target actions once URLs exist (via `site.actions` and/or `site.parts.navbar_end
 - [x] Home landing polish (§1b): CTA, slim pillars, Explore cards, short PDF caveat.
 - [x] Theme builds `myst.search.json` (local search available in book theme); re-check UX label after public host is live.
 - [ ] Colab/Binder launch buttons for selected lab notebooks (PBDL-style). Prep `nb01`–`nb04` are in the Preparation TOC as stub pages with download via theme/repo; Colab/Binder still deferred until Labs 1–5 are ready.
-- [x] Site-wide footer (`site.parts.footer`); announcement banner still optional.
+- [x] Site-wide footer (`site.parts.footer`); pre-1.0 announcement part + footer notice (2026-10-14).
 - [ ] Accessibility pass (alt text, contrast) before a large enrollment.
 - [x] License choice: content CC BY-NC-SA 4.0, code MIT (root `LICENSE`). Rationale and remaining pre-public checks: [`legal_and_licensing_considerations.md`](legal_and_licensing_considerations.md).
 

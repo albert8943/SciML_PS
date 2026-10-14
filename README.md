@@ -1,8 +1,17 @@
 # Scientific Machine Learning (SciML) for Power Systems (PS)
 
+[![Under development](https://img.shields.io/badge/status-under%20development%20(v0.x)-orange)](book/100_front/status_and_versions.md)
+[![Content license](https://img.shields.io/badge/content-CC%20BY--NC--SA%204.0-lightgrey)](LICENSES/CC-BY-NC-SA-4.0.txt)
+[![Code license](https://img.shields.io/badge/code-MIT-blue)](LICENSES/MIT.txt)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
+
 Portable teaching book (Jupyter Book 2 / MyST) on SciML for power-system **dynamics**, **stability**, and **parameter estimation**. Short form: **SciML for PS** (repo folder `SciML_PS`).
 
+**Status:** public preview (**v0.x**). Living notes; content may change until the first stable edition. See [status and versions](book/100_front/status_and_versions.md) and [roadmap](ROADMAP.md).
+
 **Online book:** <https://sciml4ps.albertpoulose.com> (deployed from `master` by GitHub Actions; one-time setup in [`docs/guides/site_hosting.md`](docs/guides/site_hosting.md#hosting)).
+
+**Positioning:** to our knowledge there is not yet an established open, collaborative living textbook with this three-application spine; see [related open resources](book/100_front/related_resources.md). Do not announce as “first” or “only.”
 
 Title usage (full vs short vs focus subtitle): [`docs/guides/naming_and_titles.md`](docs/guides/naming_and_titles.md).
 
@@ -91,6 +100,14 @@ jupyter book build          # static HTML
 
 Helper scripts: [`scripts/`](scripts/). Config: [`myst.yml`](myst.yml). PDF details: [`docs/guides/site_hosting.md`](docs/guides/site_hosting.md). If a flag differs on your install, check `jupyter book --help`.
 
+## Contributing
+
+Collaborators and section editors are welcome. Start with [`book/100_front/contribute.md`](book/100_front/contribute.md) and [`CONTRIBUTING.md`](CONTRIBUTING.md) (DCO sign-off required). Governance: [`GOVERNANCE.md`](GOVERNANCE.md). Conduct: [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md). Credit: [`CONTRIBUTORS.md`](CONTRIBUTORS.md).
+
+## Cite
+
+See [`CITATION.cff`](CITATION.cff). Prefer a tagged release / Zenodo DOI once published; until then cite the site URL and note the public-preview version.
+
 ## License
 
 © 2026 Albert Poulose.
@@ -100,7 +117,7 @@ Helper scripts: [`scripts/`](scripts/). Config: [`myst.yml`](myst.yml). PDF deta
 | Book content | [CC BY-NC-SA 4.0](LICENSES/CC-BY-NC-SA-4.0.txt) | `book/`, `slides/`, `media/`, generated site and PDF |
 | Teaching code | [MIT](LICENSES/MIT.txt) | `src/sciml_ps/`, `scripts/`, `tests/`, `templates/`, notebook code cells |
 
-Others may share and adapt the content for **non-commercial** teaching with attribution under the same license. **Commercial** use of the content needs written permission. Cite via [`CITATION.cff`](CITATION.cff). Student summary: [`book/100_front/license.md`](book/100_front/license.md). Full terms: [`LICENSE`](LICENSE).
+Others may share and adapt the content for **non-commercial** teaching with attribution under the same license. **Commercial** use of the content needs written permission. Contributions use the same licences via DCO. Student summary: [`book/100_front/license.md`](book/100_front/license.md). Full terms: [`LICENSE`](LICENSE).
 
 ## Single book
 

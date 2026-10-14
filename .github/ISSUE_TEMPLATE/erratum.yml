@@ -1,0 +1,33 @@
+name: Erratum / typo / broken link
+description: Report a mistake, unclear sentence, or broken link on a book page.
+title: "[erratum] "
+labels: ["erratum"]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page title
+      description: Title as shown in the book
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Browser URL
+      description: Copy from the address bar (local or public site)
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong or unclear?
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested fix (optional)
+  - type: markdown
+    attributes:
+      value: |
+        Do not paste confidential research data or student grades.

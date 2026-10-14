@@ -1,0 +1,56 @@
+name: New chapter proposal
+description: Propose a new chapter or major rewrite before opening a large PR.
+title: "[chapter-proposal] "
+labels: ["chapter-proposal"]
+body:
+  - type: input
+    id: working_title
+    attributes:
+      label: Working title
+    validations:
+      required: true
+  - type: dropdown
+    id: home
+    attributes:
+      label: Intended home in the TOC
+      options:
+        - Preparation
+        - Foundations
+        - Dynamics
+        - Stability
+        - Identification
+        - Advanced topics (filter / early ideas)
+        - Laboratories
+        - Reference
+        - Unsure
+    validations:
+      required: true
+  - type: textarea
+    id: learning_goals
+    attributes:
+      label: Learning goals (3–5 bullets)
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Published sources you will cite
+      description: Papers, books, docs with DOIs or URLs. No unpublished campaign results.
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why this belongs in SciML for PS
+      description: How it serves Dynamics, Stability, or Identification (or Prep/Foundations).
+    validations:
+      required: true
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Scope check
+      options:
+        - label: I have read the three-pillar scope lock and related_resources positioning.
+          required: true
+        - label: I will write in teaching voice with own figures/alt text.
+          required: true

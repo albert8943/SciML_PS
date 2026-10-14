@@ -63,7 +63,10 @@ Fluids-only examples (Navier-Stokes, airfoils, Lagrangian and meshless methods, 
 | ID | Source | Role |
 |----|--------|------|
 | C13 | [PSCC 2024 tutorial](https://www.chatziva.com/pscc2024.html) | Power-system PINN / trustworthy AI tutorial landing |
+| C14 | [IEEE AI for Power and Energy Systems notebooks](https://github.com/enliten/IEEE-course_AI-for-Power-Energy-Systems) | Modular Colab course (load, PF, MILP, DRL, PINN frequency) — adjacent open teaching |
 | S-PINN-TSA | [Unified PINN SMIB TSA/CCT benchmark (code)](https://github.com/albert8943/unified-physics-informed-neural-surrogate-smib-tsa-cct-benchmark) | Optional further reading for trajectory surrogates — **not** a course lab |
+
+How this book sits next to those neighbors (and what we do not claim): [Related open resources](../100_front/related_resources.md).
 
 Research code repositories are further reading, not redistributable course material.
 
