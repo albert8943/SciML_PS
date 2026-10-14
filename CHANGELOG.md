@@ -8,6 +8,10 @@ and this project uses [Semantic Versioning](https://semver.org/) for public tags
 
 ## [Unreleased]
 
+### Fixed
+
+- `CITATION.cff`: single SPDX `license: MIT` (dual licence remains in abstract / LICENSE files) so Zenodo GitHub deposit can load citation metadata
+
 ### Added
 
 - Audience pathways: [Start here](book/100_front/start_here.md) (background and role), three bridge primers, [Your first lab](book/100_front/first_lab_walkthrough.md), two-way [glossary](book/990_reference/glossary.md), and a Before you start box on chapter and lab pages
@@ -29,6 +33,18 @@ and this project uses [Semantic Versioning](https://semver.org/) for public tags
 ### Fixed
 
 - PDF build: arrows glued to the next word (`\rightarrowunstable`) no longer cause undefined control sequences
+
+## [0.1.2] — 2026-10-14
+
+### Fixed
+
+- Zenodo-compatible `CITATION.cff` (citation metadata load failed on v0.1.1 with dual-license list)
+
+## [0.1.1] — 2026-10-14
+
+### Added
+
+- GitHub Release retry for Zenodo (deposit after enabling GitHub integration)
 
 ## [0.1.0] — 2026-10-14
 
@@ -59,6 +75,8 @@ and this project uses [Semantic Versioning](https://semver.org/) for public tags
 - Experimental full-book PDF export
 - Foundations / Stability / Identification stubs and Labs 1–5 placeholders
 
-[Unreleased]: https://github.com/albert8943/SciML_PS/compare/v0.1.0...HEAD
+[Unreleased]: https://github.com/albert8943/SciML_PS/compare/v0.1.2...HEAD
+[0.1.2]: https://github.com/albert8943/SciML_PS/releases/tag/v0.1.2
+[0.1.1]: https://github.com/albert8943/SciML_PS/releases/tag/v0.1.1
 [0.1.0]: https://github.com/albert8943/SciML_PS/releases/tag/v0.1.0
 [0.0.1]: https://github.com/albert8943/SciML_PS/releases/tag/v0.0.1

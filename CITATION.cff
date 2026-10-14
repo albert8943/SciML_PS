@@ -4,16 +4,15 @@ title: "Scientific Machine Learning (SciML) for Power Systems (PS)"
 authors:
   - family-names: Poulose
     given-names: Albert
-license:
-  - CC-BY-NC-SA-4.0
-  - MIT
+# Zenodo's GitHub importer is strict: use one SPDX id here. Dual licence is stated in abstract and LICENSE files.
+license: MIT
 url: "https://sciml4ps.albertpoulose.com"
 repository-code: "https://github.com/albert8943/SciML_PS"
 type: software
 abstract: >
   Portable teaching book and Python utilities for scientific machine learning
   applied to power-system dynamics, stability assessment, and parameter
-  estimation (short form: SciML for PS). Book content is CC BY-NC-SA 4.0;
+  estimation (short form: SciML for PS). Book content is licensed CC BY-NC-SA 4.0;
   teaching code is MIT.
 keywords:
   - scientific machine learning
@@ -21,11 +20,5 @@ keywords:
   - PINN
   - transient stability
   - system identification
-version: 0.1.0
+version: 0.1.2
 date-released: "2026-10-14"
-# After Zenodo deposit of the GitHub Release, add:
-# identifiers:
-#   - type: doi
-#     value: "10.5281/zenodo.XXXX"
-#     description: Zenodo version DOI
-# Or run: .\scripts\phase2_set_doi.ps1 -Doi "10.5281/zenodo.XXXX"
