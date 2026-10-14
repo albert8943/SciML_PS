@@ -44,6 +44,7 @@ project:
         - file: book/100_front/how_to_use.md
         - file: book/100_front/advice.md
         - file: book/100_front/preview_locally.md
+        - file: book/100_front/running_notebooks.md
         - file: book/100_front/book_map.md
         - file: book/100_front/outline.md
         - file: book/100_front/learning_paths.md

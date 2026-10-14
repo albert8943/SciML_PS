@@ -10,19 +10,25 @@ Deliver an SMIB simulator, event schedule, dataset manifest, and convergence che
 
 ## Materials
 
-- Notebook: [`lab01_reference_sim.ipynb`](lab01_reference_sim.ipynb)
+```{note} Under development
+Online launch (Binder / Colab) is a public-preview convenience and may change.
+Canonical path: local install. Help improve these paths: [Join and contribute](../../100_front/contribute.md). Full guide: [Running notebooks](../../100_front/running_notebooks.md).
+```
+
+- Notebook: [`lab01_reference_sim.ipynb`](lab01_reference_sim.ipynb) · [Running notebooks](../../100_front/running_notebooks.md)
+- [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/albert8943/SciML_PS/master?filepath=book/900_labs/lab_01_reference_sim/lab01_reference_sim.ipynb) · [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/albert8943/SciML_PS/blob/master/book/900_labs/lab_01_reference_sim/lab01_reference_sim.ipynb)
 - Teaching helper: `src/sciml_ps/smib.py` (`simulate_smib`, `SMIBParams`, `FaultEvent`)
 
-## Setup
+## Setup (local — canonical)
 
 ```bash
 conda activate sciml_ps
 cd /path/to/SciML_PS   # repository root
 pip install -e .
-jupyter notebook lab01_reference_sim.ipynb   # from this lab’s folder, or open the notebook link above
+jupyter notebook book/900_labs/lab_01_reference_sim/lab01_reference_sim.ipynb
 ```
 
-No ANDES required.
+Binder and Colab need the **public** GitHub repo; until then use local install. No ANDES required.
 
 ## Deliverables
 

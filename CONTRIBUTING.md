@@ -14,6 +14,7 @@ Positioning among neighbors: [book/100_front/related_resources.md](book/100_fron
 | Typo, broken link, unclear page | [Feedback](book/100_front/feedback.md) or a GitHub issue |
 | Small content or lab fix | Pull request with DCO sign-off (below) |
 | New chapter or major rewrite | Open a **chapter proposal** issue first |
+| Improving Binder / Colab | Fix `binder/` env, notebook setup cells, or lab Materials badges; see [Running notebooks](book/100_front/running_notebooks.md) |
 | Section editor / long-term role | Open a collaboration interest issue or Discussion |
 
 ## Developer Certificate of Origin (DCO)

@@ -21,7 +21,7 @@ The four notebooks are also in the left sidebar under **Preparation**. Today the
 | [Prep 03 — Tiny neural regression](nb03_nn_regression.ipynb) | Tiny MLP curve fit (NumPy or PyTorch) | Stub |
 | [Prep 04 — Gradients](nb04_gradients.ipynb) | Manual vs AD gradients | Stub |
 
-**Download a local copy:** use the notebook page’s download control when the theme shows one, or open the files from the repository folder `book/200_prep/`. Cloud run (Colab / Binder) will be added after Labs 1–5 are ready — not for this public scaffold.
+**Download a local copy:** use the notebook page’s download control when the theme shows one, or open the files from the repository folder `book/200_prep/`. Lab launch paths (local / Binder / Colab) are documented under [Running notebooks](../100_front/running_notebooks.md). Prep notebooks stay stubs for now — Binder/Colab badges for Prep arrive when those notebooks are filled.
 
 ## Diagnostic
 

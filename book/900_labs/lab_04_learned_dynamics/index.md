@@ -12,6 +12,10 @@ Choose either hybrid/neural ODE modeling or DeepONet. Define the held-out domain
 
 DeepONet is operator learning (function→function), a different SciML branch from collocation PINNs.
 
+## Materials
+
+Binder / Colab badges will appear with the executable notebook. Until then use [Running notebooks](../../100_front/running_notebooks.md) (local install is canonical). Contributions welcome: [Join and contribute](../../100_front/contribute.md).
+
 ## Status
 
 Stub — no executable notebook yet.

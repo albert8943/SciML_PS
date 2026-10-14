@@ -19,9 +19,17 @@ Classical SMIB **inertia and damping** $(H, D)$. Do not silently substitute rese
 
 ## Materials
 
-- Starter notebook: [`lab03_inertia_damping_id.ipynb`](lab03_inertia_damping_id.ipynb)  
-- Simulator: `sciml_ps.simulate_smib` (same classical SMIB as Lab 1)  
-- Optional differentiable rollout: `sciml_ps.smib_torch.rollout_smib` (needs `torch`)
+```{note} Under development
+Online launch (Binder / Colab) is a public-preview convenience and may change.
+Canonical path: local install. Help improve these paths: [Join and contribute](../../100_front/contribute.md). Full guide: [Running notebooks](../../100_front/running_notebooks.md).
+```
+
+- Starter notebook: [`lab03_inertia_damping_id.ipynb`](lab03_inertia_damping_id.ipynb) · [Running notebooks](../../100_front/running_notebooks.md)
+- [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/albert8943/SciML_PS/master?filepath=book/900_labs/lab_03_inertia_damping_id/lab03_inertia_damping_id.ipynb) · [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/albert8943/SciML_PS/blob/master/book/900_labs/lab_03_inertia_damping_id/lab03_inertia_damping_id.ipynb)
+- Simulator: `sciml_ps.simulate_smib` (same classical SMIB as Lab 1)
+- Optional differentiable rollout: `sciml_ps.smib_torch.rollout_smib` (needs `torch`; install with `pip install -e ".[torch]"` locally)
+
+Local (canonical): `conda activate sciml_ps` → `pip install -e .` → open the notebook. Binder/Colab need the **public** GitHub repo.
 
 ## Protocol
 

@@ -11,6 +11,7 @@ Every page of the notes on one page, in reading order. The [Book map](book_map.m
 | [How to use this book](how_to_use.md) | What these notes are, how pages are laid out, how to get help |
 | [Advice to the student](advice.md) | How to read a page, work the labs, and avoid common traps |
 | [Preview this book locally](preview_locally.md) | Build and serve the notes on your own machine |
+| [Running notebooks](running_notebooks.md) | Local (canonical), Binder (primary online), Colab (secondary) |
 | [Book map](book_map.md) | Big-picture layout and what each application produces |
 | [Full outline](outline.md) | This page |
 | [Learning paths](learning_paths.md) | Semester paths (stub until a course offering is packaged) |

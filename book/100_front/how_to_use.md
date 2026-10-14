@@ -42,14 +42,14 @@ Then open [http://localhost:3000/](http://localhost:3000/) and leave that termin
 
 ## What not to expect yet
 
-This book is a **public preview (v0.x)** under active development. Stub pages and thin [Preparation](../200_prep/overview.md) notebooks in the sidebar are intentional. Filled labs, full slide decks, videos, and Colab/Binder launch buttons arrive in later passes. Prefer the live HTML site over the experimental PDF. Version labels: [Status and versions](status_and_versions.md).
+This book is a **public preview (v0.x)** under active development. Stub pages and thin [Preparation](../200_prep/overview.md) notebooks in the sidebar are intentional. Prefer the live HTML site over the experimental PDF. Version labels: [Status and versions](status_and_versions.md). How to run lab notebooks (local = canonical; Binder = primary online; Colab = secondary): [Running notebooks](running_notebooks.md).
 
 :::{tip} PDF download
 The navbar **PDF** control opens a snapshot of the notes in a **new browser tab**, built each time the site is published. It may lag slightly behind the HTML pages. Treat the export as experimental. If you preview the book locally, see [Preview this book locally](preview_locally.md) for rebuilding the PDF.
 :::
 
 :::{warning} Prefer the live site for labs
-For executable laboratories and notebooks, use the HTML book (or Binder/Colab later), not the PDF snapshot.
+For executable laboratories and notebooks, use the HTML book and [Running notebooks](running_notebooks.md), not the PDF snapshot.
 :::
 
 ## Feedback and collaboration

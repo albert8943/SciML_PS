@@ -35,14 +35,23 @@ Replace the inner trajectory call with a surrogate; keep the **same** stability 
 - False-safe count on a boundary-focused set  
 - One disagreement case write-up  
 
+## Materials (launch paths)
+
+```{note} Under development
+Online launch (Binder / Colab) for the **SMIB** Lab 5 notebook will appear when that executable notebook ships (after Lab 2). Canonical path remains local install. Help improve launch paths: [Join and contribute](../../100_front/contribute.md). Guide: [Running notebooks](../../100_front/running_notebooks.md).
+```
+
+- Assessed SMIB path: use Lab 1 tooling locally until the dedicated SMIB CCT notebook is added; then Binder/Colab badges will match Labs 1 and 3
+- **ANDES network extension is local only** (not on Binder / Colab)
+
 ## Optional network extension (after this lab)
 
 Assessed Lab 5 stays on **classical SMIB**. When SMIB CCT works, the preferred network follow-on is Kundur via ANDES (**not** a sixth assessed lab):
 
-- Notebook: [`lab05_network_cct_andes.ipynb`](lab05_network_cct_andes.ipynb) — one-bus CCT sweep + signed error / false-safe metrics  
-- Helper: `sciml_ps.andes_cct` (requires `envs/course_andes.yml`, **andes==2.0.0**)  
-- Bridge page: [ANDES as network reference](../../500_stability/03_andes_network_reference.md)  
-- Official full map (link only): [Critical Clearing Time Mapping](https://docs.andes.app/en/stable/gallery/critical-clearing-time.html)  
+- Notebook: [`lab05_network_cct_andes.ipynb`](lab05_network_cct_andes.ipynb) — one-bus CCT sweep + signed error / false-safe metrics (**local / `envs/course_andes.yml` only**)
+- Helper: `sciml_ps.andes_cct` (requires `envs/course_andes.yml`, **andes==2.0.0**)
+- Bridge page: [ANDES as network reference](../../500_stability/03_andes_network_reference.md)
+- Official full map (link only): [Critical Clearing Time Mapping](https://docs.andes.app/en/stable/gallery/critical-clearing-time.html)
 
 ## Status
 

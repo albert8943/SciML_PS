@@ -10,6 +10,7 @@ and this project uses [Semantic Versioning](https://semver.org/) for public tags
 
 ### Added
 
+- Notebook launch stack (under development): [Running notebooks](book/100_front/running_notebooks.md) — local install canonical, Binder primary online, Colab secondary; lean `binder/` student env; Materials badges on Labs 1 and 3; collaboration invite on launch paths
 - Full outline page (`/outline`): every chapter and lab on one page with summary, maturity, and lab; Outline navbar button; home cards for every section
 - Shared bibliography `references.bib` (metadata from DOIs/publisher pages); each page gets its own References section from `[@key]` citations
 - `scripts/check_book.py` (outline matches the TOC, bib keys unique with doi/url, cited keys exist), run in CI

@@ -1,0 +1,4 @@
+#!/bin/bash
+set -e
+# Install teaching package so `import sciml_ps` works in Binder sessions.
+pip install -e .

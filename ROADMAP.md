@@ -14,6 +14,7 @@ and the lab spine policy.
 - [x] Related-resources / positioning page (honest niche claim)
 - [x] Site-wide under-development warning + maturity labels
 - [x] Personal website Teaching link to the book (`dr-albert-poulose` open_resources + news)
+- [x] Notebook launch stack scaffolding: local (canonical), Binder (primary online), Colab (secondary) — see `book/100_front/running_notebooks.md` and `binder/`; cloud buttons need public repo then a click-test
 - [ ] Zenodo DOI on first GitHub Release (`.\scripts\phase2_set_doi.ps1` after deposit)
 
 ## v0.2 — Foundations and Lab 1 usable
@@ -38,7 +39,7 @@ and the lab spine policy.
 
 - [ ] Dynamics pillar thickened
 - [ ] Labs 2 and 4 past stub maturity
-- [ ] Colab/Binder launch buttons for selected notebooks (optional)
+- [ ] Harden Binder/Colab for Labs 2 and 4 when those notebooks exist; keep local install canonical
 
 ## v1.0 — First stable edition
 

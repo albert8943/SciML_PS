@@ -1,0 +1,13 @@
+# Student runtime for mybinder.org (Labs 1–3 SMIB path).
+# Author book preview uses the root environment.yml (Jupyter Book + Node) — do not merge them.
+name: sciml_ps_binder
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - numpy
+  - scipy
+  - matplotlib
+  - jupyter
+  - jupyterlab
