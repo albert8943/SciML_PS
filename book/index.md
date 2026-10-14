@@ -35,15 +35,15 @@ Losses, training, and generalization, in the language of least squares and study
 :::
 
 :::{card} Teachers
-:link: 100_front/learning_paths.md#path-teachers
+:link: 100_front/learning_paths.md
 
-Course overlays on one book. Week plans can be shared back.
+Course overlays on one book (Teachers section). Week plans can be shared back.
 :::
 
 :::{card} Researchers and practitioners
-:link: 100_front/learning_paths.md#path-practitioners
+:link: 100_front/learning_paths.md
 
-Practitioners open the application they work on. The researcher route is the next section on the same page.
+Practitioners open the application they work on; researchers use the researcher route on the same Learning paths page.
 :::
 
 ::::
