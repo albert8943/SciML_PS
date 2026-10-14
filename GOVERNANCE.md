@@ -48,7 +48,7 @@ Start small: one or two section editors in the first year is enough.
 | **v1.0** | First stable edition: Foundations, Labs 1 / 3 / 5, and each pillar’s core chapters are `Stable` and reviewed by at least one outside expert. Site-wide warning may be removed; per-page maturity labels remain. |
 | **v2.0+** | Major restructures or second editions. |
 
-Details: [book/100_front/status_and_versions.md](book/100_front/status_and_versions.md), [ROADMAP.md](ROADMAP.md), [CHANGELOG.md](CHANGELOG.md).
+Details: [book/100_front/status_and_versions.md](book/100_front/status_and_versions.md) (including [how we bump versions](book/100_front/status_and_versions.md#how-we-bump-versions)), [ROADMAP.md](ROADMAP.md), [CHANGELOG.md](CHANGELOG.md).
 
 Tagged releases should attach the notes PDF when available and deposit to Zenodo for a version DOI.
 

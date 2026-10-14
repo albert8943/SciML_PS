@@ -19,6 +19,7 @@ and this project uses [Semantic Versioning](https://semver.org/) for public tags
 
 ### Changed
 
+- Documented **how we bump versions** (roadmap milestones vs patches; skip unused 0.x; v1.0 bar) on [status and versions](book/100_front/status_and_versions.md#how-we-bump-versions); pointers from ROADMAP and GOVERNANCE
 - Version wording: announce **public preview v0.1** and **under development until v1.0** together (home, footer, status page, README, PDF cover, invite drafts)
 - Reader-facing teaching path: applications first; PINN as an early core SciML path (Labs 2–3); other families under Lab 4 / Advanced; five labs deepened rather than expanded (`how_to_use`, home, landscape, Labs README, Lab 2 title clarification)
 - Short citation IDs (B1, R3, R-K04, ...) replaced by citations; Reading and Further reading no longer repeat each other

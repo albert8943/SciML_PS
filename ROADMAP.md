@@ -6,6 +6,8 @@ and the lab spine policy.
 
 **Current stage:** public preview (**v0.1**, v0.x series). Under development until **v1.0**.
 
+**How we bump versions** (patch vs minor vs v1.0; skipping unused numbers): [book/100_front/status_and_versions.md](book/100_front/status_and_versions.md#how-we-bump-versions).
+
 ## v0.1 — First public preview
 
 - [ ] Repository public; site live at https://sciml4ps.albertpoulose.com (run `.\scripts\phase2_go_public.ps1` after `gh auth login`; DNS CNAME still manual)
